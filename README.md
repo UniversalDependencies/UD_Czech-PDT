@@ -1,4 +1,0 @@
-Czech
-=====
-
-Czech data
