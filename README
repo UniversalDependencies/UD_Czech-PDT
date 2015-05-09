@@ -25,6 +25,7 @@ four files according to the original source. All of them are newspapers, but
 The dev and test sets contain all four sources and their size is proportional
 to the sizes of the respective training parts.
 
+
 Acknowledgments
 
 We wish to thank all of the contributors to the original PDT annotation effort,
@@ -32,6 +33,7 @@ including Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová,
 Václava Kettnerová, Veronika Kolářová, Marie Mikulová, Jiří Mírovský,
 Anna Nedoluzhko, Jarmila Panevová, Lucie Poláková, Magda Ševčíková,
 Jan Štěpánek, and Šárka Zikánová.
+
 
 References
 
@@ -49,3 +51,13 @@ References
   In: Proceedings of the 24th International Conference on Computational
   Linguistics (Coling 2012), Mumbai, India, pp. 231-246.
   http://www.aclweb.org/anthology/C/C12/C12-1015.pdf
+
+
+Changelog
+
+2015-05-15 v1.1
+  * Conversion procedure completely rewritten
+  * Improved heuristics to distinguish DET and PRON
+  * Improved treatment of comparative complements (conjunctions “než” and “jako”)
+
+
