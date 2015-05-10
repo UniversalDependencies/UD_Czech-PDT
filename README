@@ -59,5 +59,4 @@ Changelog
   * Conversion procedure completely rewritten
   * Improved heuristics to distinguish DET and PRON
   * Improved treatment of comparative complements (conjunctions “než” and “jako”)
-
-
+  * Remaining lemma extensions moved from LEMMA to MISC
