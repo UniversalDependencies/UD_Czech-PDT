@@ -55,6 +55,10 @@ References
 
 Changelog
 
+2015-11-15 v1.2
+  * Conversion procedure rewritten again (may result in minor differences in
+    borderline cases)
+  * Only one “root” relation per tree now enforced; some bugs around root fixed
 2015-05-15 v1.1
   * Conversion procedure completely rewritten
   * Improved heuristics to distinguish DET and PRON
