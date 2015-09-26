@@ -65,7 +65,8 @@ Changelog
     numbers and caused the “conj” relation to go right-to-left
   * Fixed minor bugs around subordinating conjunctions
   * Changed dependency relation of reflexive pronouns attached to inherently
-    reflexive verbs from compound:reflex to expl.
+    reflexive verbs from compound:reflex to expl
+  * Applied heuristics to distinguish at least some iobj from dobj
 2015-05-15 v1.1
   * Conversion procedure completely rewritten
   * Improved heuristics to distinguish DET and PRON
