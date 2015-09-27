@@ -67,6 +67,8 @@ Changelog
   * Changed dependency relation of reflexive pronouns attached to inherently
     reflexive verbs from compound:reflex to expl
   * Applied heuristics to distinguish at least some iobj from dobj
+  * Fixed bugs around xcomp (future infinitives and subjects attached to
+    controlled verbs)
 2015-05-15 v1.1
   * Conversion procedure completely rewritten
   * Improved heuristics to distinguish DET and PRON
