@@ -55,6 +55,20 @@ References
 
 Changelog
 
+2015-11-15 v1.2
+  * Conversion procedure rewritten again (may result in minor differences in
+    borderline cases)
+  * Only one “root” relation per tree now enforced; some bugs around root fixed
+  * The “name” relation goes now always left-to-right (in UD 1.1 it was family-
+    to-given name)
+  * Fixed bug with numeral-noun swapping that destroyed coordinations of
+    numbers and caused the “conj” relation to go right-to-left
+  * Fixed minor bugs around subordinating conjunctions
+  * Changed dependency relation of reflexive pronouns attached to inherently
+    reflexive verbs from compound:reflex to expl
+  * Applied heuristics to distinguish at least some iobj from dobj
+  * Fixed bugs around xcomp (future infinitives and subjects attached to
+    controlled verbs)
 2015-05-15 v1.1
   * Conversion procedure completely rewritten
   * Improved heuristics to distinguish DET and PRON
