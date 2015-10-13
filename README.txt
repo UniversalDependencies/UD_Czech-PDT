@@ -75,8 +75,10 @@ Changelog
   * Improved treatment of comparative complements (conjunctions “než” and “jako”)
   * Remaining lemma extensions moved from LEMMA to MISC
 
-
+=== Machine-readable metadata =================================================
 Documentation status: complete
-Data source: unknown
+Data source: automatic conversion + manual check
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
+===============================================================================
+
