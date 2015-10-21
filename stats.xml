@@ -7,6 +7,9 @@
   <size>
     <total><sentences>87913</sentences><tokens>1503738</tokens><words>1506490</words><fused>2752</fused></total>
   </size>
+  <lemmas unique="57900" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <forms unique="128228" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
+  <fusions unique="10" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys, Neníť -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
     <tag name="ADJ">180811</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, dobrý, celý -->
