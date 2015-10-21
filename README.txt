@@ -80,5 +80,6 @@ Documentation status: complete
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
+Genre: news
 ===============================================================================
 
