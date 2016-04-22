@@ -57,6 +57,7 @@ Changelog
 
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
+  * Copulas with clausal complements are now heads.
 2015-11-15 v1.2
   * Conversion procedure rewritten again (may result in minor differences in
     borderline cases)
