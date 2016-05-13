@@ -13,14 +13,19 @@ The morphological and syntactic annotation of the Czech UD treebank is created
 through a conversion of PDT data. The conversion procedure has been designed by
 Dan Zeman.
 
-Due to Github restrictions on file size, the training data has been split into
-four files according to the original source. All of them are newspapers, but
+NOTE: Earlier releases of the treebank had four training data files. This was
+due to Github restrictions on file size. We have now re-joined the training
+files in the official release package (beginning with UD v1.3), so there is
+just one training file as in all other languages, and it is named
+cs-ud-train.conllu. The four files in previous releases corresponded to the
+four sources of the original texts; the sources may still be distinguished,
+if desirable, by the prefixes of sentence ids. All of them are newspapers, but
 
-* l and m are mainstream daily papers (news, commentaries, but also sports
-  results and TV programs)
-* c is a business weekly
-* v contains popular scientific articles (the hardest to parse: long sentences,
-  unusual vocabulary)
+* l (ln) and m (mf) are mainstream daily papers (news, commentaries, but also
+  sports results and TV programs)
+* c (cmpr) is a business weekly
+* v (vesm) contains popular scientific articles (the hardest to parse: long
+  sentences and unusual vocabulary)
 
 The dev and test sets contain all four sources and their size is proportional
 to the sizes of the respective training parts.
