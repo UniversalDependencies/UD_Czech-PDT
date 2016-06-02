@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>87913</sentences><tokens>1503738</tokens><words>1506490</words><fused>2752</fused></total>
+    <total><sentences>87913</sentences><tokens>1503732</tokens><words>1506484</words><fused>2752</fused></total>
   </size>
-  <lemmas unique="57900" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
-  <forms unique="128228" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
+  <lemmas unique="57901" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <forms unique="128229" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
   <fusions unique="10" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys, Neníť -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
@@ -20,11 +20,11 @@
     <tag name="DET">27819</tag><!-- tento, jeho, svůj, můj, ten, některý, několik, takový, žádný, jenž -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
     <tag name="NOUN">372366</tag><!-- rok, strana, člověk, společnost, firma, doba, země, cena, koruna, zákon -->
-    <tag name="NUM">41510</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
+    <tag name="NUM">41507</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
     <tag name="PART">8165</tag><!-- jen, až, asi, li, ne, nejen, prý, jenom, ano, bohužel -->
     <tag name="PRON">72419</tag><!-- se, ten, který, on, já, všechen, jenž, co, kdo, což -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">221039</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">221036</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27718</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
     <tag name="SYM">1260</tag><!-- %, x, +, =, /, *, $ -->
     <tag name="VERB">165634</tag><!-- být, mít, moci, muset, říci, stát, chtít, jít, lze, dát -->
@@ -101,10 +101,10 @@
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">589286</feat><!-- je, to, který, bude, má, byl, která, není, bylo, jsem -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">4582</feat><!-- jejich, naše, naší, našich, jejichž, náš, našeho, naši, našem, vaše -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">4833</feat><!-- jeho, její, jehož, jejím, jejíž, můj, jejího, jejích, mého, moje -->
-    <feat name="NumForm" value="Digit" upos="NUM">29484</feat><!-- 1, 2, 3, 4, 6, 5, 1992, 10, 1994, 1993 -->
+    <feat name="NumForm" value="Digit" upos="NUM">29481</feat><!-- 1, 2, 3, 4, 6, 5, 1992, 10, 1994, 1993 -->
     <feat name="NumForm" value="Roman" upos="NUM">376</feat><!-- II, I, III, IV, V, VI, XX, D, C, IX -->
     <feat name="NumForm" value="Word" upos="NUM">11308</feat><!-- dva, tři, jeden, dvě, tisíc, dvou, pět, čtyři, obou, jednoho -->
-    <feat name="NumType" value="Card" upos="DET,NUM,PRON">43014</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
+    <feat name="NumType" value="Card" upos="DET,NUM,PRON">43011</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
     <feat name="NumType" value="Frac" upos="NUM">342</feat><!-- třetiny, třetinu, třetina, třetině, čtvrtinu, čtvrtina, desetinu, čtvrtiny, pětinu, desetina -->
     <feat name="NumType" value="Gen" upos="ADJ">62</feat><!-- dvojí, obojí, dvojím, dvojího, obojím, trojí, dvojími, obého -->
     <feat name="NumType" value="Mult" upos="ADV">536</feat><!-- dvakrát, jednou, několikrát, třikrát, pětkrát, mnohokrát, desetkrát, čtyřikrát, nejednou, šestkrát -->
@@ -175,10 +175,10 @@
     <dep name="nmod">234109</dep>
     <dep name="nsubj">86395</dep>
     <dep name="nsubjpass">7699</dep>
-    <dep name="nummod">19667</dep>
+    <dep name="nummod">19664</dep>
     <dep name="nummod:gov">7351</dep>
     <dep name="parataxis">1833</dep>
-    <dep name="punct">220977</dep>
+    <dep name="punct">220974</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18437</dep>
