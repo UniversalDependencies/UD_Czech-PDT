@@ -92,4 +92,5 @@ Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Genre: news
 Contributors: Zeman, Daniel; Hajič, Jan
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
