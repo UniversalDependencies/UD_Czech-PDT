@@ -158,7 +158,7 @@
     <dep name="conj">71087</dep>
     <dep name="cop">20598</dep>
     <dep name="csubj">5759</dep>
-    <dep name="csubjpass">475</dep>
+    <dep name="csubj:pass">475</dep>
     <dep name="dep">12585</dep>
     <dep name="det">26236</dep>
     <dep name="det:numgov">979</dep>
@@ -173,7 +173,7 @@
     <dep name="neg">353</dep>
     <dep name="nmod">234109</dep>
     <dep name="nsubj">86395</dep>
-    <dep name="nsubjpass">7699</dep>
+    <dep name="nsubj:pass">7699</dep>
     <dep name="nummod">19664</dep>
     <dep name="nummod:gov">7351</dep>
     <dep name="obj">79473</dep>
