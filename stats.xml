@@ -104,10 +104,10 @@
     <feat name="NumForm" value="Word" upos="NUM">11308</feat><!-- dva, tři, jeden, dvě, tisíc, dvou, pět, čtyři, obou, jednoho -->
     <feat name="NumType" value="Card" upos="DET,NUM,PRON">43011</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
     <feat name="NumType" value="Frac" upos="NUM">342</feat><!-- třetiny, třetinu, třetina, třetině, čtvrtinu, čtvrtina, desetinu, čtvrtiny, pětinu, desetina -->
-    <feat name="NumType" value="Gen" upos="ADJ">62</feat><!-- dvojí, obojí, dvojím, dvojího, obojím, trojí, dvojími, obého -->
     <feat name="NumType" value="Mult" upos="ADV">536</feat><!-- dvakrát, jednou, několikrát, třikrát, pětkrát, mnohokrát, desetkrát, čtyřikrát, nejednou, šestkrát -->
+    <feat name="NumType" value="Mult,Sets" upos="ADJ">71</feat><!-- dvojí, obojí, dvojím, dvojího, dvoje, obojím, trojí, oboje, dvojími, obé -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV,DET,PRON">5219</feat><!-- první, druhé, prvním, třetí, poprvé, druhý, druhou, prvních, prvního, druhá -->
-    <feat name="NumType" value="Sets" upos="ADJ">39</feat><!-- jedny, jedni, dvoje, jedněch, jedněm, oboje, jedněmi, obé, troje -->
+    <feat name="NumType" value="Sets" upos="ADJ">30</feat><!-- jedny, jedni, jedněch, jedněm, jedněmi -->
     <feat name="NumValue" value="1" upos="ADJ">30</feat><!-- jedny, jedni, jedněch, jedněm, jedněmi -->
     <feat name="NumValue" value="1,2,3" upos="NUM">8050</feat><!-- dva, tři, jeden, dvě, tisíc, dvou, čtyři, obou, jednoho, jedné -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">16977</feat><!-- jsem, jsme, nás, nám, bychom, mi, naše, bych, naší, našich -->
