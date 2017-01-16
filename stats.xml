@@ -165,11 +165,11 @@
     <dep name="det:nummod">601</dep>
     <dep name="discourse">381</dep>
     <dep name="expl">17180</dep>
+    <dep name="fixed">4337</dep>
     <dep name="flat">13655</dep>
     <dep name="foreign">3123</dep>
     <dep name="iobj">8496</dep>
     <dep name="mark">27894</dep>
-    <dep name="mwe">4337</dep>
     <dep name="neg">353</dep>
     <dep name="nmod">234109</dep>
     <dep name="nsubj">86395</dep>
