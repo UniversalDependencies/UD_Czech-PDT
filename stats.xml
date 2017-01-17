@@ -17,12 +17,12 @@
     <tag name="ADV">79997</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
     <tag name="AUX">40726</tag><!-- být, bývat, bývávat, moci, mít, stát -->
     <tag name="CCONJ">56857</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
-    <tag name="DET">27819</tag><!-- tento, jeho, svůj, můj, ten, některý, několik, takový, žádný, jenž -->
+    <tag name="DET">27831</tag><!-- tento, jeho, svůj, můj, ten, některý, několik, takový, žádný, jenž -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
     <tag name="NOUN">372366</tag><!-- rok, strana, člověk, společnost, firma, doba, země, cena, koruna, zákon -->
     <tag name="NUM">41507</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
     <tag name="PART">8165</tag><!-- jen, až, asi, li, ne, nejen, prý, jenom, ano, bohužel -->
-    <tag name="PRON">72419</tag><!-- se, ten, který, on, já, všechen, jenž, co, kdo, což -->
+    <tag name="PRON">72407</tag><!-- se, ten, který, on, já, všechen, jenž, co, kdo, což -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">221036</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27718</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
@@ -141,7 +141,7 @@
     <feat name="Voice" value="Pass" upos="VERB">9526</feat><!-- řečeno, přesvědčen, připravena, připraven, otevřena, rozhodnuto, zvolen, uzavřena, uvedeno, založena -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="41">
     <dep name="acl">22835</dep>
     <dep name="advcl">10742</dep>
     <dep name="advmod">68495</dep>
@@ -154,7 +154,7 @@
     <dep name="cc">53082</dep>
     <dep name="ccomp">11088</dep>
     <dep name="compound">2801</dep>
-    <dep name="conj">71087</dep>
+    <dep name="conj">66955</dep>
     <dep name="cop">20598</dep>
     <dep name="csubj">5759</dep>
     <dep name="csubj:pass">475</dep>
@@ -177,6 +177,7 @@
     <dep name="nummod:gov">7351</dep>
     <dep name="obj">79473</dep>
     <dep name="obl">77413</dep>
+    <dep name="orphan">4132</dep>
     <dep name="parataxis">1833</dep>
     <dep name="punct">220974</dep>
     <dep name="root">87913</dep>
