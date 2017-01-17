@@ -167,7 +167,7 @@
     <dep name="expl:pv">17180</dep>
     <dep name="fixed">4337</dep>
     <dep name="flat">13655</dep>
-    <dep name="foreign">3123</dep>
+    <dep name="flat:foreign">3123</dep>
     <dep name="iobj">8496</dep>
     <dep name="mark">27894</dep>
     <dep name="neg">353</dep>
