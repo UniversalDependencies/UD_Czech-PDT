@@ -149,7 +149,7 @@
     <dep name="amod">157871</dep>
     <dep name="appos">7802</dep>
     <dep name="aux">14721</dep>
-    <dep name="auxpass">6068</dep>
+    <dep name="aux:pass">6068</dep>
     <dep name="case">145183</dep>
     <dep name="cc">53082</dep>
     <dep name="ccomp">11088</dep>
