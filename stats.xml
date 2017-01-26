@@ -15,7 +15,7 @@
     <tag name="ADJ">180811</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, dobrý, celý -->
     <tag name="ADP">145943</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
     <tag name="ADV">79997</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
-    <tag name="AUX">40726</tag><!-- být, bývat, bývávat, moci, mít, stát -->
+    <tag name="AUX">41393</tag><!-- být, bývat, bývávat, stát, moci, mít -->
     <tag name="CCONJ">56857</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
     <tag name="DET">27831</tag><!-- tento, jeho, svůj, můj, ten, některý, několik, takový, žádný, jenž -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
@@ -27,7 +27,7 @@
     <tag name="PUNCT">221036</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27718</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
     <tag name="SYM">1260</tag><!-- %, x, +, =, /, *, $ -->
-    <tag name="VERB">145703</tag><!-- mít, být, moci, muset, říci, stát, chtít, jít, lze, dát -->
+    <tag name="VERB">145036</tag><!-- mít, být, moci, muset, říci, stát, chtít, jít, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
