@@ -115,7 +115,7 @@
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">88824</feat><!-- je, jsou, bude, jeho, by, má, jejich, není, může, budou -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">20659</feat><!-- není, nebude, nejsou, nelze, nemá, nemůže, nebyl, nebylo, nemají, nebyla -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB">811467</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, Praha -->
-    <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">17007</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
+    <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">17024</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">949</feat><!-- jež, jehož, jenž, jemuž, jímž, jimž, jimiž, jichž, jíž, již -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
     <feat name="PronType" value="Dem" upos="DET,PRON">21274</feat><!-- to, tím, tom, této, tomu, tento, toho, tohoto, tato, těchto -->
