@@ -118,14 +118,14 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">17024</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">949</feat><!-- jež, jehož, jenž, jemuž, jímž, jimž, jimiž, jichž, jíž, již -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">21274</feat><!-- to, tím, tom, této, tomu, tento, toho, tohoto, tato, těchto -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">27333</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
     <feat name="PronType" value="Dem,Ind" upos="ADV,DET,PRON">1772</feat><!-- několik, několika, mnoho, mnoha, tolik, málo, několikrát, moc, mnohokrát, mála -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">3473</feat><!-- některé, něco, některých, někteří, někdo, nějaké, nějaký, nějakou, některá, některým -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">14326</feat><!-- které, který, která, co, kteří, kdo, kterou, jaké, kterým, kolik -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">1846</feat><!-- nic, nikdo, žádné, žádný, žádná, žádnou, žádném, nikoho, nikomu, ničím -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">4117</feat><!-- některé, něco, některých, někteří, někdo, někdy, nějaké, nějaký, nějakou, někde -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">18855</feat><!-- které, který, která, jak, co, kteří, kdy, kde, kdo, kterou -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">2291</feat><!-- nic, nikdo, nikdy, žádné, žádný, žádná, nijak, žádnou, žádném, nikoho -->
     <feat name="PronType" value="Prs" upos="DET,PRON">50558</feat><!-- se, si, jeho, jejich, své, nás, je, její, nám, nich -->
     <feat name="PronType" value="Rel" upos="DET,PRON">3608</feat><!-- což, jehož, nichž, jež, níž, jejichž, němž, jenž, jejíž, něhož -->
-    <feat name="PronType" value="Tot" upos="PRON">3504</feat><!-- všechny, všech, vše, sám, všichni, všechno, sama, sami, všem, veškeré -->
+    <feat name="PronType" value="Tot" upos="ADV,PRON">4012</feat><!-- všechny, všech, vždy, vše, sám, všichni, všechno, sama, sami, všem -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">30669</feat><!-- se, si, své, svou, svého, svých, svůj, svým, svém, sebe -->
     <feat name="Style" value="Arch" upos="ADJ,ADV,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB">696</feat><!-- jej, léta, dosti, dřív, jest, nejdřív, Québeku, létech, býti, léty -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">127</feat><!-- které, druhý, ty, Kytkový, našim, naší, vem, Asylum, Devátý, Vystřelenýho -->
