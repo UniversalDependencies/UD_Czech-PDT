@@ -64,6 +64,7 @@ Changelog
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
   * Improved advmod vs. obl distinction.
+  * L-participles are verbs, other participles are adjectives.
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Copulas with clausal complements are now heads.
