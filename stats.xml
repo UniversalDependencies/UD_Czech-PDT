@@ -17,12 +17,12 @@
     <tag name="ADV">79997</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
     <tag name="AUX">41393</tag><!-- být, bývat, bývávat, stát, moci, mít -->
     <tag name="CCONJ">56857</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
-    <tag name="DET">55330</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, takový, několik -->
+    <tag name="DET">55336</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, takový, několik -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
     <tag name="NOUN">372366</tag><!-- rok, strana, člověk, společnost, firma, doba, země, cena, koruna, zákon -->
     <tag name="NUM">41507</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
     <tag name="PART">8165</tag><!-- jen, až, asi, li, ne, nejen, prý, jenom, ano, bohužel -->
-    <tag name="PRON">44908</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
+    <tag name="PRON">44902</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">221036</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27718</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
@@ -144,7 +144,7 @@
   <deps unique="41">
     <dep name="acl">22834</dep>
     <dep name="advcl">10743</dep>
-    <dep name="advmod">68608</dep>
+    <dep name="advmod">60750</dep>
     <dep name="advmod:emph">23576</dep>
     <dep name="amod">157884</dep>
     <dep name="appos">7802</dep>
@@ -176,7 +176,7 @@
     <dep name="nummod">19664</dep>
     <dep name="nummod:gov">7348</dep>
     <dep name="obj">79472</dep>
-    <dep name="obl">77300</dep>
+    <dep name="obl">85158</dep>
     <dep name="orphan">4132</dep>
     <dep name="parataxis">1833</dep>
     <dep name="punct">220974</dep>
