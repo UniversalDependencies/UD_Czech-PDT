@@ -7,7 +7,7 @@
   <size>
     <total><sentences>87913</sentences><tokens>1503732</tokens><words>1506484</words><fused>2752</fused></total>
   </size>
-  <lemmas unique="58370" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <lemmas unique="58228" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
   <forms unique="128229" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
   <fusions unique="10" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys, Neníť -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -17,12 +17,12 @@
     <tag name="ADV">79997</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
     <tag name="AUX">41393</tag><!-- být, bývat, bývávat, stát, moci, mít -->
     <tag name="CCONJ">56857</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
-    <tag name="DET">55315</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, takový, několik -->
+    <tag name="DET">55313</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, takový, několik -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
     <tag name="NOUN">372366</tag><!-- rok, strana, člověk, společnost, firma, doba, země, cena, koruna, zákon -->
     <tag name="NUM">41507</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
     <tag name="PART">8165</tag><!-- jen, až, asi, li, ne, nejen, prý, jenom, ano, bohužel -->
-    <tag name="PRON">44923</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
+    <tag name="PRON">44925</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">221036</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27718</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
@@ -31,7 +31,7 @@
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="107">
+  <feats unique="112">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PROPN,VERB,X">21743</feat><!-- ČR, LN, r, ODS, m, s, j, např, a, tzv -->
     <feat name="AdpType" value="Comprep" upos="ADP">286</feat><!-- vzhledem, nehledě, narozdíl -->
     <feat name="AdpType" value="Prep" upos="ADP">134515</feat><!-- v, na, o, z, s, do, k, pro, za, po -->
@@ -128,11 +128,16 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">3312</feat><!-- všechny, všech, vždy, vše, všichni, všechno, všem, veškeré, všemi, všude -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">30669</feat><!-- se, si, své, svou, svého, svých, svůj, svým, svém, sebe -->
     <feat name="Style" value="Arch" upos="ADJ,ADV,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB">696</feat><!-- jej, léta, dosti, dřív, jest, nejdřív, Québeku, létech, býti, léty -->
-    <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">127</feat><!-- které, druhý, ty, Kytkový, našim, naší, vem, Asylum, Devátý, Vystřelenýho -->
+    <feat name="Style" value="Coll" upos="ADJ,ADP,ADV,AUX,DET,INTJ,NOUN,PART,PRON,PROPN,VERB">818</feat><!-- loni, rozběžky, akorát, jo, Dan, holt, které, než, repete, top -->
+    <feat name="Style" value="Expr" upos="ADJ,NOUN,PROPN,VERB">78</feat><!-- jezírko, Vlasta, jezírka, jezírku, VLAĎKA, okénko, okénku, semínka, ultranacionalistické, vlákénka -->
+    <feat name="Style" value="Rare" upos="ADJ,ADP,ADV,DET,NOUN,PROPN,VERB">518</feat><!-- hod, min, aids, Volkswagen, prezidia, aidsu, ujal, causa, GmbH, premií -->
+    <feat name="Style" value="Slng" upos="ADJ,NOUN">71</feat><!-- joint, kšeft, kšefty, záklaďáků, čtvrtkařky, škodováckých, štaflu, Frc, Green, Kinga -->
+    <feat name="Style" value="Vrnc" upos="ADJ,INTJ,NOUN,PRON,VERB">24</feat><!-- zapomnění, sa, řečeného, Husličky, Stup, Valnohou, Zítka, danaj, kon, kotáry -->
+    <feat name="Style" value="Vulg" upos="ADJ,NOUN">4</feat><!-- bordelové, nablito, parchanta, suchoprdů -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">5108</feat><!-- bude, budou, nebude, budeme, nebudou, půjde, budu, nebudeme, budete, nebudu -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">57002</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, byli -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">83154</feat><!-- je, jsou, má, není, jsem, jsme, může, mají, musí, jde -->
-    <feat name="Variant" value="Short" upos="ADJ,PRON">38596</feat><!-- se, si, mu, ho, mi, třeba, mě, možno, rád, řečeno -->
+    <feat name="Variant" value="Short" upos="ADJ,PRON">38595</feat><!-- se, si, mu, ho, mi, třeba, mě, možno, rád, řečeno -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">163</feat><!-- počínaje, nemluvě, vlastně, konče, Mluvě, soudě, říkajíc, jsouce, jsa, jsouc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">93491</feat><!-- je, by, jsou, bude, má, není, jsem, jsme, může, budou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">26268</feat><!-- být, mít, získat, stát, hrát, říci, platit, muset, dělat, dostat -->
