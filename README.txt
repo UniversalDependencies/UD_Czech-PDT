@@ -1,4 +1,18 @@
-http://universaldependencies.github.io/docs/cs/overview/introduction.html
+=== Machine-readable metadata =================================================
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0
+Includes text: yes
+Genre: news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Zeman, Daniel; Hajič, Jan
+Contributing: elsewhere
+Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 12
+===============================================================================
 
 The Czech UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
 created at the Charles University in Prague. The treebank consists of 87,913
@@ -90,13 +104,3 @@ Changelog
   * Improved heuristics to distinguish DET and PRON
   * Improved treatment of comparative complements (conjunctions “než” and “jako”)
   * Remaining lemma extensions moved from LEMMA to MISC
-
-=== Machine-readable metadata =================================================
-Documentation status: complete
-Data source: semi-automatic
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0
-Genre: news
-Contributors: Zeman, Daniel; Hajič, Jan
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
