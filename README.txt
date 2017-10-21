@@ -74,6 +74,8 @@ References
 
 Changelog
 
+2017-11-15 v2.1
+  * Retagged pronouns “každý” and “kterýžto”.
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
