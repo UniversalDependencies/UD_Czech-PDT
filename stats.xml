@@ -173,7 +173,7 @@
     <dep name="fixed">4337</dep>
     <dep name="flat">13655</dep>
     <dep name="flat:foreign">3123</dep>
-    <dep name="iobj">5428</dep>
+    <dep name="iobj">5321</dep>
     <dep name="mark">27891</dep>
     <dep name="nmod">154597</dep>
     <dep name="nsubj">86491</dep>
@@ -182,7 +182,7 @@
     <dep name="nummod:gov">7348</dep>
     <dep name="obj">66410</dep>
     <dep name="obl">85609</dep>
-    <dep name="obl:arg">17364</dep>
+    <dep name="obl:arg">17471</dep>
     <dep name="orphan">4132</dep>
     <dep name="parataxis">1833</dep>
     <dep name="punct">220974</dep>
