@@ -180,9 +180,9 @@
     <dep name="nsubj:pass">7718</dep>
     <dep name="nummod">19664</dep>
     <dep name="nummod:gov">7348</dep>
-    <dep name="obj">66410</dep>
+    <dep name="obj">65679</dep>
     <dep name="obl">85609</dep>
-    <dep name="obl:arg">17471</dep>
+    <dep name="obl:arg">18202</dep>
     <dep name="orphan">4132</dep>
     <dep name="parataxis">1833</dep>
     <dep name="punct">220974</dep>
