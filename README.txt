@@ -77,6 +77,7 @@ Changelog
 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
   * Prepositional objects are now “obl:arg” instead of “obj”.
+  * Instrumental phrases for demoted agents in passives are now “obl:agent”.
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
