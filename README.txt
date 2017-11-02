@@ -1,21 +1,11 @@
-=== Machine-readable metadata =================================================
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0
-Includes text: yes
-Genre: news
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Zeman, Daniel; Hajič, Jan
-Contributing: elsewhere
-Contact: zeman@ufal.mff.cuni.cz
-Paragraphs to web: 12
-===============================================================================
+# Summary
 
 The Czech UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
-created at the Charles University in Prague. The treebank consists of 87,913
+created at the Charles University in Prague.
+
+# Introduction
+
+The Czech-PDT UD treebank consists of 87,913
 sentences (1.5 M tokens) and its domain is mainly newswire, reaching also to
 business and popular scientific articles from the 1990s. The treebank is
 licensed under the terms of CC BY-NC-SA 3.0 and its original (non-UD) version
@@ -25,7 +15,36 @@ http://hdl.handle.net/11858/00-097C-0000-0023-1AAF-3.
 
 The morphological and syntactic annotation of the Czech UD treebank is created
 through a conversion of PDT data. The conversion procedure has been designed by
-Dan Zeman.
+Dan Zeman and implemented in Treex.
+
+
+# Acknowledgments
+
+We wish to thank all of the contributors to the original PDT annotation effort,
+including Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová,
+Václava Kettnerová, Veronika Kolářová, Marie Mikulová, Jiří Mírovský,
+Anna Nedoluzhko, Jarmila Panevová, Lucie Poláková, Magda Ševčíková,
+Jan Štěpánek, and Šárka Zikánová.
+
+## References
+
+* Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová, Václava Kettnerová,
+  Veronika Kolářová, Marie Mikulová, Jiří Mírovský, Anna Nedoluzhko,
+  Jarmila Panevová, Lucie Poláková, Magda Ševčíková, Jan Štěpánek,
+  and Šárka Zikánová. 2013. Prague Dependency Treebank 3.0,
+  LINDAT/CLARIN digital library at Institute of Formal and Applied Linguistics,
+  Charles University in Prague,
+  http://hdl.handle.net/11858/00-097C-0000-0023-1AAF-3.
+
+* Eduard Bejček, Jarmila Panevová, Jan Popelka, Pavel Straňák, Magda Ševčíková,
+  Jan Štěpánek, and Zdeněk Žabokrtský. 2012. Prague Dependency Treebank 2.5 –
+  a revisited version of PDT 2.0.
+  In: Proceedings of the 24th International Conference on Computational
+  Linguistics (Coling 2012), Mumbai, India, pp. 231-246.
+  http://www.aclweb.org/anthology/C/C12/C12-1015.pdf
+
+
+# Domains and Data Split
 
 NOTE: Earlier releases of the treebank had four training data files. This was
 due to Github restrictions on file size. We have now re-joined the training
@@ -45,51 +64,24 @@ The dev and test sets contain all four sources and their size is proportional
 to the sizes of the respective training parts.
 
 
-Acknowledgments
+# Changelog
 
-We wish to thank all of the contributors to the original PDT annotation effort,
-including Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová,
-Václava Kettnerová, Veronika Kolářová, Marie Mikulová, Jiří Mírovský,
-Anna Nedoluzhko, Jarmila Panevová, Lucie Poláková, Magda Ševčíková,
-Jan Štěpánek, and Šárka Zikánová.
-
-
-References
-
-* Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová, Václava Kettnerová,
-  Veronika Kolářová, Marie Mikulová, Jiří Mírovský, Anna Nedoluzhko,
-  Jarmila Panevová, Lucie Poláková, Magda Ševčíková, Jan Štěpánek,
-  and Šárka Zikánová. 2013. Prague Dependency Treebank 3.0,
-  LINDAT/CLARIN digital library at Institute of Formal and Applied Linguistics,
-  Charles University in Prague,
-  http://hdl.handle.net/11858/00-097C-0000-0023-1AAF-3.
-
-* Eduard Bejček, Jarmila Panevová, Jan Popelka, Pavel Straňák, Magda Ševčíková,
-  Jan Štěpánek, and Zdeněk Žabokrtský. 2012. Prague Dependency Treebank 2.5 –
-  a revisited version of PDT 2.0.
-  In: Proceedings of the 24th International Conference on Computational
-  Linguistics (Coling 2012), Mumbai, India, pp. 231-246.
-  http://www.aclweb.org/anthology/C/C12/C12-1015.pdf
-
-
-Changelog
-
-2017-11-15 v2.1
+* 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
   * Prepositional objects are now “obl:arg” instead of “obj”.
   * Instrumental phrases for demoted agents in passives are now “obl:agent”.
-2017-03-01 v2.0
+* 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
   * Improved advmod vs. obl distinction.
   * L-participles are verbs, other participles are adjectives.
   * Removed style flags from lemmas.
-2016-05-15 v1.3
+* 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Copulas with clausal complements are now heads.
   * Improved conversion of AuxY.
   * Relation of foreign prepositions changed to foreign.
-2015-11-15 v1.2
+* 2015-11-15 v1.2
   * Conversion procedure rewritten again (may result in minor differences in
     borderline cases)
   * Only one “root” relation per tree now enforced; some bugs around root fixed
@@ -103,8 +95,24 @@ Changelog
   * Applied heuristics to distinguish at least some iobj from dobj
   * Fixed bugs around xcomp (future infinitives and subjects attached to
     controlled verbs)
-2015-05-15 v1.1
+* 2015-05-15 v1.1
   * Conversion procedure completely rewritten
   * Improved heuristics to distinguish DET and PRON
   * Improved treatment of comparative complements (conjunctions “než” and “jako”)
   * Remaining lemma extensions moved from LEMMA to MISC
+
+
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0
+Includes text: yes
+Genre: news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Zeman, Daniel; Hajič, Jan
+Contributing: elsewhere
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
