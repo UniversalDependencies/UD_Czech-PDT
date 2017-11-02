@@ -3,6 +3,7 @@
 The Czech UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
 created at the Charles University in Prague.
 
+
 # Introduction
 
 The Czech-PDT UD treebank consists of 87,913
