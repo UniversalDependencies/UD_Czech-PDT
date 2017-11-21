@@ -64,6 +64,24 @@ The dev and test sets contain all four sources and their size is proportional
 to the sizes of the respective training parts.
 
 
+## Source of annotations
+
+This table summarizes the origins and checking of the various columns of the CoNLL-U data.
+
+| Column | Status |
+| ------ | ------ |
+| ID | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
+| FORM | Identical to Prague Dependency Treebank 3.0 form. |
+| LEMMA | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
+| UPOSTAG | Converted automatically from XPOSTAG (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| XPOSTAG | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
+| FEATS | Converted automatically from XPOSTAG (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| HEAD | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPREL | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPS | &mdash; (currently unused) |
+| MISC | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. |
+
+
 # Changelog
 
 * 2018-03-01 v2.2
