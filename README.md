@@ -126,7 +126,7 @@ This table summarizes the origins and checking of the various columns of the CoN
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: news
+Genre: news reviews nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
