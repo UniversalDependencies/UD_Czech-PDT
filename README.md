@@ -122,6 +122,8 @@ This table summarizes the origins and checking of the various columns of the CoN
   * Remaining lemma extensions moved from LEMMA to MISC
 
 
+
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
@@ -136,3 +138,4 @@ Contributors: Zeman, Daniel; Hajič, Jan
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
+</pre>
