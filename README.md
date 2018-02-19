@@ -1,6 +1,6 @@
 # Summary
 
-The Czech UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
+The Czech-PDT UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
 created at the Charles University in Prague.
 
 
@@ -84,7 +84,8 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 # Changelog
 
-* 2018-03-01 v2.2
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Czech to UD_Czech-PDT.
   * Fixed computation of the LDeriv MISC attribute.
 * 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
