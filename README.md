@@ -1,6 +1,6 @@
 # Summary
 
-The Czech UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
+The Czech-PDT UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
 created at the Charles University in Prague.
 
 
@@ -64,8 +64,31 @@ The dev and test sets contain all four sources and their size is proportional
 to the sizes of the respective training parts.
 
 
+## Source of annotations
+
+This table summarizes the origins and checking of the various columns of the CoNLL-U data.
+
+| Column | Status |
+| ------ | ------ |
+| ID | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
+| FORM | Identical to Prague Dependency Treebank 3.0 form. |
+| LEMMA | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
+| UPOSTAG | Converted automatically from XPOSTAG (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| XPOSTAG | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
+| FEATS | Converted automatically from XPOSTAG (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| HEAD | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPREL | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPS | &mdash; (currently unused) |
+| MISC | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. |
+
+
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Czech to UD_Czech-PDT.
+  * Added enhanced representation of dependencies propagated across coordination.
+    The distinction of shared and private dependents is derived deterministically from the original Prague annotation.
+  * Fixed computation of the LDeriv MISC attribute.
 * 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
   * Prepositional objects are now “obl:arg” instead of “obj”.
@@ -102,11 +125,13 @@ to the sizes of the respective training parts.
   * Remaining lemma extensions moved from LEMMA to MISC
 
 
+
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: news
+Genre: news reviews nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
@@ -116,3 +141,4 @@ Contributors: Zeman, Daniel; Hajič, Jan
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
+</pre>
