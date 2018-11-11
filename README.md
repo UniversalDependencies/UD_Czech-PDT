@@ -84,6 +84,10 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 # Changelog
 
+* 2018-11-15 v2.3
+  * Bug fix: conditional "by" should be attached as 'aux', not 'aux:pass'.
+  * Flat name structures extended to titles and occupations.
+  * Added LDeriv for passive participles (the infinitive of the source verb).
 * 2018-04-15 v2.2
   * Repository renamed from UD_Czech to UD_Czech-PDT.
   * Added enhanced representation of dependencies propagated across coordination.
