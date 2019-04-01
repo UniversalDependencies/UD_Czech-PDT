@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">189185</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, dobrý, celý -->
     <tag name="ADP">145943</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
-    <tag name="ADV">79997</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
+    <tag name="ADV">80221</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
     <tag name="AUX">41393</tag><!-- být, bývat, bývávat, stát, moci, mít -->
     <tag name="CCONJ">56857</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
     <tag name="DET">56470</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, každý, takový -->
@@ -28,7 +28,7 @@
     <tag name="PRON">44920</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">221036</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
-    <tag name="SCONJ">27718</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
+    <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
     <tag name="SYM">1260</tag><!-- %, x, +, =, /, *, $ -->
     <tag name="VERB">135510</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
@@ -127,7 +127,7 @@
     <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">18858</feat><!-- které, který, která, jak, co, kteří, kdy, kde, kdo, kterou -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">2291</feat><!-- nic, nikdo, nikdy, žádné, žádný, žádná, nijak, žádnou, žádném, nikoho -->
     <feat name="PronType" value="Prs" upos="DET,PRON">50558</feat><!-- se, si, jeho, jejich, své, nás, je, její, nám, nich -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">3608</feat><!-- což, jehož, nichž, jež, níž, jejichž, němž, jenž, jejíž, něhož -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">3832</feat><!-- což, jehož, nichž, jež, níž, jejichž, němž, přičemž, jenž, jejíž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">4464</feat><!-- všechny, všech, každý, vždy, vše, všichni, všechno, každé, každého, všem -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">30669</feat><!-- se, si, své, svou, svého, svých, svůj, svým, svém, sebe -->
     <feat name="Style" value="Arch" upos="ADJ,ADV,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB">696</feat><!-- jej, léta, dosti, dřív, jest, nejdřív, Québeku, létech, býti, léty -->
