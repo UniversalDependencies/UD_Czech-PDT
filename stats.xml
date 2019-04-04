@@ -52,7 +52,7 @@
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN">193</feat><!-- pane, ty, čtenáři, vážení, pánové, doktore, Svatý, Vážený, bože, generále -->
     <feat name="ConjType" value="Oper" upos="CCONJ,SYM">194</feat><!-- x, krát, plus, +, :, minus, -, kráte -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7868</feat><!-- více, větší, méně, spíše, později, vyšší, dříve, víc, nižší, lepší -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">179626</feat><!-- další, české, nové, poslední, státní, dalších, stejně, možné, vlastní, jiné -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">179342</feat><!-- další, české, nové, poslední, státní, dalších, stejně, možné, vlastní, jiné -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4135</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">9317</feat><!-- New, de, the, HZDS, of, IRA, open, play, off, management -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">258408</feat><!-- která, Praha, které, korun, české, této, ČR, své, strany, společnosti -->
@@ -117,7 +117,7 @@
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2786</feat><!-- jste, vám, vás, viz, byste, můžete, máte, vaše, vy, buď -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">88813</feat><!-- je, jsou, bude, jeho, by, má, jejich, není, může, budou -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">20659</feat><!-- není, nebude, nejsou, nelze, nemá, nemůže, nebyl, nebylo, nemají, nebyla -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,VERB">811686</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, Praha -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,VERB">811402</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, Praha -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">17024</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">948</feat><!-- jež, jehož, jenž, jemuž, jímž, jimž, jimiž, jichž, jíž, již -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
@@ -160,37 +160,37 @@
     <dep name="aux">14807</dep>
     <dep name="aux:pass">5981</dep>
     <dep name="case">145179</dep>
-    <dep name="cc">52710</dep>
+    <dep name="cc">52707</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2801</dep>
-    <dep name="conj">66953</dep>
+    <dep name="conj">66950</dep>
     <dep name="cop">20598</dep>
     <dep name="csubj">5663</dep>
     <dep name="csubj:pass">456</dep>
-    <dep name="dep">12569</dep>
+    <dep name="dep">12568</dep>
     <dep name="det">29187</dep>
     <dep name="det:numgov">979</dep>
     <dep name="det:nummod">564</dep>
     <dep name="discourse">383</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4945</dep>
+    <dep name="fixed">4946</dep>
     <dep name="flat">20915</dep>
-    <dep name="flat:foreign">3052</dep>
+    <dep name="flat:foreign">3054</dep>
     <dep name="iobj">5324</dep>
-    <dep name="mark">28158</dep>
-    <dep name="nmod">147630</dep>
+    <dep name="mark">28156</dep>
+    <dep name="nmod">147631</dep>
     <dep name="nsubj">86552</dep>
     <dep name="nsubj:pass">7718</dep>
     <dep name="nummod">19655</dep>
     <dep name="nummod:gov">7348</dep>
     <dep name="obj">64892</dep>
-    <dep name="obl">85703</dep>
+    <dep name="obl">85702</dep>
     <dep name="obl:agent">631</dep>
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4127</dep>
-    <dep name="parataxis">1874</dep>
-    <dep name="punct">220958</dep>
+    <dep name="parataxis">1877</dep>
+    <dep name="punct">220961</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18437</dep>
