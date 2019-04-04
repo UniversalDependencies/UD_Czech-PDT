@@ -27,9 +27,9 @@
     <tag name="PART">8527</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44920</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">221025</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220989</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
-    <tag name="SYM">1271</tag><!-- %, x, +, =, /, *, :, $, - -->
+    <tag name="SYM">1307</tag><!-- %, x, +, =, *, /, :, $, - -->
     <tag name="VERB">135499</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
@@ -152,28 +152,28 @@
   <deps unique="43">
     <dep name="acl">21821</dep>
     <dep name="advcl">10293</dep>
-    <dep name="advmod">60086</dep>
+    <dep name="advmod">60084</dep>
     <dep name="advmod:emph">23570</dep>
     <dep name="amod">158113</dep>
     <dep name="appos">7723</dep>
     <dep name="aux">14808</dep>
     <dep name="aux:pass">5981</dep>
     <dep name="case">145184</dep>
-    <dep name="cc">52767</dep>
+    <dep name="cc">52768</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2801</dep>
     <dep name="conj">66963</dep>
     <dep name="cop">20598</dep>
     <dep name="csubj">5663</dep>
     <dep name="csubj:pass">456</dep>
-    <dep name="dep">12584</dep>
+    <dep name="dep">12577</dep>
     <dep name="det">29185</dep>
     <dep name="det:numgov">979</dep>
     <dep name="det:nummod">564</dep>
     <dep name="discourse">382</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4890</dep>
+    <dep name="fixed">4891</dep>
     <dep name="flat">20907</dep>
     <dep name="flat:foreign">3051</dep>
     <dep name="iobj">5324</dep>
@@ -181,15 +181,15 @@
     <dep name="nmod">147630</dep>
     <dep name="nsubj">86555</dep>
     <dep name="nsubj:pass">7718</dep>
-    <dep name="nummod">19659</dep>
+    <dep name="nummod">19655</dep>
     <dep name="nummod:gov">7348</dep>
     <dep name="obj">64893</dep>
-    <dep name="obl">85667</dep>
+    <dep name="obl">85696</dep>
     <dep name="obl:agent">631</dep>
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4127</dep>
-    <dep name="parataxis">1854</dep>
-    <dep name="punct">220973</dep>
+    <dep name="parataxis">1872</dep>
+    <dep name="punct">220937</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18437</dep>
