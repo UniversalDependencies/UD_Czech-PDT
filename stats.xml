@@ -27,14 +27,14 @@
     <tag name="PART">8527</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44920</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">220989</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220988</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
-    <tag name="SYM">1307</tag><!-- %, x, +, =, *, /, :, $, - -->
+    <tag name="SYM">1308</tag><!-- %, x, +, =, *, /, :, $, -, § -->
     <tag name="VERB">135483</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="112">
+  <feats unique="113">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PROPN,VERB,X">21743</feat><!-- ČR, LN, r, ODS, m, s, j, např, a, tzv -->
     <feat name="AdpType" value="Comprep" upos="ADP">286</feat><!-- vzhledem, nehledě, narozdíl -->
     <feat name="AdpType" value="Prep" upos="ADP">134515</feat><!-- v, na, o, z, s, do, k, pro, za, po -->
@@ -140,6 +140,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">5108</feat><!-- bude, budou, nebude, budeme, nebudou, půjde, budu, nebudeme, budete, nebudu -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">57002</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, byli -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">83127</feat><!-- je, jsou, má, není, jsem, jsme, může, mají, musí, jde -->
+    <feat name="Typo" value="Yes" upos="SYM">1</feat><!-- | -->
     <feat name="Variant" value="Short" upos="ADJ,PRON">38595</feat><!-- se, si, mu, ho, mi, třeba, mě, možno, rád, řečeno -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">147</feat><!-- počínaje, nemluvě, konče, Mluvě, soudě, říkajíc, jsouce, jsa, jsouc, maje -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">93480</feat><!-- je, by, jsou, bude, má, není, jsem, jsme, může, budou -->
@@ -152,13 +153,13 @@
   <deps unique="43">
     <dep name="acl">21820</dep>
     <dep name="advcl">10293</dep>
-    <dep name="advmod">60127</dep>
+    <dep name="advmod">60126</dep>
     <dep name="advmod:emph">23523</dep>
     <dep name="amod">158114</dep>
     <dep name="appos">7722</dep>
     <dep name="aux">14807</dep>
     <dep name="aux:pass">5981</dep>
-    <dep name="case">145178</dep>
+    <dep name="case">145179</dep>
     <dep name="cc">52710</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2801</dep>
@@ -170,26 +171,26 @@
     <dep name="det">29187</dep>
     <dep name="det:numgov">979</dep>
     <dep name="det:nummod">564</dep>
-    <dep name="discourse">382</dep>
+    <dep name="discourse">383</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
     <dep name="fixed">4945</dep>
     <dep name="flat">20915</dep>
     <dep name="flat:foreign">3052</dep>
     <dep name="iobj">5324</dep>
-    <dep name="mark">28159</dep>
+    <dep name="mark">28158</dep>
     <dep name="nmod">147630</dep>
     <dep name="nsubj">86552</dep>
     <dep name="nsubj:pass">7718</dep>
     <dep name="nummod">19655</dep>
     <dep name="nummod:gov">7348</dep>
     <dep name="obj">64892</dep>
-    <dep name="obl">85702</dep>
+    <dep name="obl">85703</dep>
     <dep name="obl:agent">631</dep>
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4127</dep>
     <dep name="parataxis">1874</dep>
-    <dep name="punct">220959</dep>
+    <dep name="punct">220958</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18437</dep>
