@@ -19,11 +19,11 @@
     <tag name="ADP">145943</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
     <tag name="ADV">80212</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
     <tag name="AUX">41393</tag><!-- být, bývat, bývávat, stát, moci, mít -->
-    <tag name="CCONJ">56873</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
+    <tag name="CCONJ">56877</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
     <tag name="DET">56117</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, každý, takový -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
     <tag name="NOUN">372360</tag><!-- rok, strana, člověk, společnost, firma, doba, země, cena, koruna, zákon -->
-    <tag name="NUM">41507</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
+    <tag name="NUM">41503</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
     <tag name="PART">8527</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44920</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
@@ -103,9 +103,9 @@
     <feat name="Number[psor]" value="Plur" upos="DET">4582</feat><!-- jejich, naše, naší, našich, jejichž, náš, našeho, naši, našem, vaše -->
     <feat name="Number[psor]" value="Sing" upos="DET">4833</feat><!-- jeho, její, jehož, jejím, jejíž, můj, jejího, jejích, mého, moje -->
     <feat name="NumForm" value="Digit" upos="NUM">29481</feat><!-- 1, 2, 3, 4, 6, 5, 1992, 10, 1994, 1993 -->
-    <feat name="NumForm" value="Roman" upos="NUM">376</feat><!-- II, I, III, IV, V, VI, XX, D, C, IX -->
+    <feat name="NumForm" value="Roman" upos="NUM">372</feat><!-- II, I, III, IV, V, VI, XX, D, C, IX -->
     <feat name="NumForm" value="Word" upos="NUM">11308</feat><!-- dva, tři, jeden, dvě, tisíc, dvou, pět, čtyři, obou, jednoho -->
-    <feat name="NumType" value="Card" upos="DET,NUM">43011</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
+    <feat name="NumType" value="Card" upos="DET,NUM">43007</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
     <feat name="NumType" value="Frac" upos="NUM">342</feat><!-- třetiny, třetinu, třetina, třetině, čtvrtinu, čtvrtina, desetinu, čtvrtiny, pětinu, desetina -->
     <feat name="NumType" value="Mult" upos="ADV">536</feat><!-- dvakrát, jednou, několikrát, třikrát, pětkrát, mnohokrát, desetkrát, čtyřikrát, nejednou, šestkrát -->
     <feat name="NumType" value="Mult,Sets" upos="ADJ">71</feat><!-- dvojí, obojí, dvojím, dvojího, dvoje, obojím, trojí, oboje, dvojími, obé -->
