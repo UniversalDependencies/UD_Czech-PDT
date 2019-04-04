@@ -158,8 +158,8 @@
     <dep name="appos">7723</dep>
     <dep name="aux">14807</dep>
     <dep name="aux:pass">5981</dep>
-    <dep name="case">145184</dep>
-    <dep name="cc">52761</dep>
+    <dep name="case">145178</dep>
+    <dep name="cc">52760</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2801</dep>
     <dep name="conj">66957</dep>
@@ -174,7 +174,7 @@
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
     <dep name="fixed">4891</dep>
-    <dep name="flat">20907</dep>
+    <dep name="flat">20913</dep>
     <dep name="flat:foreign">3052</dep>
     <dep name="iobj">5324</dep>
     <dep name="mark">28161</dep>
@@ -188,7 +188,7 @@
     <dep name="obl:agent">631</dep>
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4127</dep>
-    <dep name="parataxis">1873</dep>
+    <dep name="parataxis">1874</dep>
     <dep name="punct">220955</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
