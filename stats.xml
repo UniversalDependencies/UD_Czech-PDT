@@ -27,9 +27,9 @@
     <tag name="PART">8531</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44920</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">220988</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220968</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
-    <tag name="SYM">1308</tag><!-- %, x, +, =, *, /, :, $, -, § -->
+    <tag name="SYM">1328</tag><!-- %, x, +, =, *, /, -, >, :, < -->
     <tag name="VERB">135482</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
@@ -50,7 +50,7 @@
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">134749</feat><!-- v, na, ve, o, po, při, roce, tom, době, případě -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">203302</feat><!-- to, který, které, která, Praha, kteří, co, kdo, další, tato -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN">193</feat><!-- pane, ty, čtenáři, vážení, pánové, doktore, Svatý, Vážený, bože, generále -->
-    <feat name="ConjType" value="Oper" upos="CCONJ,SYM">194</feat><!-- x, krát, plus, +, :, minus, -, kráte -->
+    <feat name="ConjType" value="Oper" upos="CCONJ,SYM">214</feat><!-- x, krát, plus, +, -, >, :, <, ., minus -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7868</feat><!-- více, větší, méně, spíše, později, vyšší, dříve, víc, nižší, lepší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">179342</feat><!-- další, české, nové, poslední, státní, dalších, stejně, možné, vlastní, jiné -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4135</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
@@ -164,7 +164,7 @@
     <dep name="ccomp">9855</dep>
     <dep name="compound">2800</dep>
     <dep name="conj">66955</dep>
-    <dep name="cop">20598</dep>
+    <dep name="cop">20600</dep>
     <dep name="csubj">5663</dep>
     <dep name="csubj:pass">456</dep>
     <dep name="dep">12561</dep>
@@ -175,7 +175,7 @@
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
     <dep name="fixed">4951</dep>
-    <dep name="flat">20915</dep>
+    <dep name="flat">20927</dep>
     <dep name="flat:foreign">3084</dep>
     <dep name="iobj">5324</dep>
     <dep name="mark">28148</dep>
@@ -190,7 +190,7 @@
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4122</dep>
     <dep name="parataxis">1884</dep>
-    <dep name="punct">220961</dep>
+    <dep name="punct">220947</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18436</dep>
