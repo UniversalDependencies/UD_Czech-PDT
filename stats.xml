@@ -152,14 +152,14 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
     <dep name="acl">21821</dep>
-    <dep name="advcl">10293</dep>
+    <dep name="advcl">10294</dep>
     <dep name="advmod">60122</dep>
     <dep name="advmod:emph">23522</dep>
     <dep name="amod">158118</dep>
     <dep name="appos">7723</dep>
     <dep name="aux">14808</dep>
     <dep name="aux:pass">5981</dep>
-    <dep name="case">145179</dep>
+    <dep name="case">145180</dep>
     <dep name="cc">52687</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2800</dep>
@@ -174,12 +174,12 @@
     <dep name="discourse">384</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4952</dep>
+    <dep name="fixed">4951</dep>
     <dep name="flat">20915</dep>
     <dep name="flat:foreign">3062</dep>
     <dep name="iobj">5324</dep>
-    <dep name="mark">28150</dep>
-    <dep name="nmod">147640</dep>
+    <dep name="mark">28149</dep>
+    <dep name="nmod">147641</dep>
     <dep name="nsubj">86552</dep>
     <dep name="nsubj:pass">7718</dep>
     <dep name="nummod">19655</dep>
@@ -193,6 +193,6 @@
     <dep name="punct">220961</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
-    <dep name="xcomp">18437</dep>
+    <dep name="xcomp">18436</dep>
   </deps>
 </treebank>
