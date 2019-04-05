@@ -18,7 +18,7 @@
     <tag name="ADJ">189186</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, dobrý, celý -->
     <tag name="ADP">145943</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
     <tag name="ADV">80228</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
-    <tag name="AUX">41394</tag><!-- být, bývat, bývávat, stát, moci, mít -->
+    <tag name="AUX">41396</tag><!-- být, bývat, bývávat, stát, moci, mít -->
     <tag name="CCONJ">56877</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
     <tag name="DET">56113</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, každý, takový -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">220968</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
     <tag name="SYM">1328</tag><!-- %, x, +, =, *, /, -, >, :, < -->
-    <tag name="VERB">135482</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
+    <tag name="VERB">135480</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -152,7 +152,7 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
     <dep name="acl">21821</dep>
-    <dep name="advcl">10294</dep>
+    <dep name="advcl">10295</dep>
     <dep name="advmod">60120</dep>
     <dep name="advmod:emph">23522</dep>
     <dep name="amod">158118</dep>
@@ -190,7 +190,7 @@
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4122</dep>
     <dep name="parataxis">1884</dep>
-    <dep name="punct">220947</dep>
+    <dep name="punct">220946</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18436</dep>
