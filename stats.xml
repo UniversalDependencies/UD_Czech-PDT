@@ -18,7 +18,7 @@
     <tag name="ADJ">189186</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, dobrý, celý -->
     <tag name="ADP">145943</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
     <tag name="ADV">80231</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
-    <tag name="AUX">41400</tag><!-- být, bývat, bývávat, stát, moci, mít -->
+    <tag name="AUX">41395</tag><!-- být, bývat, bývávat -->
     <tag name="CCONJ">56877</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
     <tag name="DET">56113</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, každý, takový -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">220960</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
     <tag name="SYM">1335</tag><!-- %, x, +, =, *, /, -, ., >, : -->
-    <tag name="VERB">135474</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
+    <tag name="VERB">135479</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -153,18 +153,18 @@
   <deps unique="43">
     <dep name="acl">21821</dep>
     <dep name="advcl">10294</dep>
-    <dep name="advmod">60117</dep>
+    <dep name="advmod">60116</dep>
     <dep name="advmod:emph">23521</dep>
     <dep name="amod">158119</dep>
     <dep name="appos">7723</dep>
     <dep name="aux">14808</dep>
     <dep name="aux:pass">5981</dep>
-    <dep name="case">145178</dep>
+    <dep name="case">145179</dep>
     <dep name="cc">52629</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2800</dep>
     <dep name="conj">66954</dep>
-    <dep name="cop">20602</dep>
+    <dep name="cop">20597</dep>
     <dep name="csubj">5664</dep>
     <dep name="csubj:pass">456</dep>
     <dep name="dep">12562</dep>
@@ -193,6 +193,6 @@
     <dep name="punct">220936</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
-    <dep name="xcomp">18437</dep>
+    <dep name="xcomp">18442</dep>
   </deps>
 </treebank>
