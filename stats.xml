@@ -23,13 +23,13 @@
     <tag name="DET">56113</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, každý, takový -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
     <tag name="NOUN">372360</tag><!-- rok, strana, člověk, společnost, firma, doba, země, cena, koruna, zákon -->
-    <tag name="NUM">41503</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
+    <tag name="NUM">41504</tag><!-- jeden, dva, 1, tři, 2, oba, 3, 4, pět, čtyři -->
     <tag name="PART">8531</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44919</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84031</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">220963</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220961</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
-    <tag name="SYM">1333</tag><!-- %, x, +, =, *, /, -, >, ., : -->
+    <tag name="SYM">1334</tag><!-- %, x, +, =, *, /, -, ., >, : -->
     <tag name="VERB">135476</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
@@ -50,7 +50,7 @@
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">134749</feat><!-- v, na, ve, o, po, při, roce, tom, době, případě -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">203302</feat><!-- to, který, které, která, Praha, kteří, co, kdo, další, tato -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN">193</feat><!-- pane, ty, čtenáři, vážení, pánové, doktore, Svatý, Vážený, bože, generále -->
-    <feat name="ConjType" value="Oper" upos="CCONJ,SYM">219</feat><!-- x, krát, plus, +, -, >, ., :, <, minus -->
+    <feat name="ConjType" value="Oper" upos="CCONJ,SYM">220</feat><!-- x, krát, plus, +, -, ., >, :, <, minus -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7868</feat><!-- více, větší, méně, spíše, později, vyšší, dříve, víc, nižší, lepší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">179341</feat><!-- další, české, nové, poslední, státní, dalších, stejně, možné, vlastní, jiné -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4135</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
@@ -102,10 +102,10 @@
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">588896</feat><!-- je, to, který, bude, má, byl, která, není, bylo, jsem -->
     <feat name="Number[psor]" value="Plur" upos="DET">4582</feat><!-- jejich, naše, naší, našich, jejichž, náš, našeho, naši, našem, vaše -->
     <feat name="Number[psor]" value="Sing" upos="DET">4833</feat><!-- jeho, její, jehož, jejím, jejíž, můj, jejího, jejích, mého, moje -->
-    <feat name="NumForm" value="Digit" upos="NUM">29481</feat><!-- 1, 2, 3, 4, 6, 5, 1992, 10, 1994, 1993 -->
+    <feat name="NumForm" value="Digit" upos="NUM">29482</feat><!-- 1, 2, 3, 4, 6, 5, 1992, 10, 1994, 1993 -->
     <feat name="NumForm" value="Roman" upos="NUM">372</feat><!-- II, I, III, IV, V, VI, XX, D, C, IX -->
     <feat name="NumForm" value="Word" upos="NUM">11308</feat><!-- dva, tři, jeden, dvě, tisíc, dvou, pět, čtyři, obou, jednoho -->
-    <feat name="NumType" value="Card" upos="DET,NUM">43007</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
+    <feat name="NumType" value="Card" upos="DET,NUM">43008</feat><!-- 1, 2, 3, dva, tři, 4, jeden, 6, dvě, tisíc -->
     <feat name="NumType" value="Frac" upos="NUM">342</feat><!-- třetiny, třetinu, třetina, třetině, čtvrtinu, čtvrtina, desetinu, čtvrtiny, pětinu, desetina -->
     <feat name="NumType" value="Mult" upos="ADV">536</feat><!-- dvakrát, jednou, několikrát, třikrát, pětkrát, mnohokrát, desetkrát, čtyřikrát, nejednou, šestkrát -->
     <feat name="NumType" value="Mult,Sets" upos="ADJ">71</feat><!-- dvojí, obojí, dvojím, dvojího, dvoje, obojím, trojí, oboje, dvojími, obé -->
@@ -175,7 +175,7 @@
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
     <dep name="fixed">4933</dep>
-    <dep name="flat">20935</dep>
+    <dep name="flat">20936</dep>
     <dep name="flat:foreign">3082</dep>
     <dep name="iobj">5324</dep>
     <dep name="mark">28169</dep>
@@ -183,14 +183,14 @@
     <dep name="nsubj">86552</dep>
     <dep name="nsubj:pass">7718</dep>
     <dep name="nummod">19655</dep>
-    <dep name="nummod:gov">7348</dep>
+    <dep name="nummod:gov">7349</dep>
     <dep name="obj">64892</dep>
     <dep name="obl">85711</dep>
     <dep name="obl:agent">631</dep>
     <dep name="obl:arg">18202</dep>
     <dep name="orphan">4122</dep>
     <dep name="parataxis">1886</dep>
-    <dep name="punct">220940</dep>
+    <dep name="punct">220938</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18436</dep>
