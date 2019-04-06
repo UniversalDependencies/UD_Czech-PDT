@@ -18,7 +18,7 @@
     <tag name="ADJ">189186</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, dobrý, celý -->
     <tag name="ADP">145943</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
     <tag name="ADV">80231</tag><!-- tak, už, také, hodně, jak, včera, ještě, již, například, tedy -->
-    <tag name="AUX">41398</tag><!-- být, bývat, bývávat, stát, moci, mít -->
+    <tag name="AUX">41400</tag><!-- být, bývat, bývávat, stát, moci, mít -->
     <tag name="CCONJ">56877</tag><!-- a, i, ale, však, nebo, ani, či, proto, až, ovšem -->
     <tag name="DET">56113</tag><!-- ten, který, tento, jeho, svůj, můj, všechen, některý, každý, takový -->
     <tag name="INTJ">113</tag><!-- pa, ach, pink, hle, inu, proboha, což, fajn, haló, ó -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">220960</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27494</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
     <tag name="SYM">1335</tag><!-- %, x, +, =, *, /, -, ., >, : -->
-    <tag name="VERB">135476</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
+    <tag name="VERB">135474</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -159,8 +159,8 @@
     <dep name="appos">7723</dep>
     <dep name="aux">14808</dep>
     <dep name="aux:pass">5981</dep>
-    <dep name="case">145177</dep>
-    <dep name="cc">52634</dep>
+    <dep name="case">145178</dep>
+    <dep name="cc">52629</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2800</dep>
     <dep name="conj">66954</dep>
@@ -174,12 +174,12 @@
     <dep name="discourse">384</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4952</dep>
+    <dep name="fixed">4950</dep>
     <dep name="flat">20936</dep>
-    <dep name="flat:foreign">3086</dep>
+    <dep name="flat:foreign">3089</dep>
     <dep name="iobj">5324</dep>
     <dep name="mark">28171</dep>
-    <dep name="nmod">147643</dep>
+    <dep name="nmod">147646</dep>
     <dep name="nsubj">86551</dep>
     <dep name="nsubj:pass">7718</dep>
     <dep name="nummod">19656</dep>
@@ -188,8 +188,8 @@
     <dep name="obl">85711</dep>
     <dep name="obl:agent">631</dep>
     <dep name="obl:arg">18202</dep>
-    <dep name="orphan">4122</dep>
-    <dep name="parataxis">1886</dep>
+    <dep name="orphan">4121</dep>
+    <dep name="parataxis">1887</dep>
     <dep name="punct">220936</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
