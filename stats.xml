@@ -160,7 +160,7 @@
     <dep name="aux">14808</dep>
     <dep name="aux:pass">5981</dep>
     <dep name="case">145177</dep>
-    <dep name="cc">52635</dep>
+    <dep name="cc">52634</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2800</dep>
     <dep name="conj">66954</dep>
@@ -191,7 +191,7 @@
     <dep name="orphan">4122</dep>
     <dep name="parataxis">1886</dep>
     <dep name="punct">220936</dep>
-    <dep name="root">87912</dep>
+    <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18437</dep>
   </deps>
