@@ -160,14 +160,14 @@
     <dep name="aux">14808</dep>
     <dep name="aux:pass">5981</dep>
     <dep name="case">145179</dep>
-    <dep name="cc">52629</dep>
+    <dep name="cc">52631</dep>
     <dep name="ccomp">9855</dep>
     <dep name="compound">2800</dep>
     <dep name="conj">66954</dep>
     <dep name="cop">20597</dep>
     <dep name="csubj">5664</dep>
     <dep name="csubj:pass">456</dep>
-    <dep name="dep">12562</dep>
+    <dep name="dep">12560</dep>
     <dep name="det">29186</dep>
     <dep name="det:numgov">979</dep>
     <dep name="det:nummod">564</dep>
