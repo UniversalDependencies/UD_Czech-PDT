@@ -84,6 +84,10 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Modified conversion: nouns do not have objects.
+  * Fixed punctuation attachment.
+  * Fixed "a to", "to jest" and other expressions.
 * 2018-11-15 v2.3
   * Bug fix: conditional "by" should be attached as 'aux', not 'aux:pass'.
   * Flat name structures extended to titles and occupations.
