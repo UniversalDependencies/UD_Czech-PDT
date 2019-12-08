@@ -86,6 +86,7 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 * 2020-05-15 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
+  * Added enhanced relations with case information.
 * 2019-05-15 v2.4
   * Modified conversion: nouns do not have objects.
   * Fixed punctuation attachment.
