@@ -27,9 +27,9 @@
     <tag name="PART">8532</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44919</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84032</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">220975</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220985</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27493</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
-    <tag name="SYM">1320</tag><!-- %, x, +, =, *, /, >, :, <, $ -->
+    <tag name="SYM">1310</tag><!-- %, x, +, =, *, /, >, :, <, $ -->
     <tag name="VERB">135479</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
@@ -168,7 +168,7 @@
     <dep name="cop">20597</dep>
     <dep name="csubj">5664</dep>
     <dep name="csubj:pass">456</dep>
-    <dep name="dep">12583</dep>
+    <dep name="dep">12573</dep>
     <dep name="det">29206</dep>
     <dep name="det:numgov">979</dep>
     <dep name="det:nummod">564</dep>
@@ -190,7 +190,7 @@
     <dep name="obl:arg">33786</dep>
     <dep name="orphan">4121</dep>
     <dep name="parataxis">1886</dep>
-    <dep name="punct">220951</dep>
+    <dep name="punct">220961</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18442</dep>
