@@ -86,6 +86,7 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 * 2020-11-15 v2.7
   * Fixed bug: question marks were replaced by asterisks.
+  * Adjusted treatment of double lemmas like "m`metr".
 * 2020-05-15 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
   * Added enhanced relations with case information.
