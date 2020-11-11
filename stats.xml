@@ -10,7 +10,7 @@
     <dev><sentences>9270</sentences><tokens>158958</tokens><words>159284</words><fused>326</fused></dev>
     <test><sentences>10148</sentences><tokens>173584</tokens><words>173918</words><fused>334</fused></test>
   </size>
-  <lemmas unique="58227" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <lemmas unique="58214" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
   <forms unique="128229" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
   <fusions unique="10" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys, Neníť -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -27,9 +27,9 @@
     <tag name="PART">8532</tag><!-- jen, až, asi, li, ne, nejen, prý, to, jenom, ano -->
     <tag name="PRON">44919</tag><!-- se, on, já, jenž, co, kdo, což, nic, něco, ty -->
     <tag name="PROPN">84032</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">220975</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220985</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27493</tag><!-- že, jako, aby, než, když, pokud, protože, zda, jak, zatímco -->
-    <tag name="SYM">1320</tag><!-- %, x, +, =, *, /, >, :, <, $ -->
+    <tag name="SYM">1310</tag><!-- %, x, +, =, *, /, >, :, <, $ -->
     <tag name="VERB">135479</tag><!-- mít, být, moci, muset, stát, chtít, jít, říci, lze, dát -->
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
@@ -54,7 +54,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7868</feat><!-- více, větší, méně, spíše, později, vyšší, dříve, víc, nižší, lepší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">179341</feat><!-- další, české, nové, poslední, státní, dalších, stejně, možné, vlastní, jiné -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4135</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">9317</feat><!-- New, de, the, HZDS, of, IRA, open, play, off, management -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">9318</feat><!-- New, de, the, HZDS, of, IRA, open, play, off, management -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">258406</feat><!-- která, Praha, které, korun, české, této, ČR, své, strany, společnosti -->
     <feat name="Gender" value="Fem,Masc" upos="ADJ,AUX,VERB">6954</feat><!-- byly, měly, mohly, nebyly, začaly, objevily, dosáhly, získaly, neměly, staly -->
     <feat name="Gender" value="Fem,Neut" upos="ADJ,AUX,DET,NUM,VERB">14837</feat><!-- byla, měla, dvě, naše, mohla, obě, nebyla, stala, začala, získala -->
@@ -168,7 +168,7 @@
     <dep name="cop">20597</dep>
     <dep name="csubj">5664</dep>
     <dep name="csubj:pass">456</dep>
-    <dep name="dep">12583</dep>
+    <dep name="dep">12573</dep>
     <dep name="det">29206</dep>
     <dep name="det:numgov">979</dep>
     <dep name="det:nummod">564</dep>
@@ -190,7 +190,7 @@
     <dep name="obl:arg">33786</dep>
     <dep name="orphan">4121</dep>
     <dep name="parataxis">1886</dep>
-    <dep name="punct">220951</dep>
+    <dep name="punct">220961</dep>
     <dep name="root">87913</dep>
     <dep name="vocative">81</dep>
     <dep name="xcomp">18442</dep>
