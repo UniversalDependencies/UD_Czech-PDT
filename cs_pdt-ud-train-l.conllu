@@ -1,9 +1,12 @@
+# newdoc id = ln94200-105
+# newpar id = ln94200-105-p1
 # sent_id = ln94200-105-p1s1
 # text = Poklidné kompetence
 # orig_file_sentence ln94200_105#1
 1	Poklidné	poklidný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	2	amod	2:amod	_
 2	kompetence	kompetence	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	0	root	0:root	_
 
+# newpar id = ln94200-105-p2
 # sent_id = ln94200-105-p2s1A
 # text = Komentář
 # orig_file_sentence ln94200_105#2
@@ -137,6 +140,7 @@
 13	důležitosti	důležitost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:gen	SpaceAfter=No|LDeriv=důležitý
 14	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
+# newpar id = ln94200-105-p3
 # sent_id = ln94200-105-p3s1
 # text = O to více překvapila hladkost, s níž tento návrh ve vládě prošel: bezkonfliktní průběh jednání si pochvaloval i premiér.
 # orig_file_sentence ln94200_105#7
@@ -333,6 +337,7 @@
 13	center	centrum	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	11	nmod	11:nmod:gen	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
+# newpar id = ln94200-105-p4
 # sent_id = ln94200-105-p4s1
 # text = Jinou otázkou zůstává skutečnost, že počet celků a jejich kompetence se projednávají odděleně.
 # orig_file_sentence ln94200_105#14
