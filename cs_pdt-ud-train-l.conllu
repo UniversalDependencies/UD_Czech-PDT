@@ -64,12 +64,12 @@
 24	kraje	kraj	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	30	nsubj	30:nsubj	SpaceAfter=No
 25	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 26	země	země	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	24	conj	24:conj|30:nsubj	_
-27	či	či	CCONJ	J^-------------	_	28	cc	28:cc	ClusterId=c5|MentionSpan=24,26-28|MentionText=kraje_země_či_regiony
+27	či	či	CCONJ	J^-------------	_	28	cc	28:cc	ClusterId=c5|MentionSpan=24-28|MentionText=kraje_,_země_či_regiony
 28	regiony	region	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	24	conj	24:conj|30:nsubj	_
 29	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	30	aux	30:aux	_
 30	hospodařit	hospodařit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	appos	16:appos	_
 31	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	32	case	32:case	LId=podle-2
-32	rozpočtu	rozpočet	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	30	obl	30:obl:podle:gen|37:obj	SpaceAfter=No|ClusterId=c4|MentionSpan=31-32,34-37|MentionText=podle_rozpočtu_který_si_samy___schválí
+32	rozpočtu	rozpočet	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	30	obl	30:obl:podle:gen|37:obj	SpaceAfter=No|ClusterId=c4|MentionSpan=31-37|MentionText=podle_rozpočtu_,_který_si_samy___schválí
 33	,	,	PUNCT	Z:-------------	_	37	punct	37:punct	_
 34	který	který	DET	P4IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	37	obj	32:ref	ClusterId=c4|MentionSpan=34|MentionText=který
 35	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	37	obl:arg	37:obl:arg:dat	LGloss=(zvr._zájmeno/částice)
@@ -156,7 +156,7 @@
 3	více	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	_
 3.1	_	#Gen	PRON	_	_	_	_	4:obj	_
 4	překvapila	překvapit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-5	hladkost	hladkost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj|13:obl:s:ins	SpaceAfter=No|LDeriv=hladký|ClusterId=c9|MentionSpan=5,7-13|MentionText=hladkost_s_níž_tento_návrh_ve_vládě_prošel
+5	hladkost	hladkost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj|13:obl:s:ins	SpaceAfter=No|LDeriv=hladký|ClusterId=c9|MentionSpan=5-13|MentionText=hladkost_,_s_níž_tento_návrh_ve_vládě_prošel
 6	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 7	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	8	case	8:case	LId=s-1
 8	níž	jenž	PRON	P9FS7----------	Case=Ins|Gender=Fem|Number=Sing|PrepCase=Pre|PronType=Rel	13	obl	5:ref	LGloss=(který_[ve_vedl.větě])|ClusterId=c9|MentionSpan=7-8|MentionText=s_níž
@@ -295,7 +295,7 @@
 10	celků	celek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	9	nmod	9:nmod:gen	ClusterId=c2|MentionSpan=10|MentionText=celků
 11	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
 12	zřejmě	zřejmě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	13:advmod	LDeriv=zřejmý
-13	fetišem	fetiš	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj|20:obj	SpaceAfter=No|ClusterId=c12|MentionSpan=13,15-29|MentionText=fetišem_který___jsou_koaliční_lídři_ochotni_vyměnit_za_tu_či_pravomoc_onu_pravomoc_budoucích_územně_správních_útvarů
+13	fetišem	fetiš	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj|20:obj	SpaceAfter=No|ClusterId=c12|MentionSpan=13-29|MentionText=fetišem_,_který___jsou_koaliční_lídři_ochotni_vyměnit_za_tu_či_pravomoc_onu_pravomoc_budoucích_územně_správních_útvarů
 14	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 15	který	který	DET	P4IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	20	obj	13:ref	ClusterId=c12|MentionSpan=15|MentionText=který
 15.1	_	#Cor	PRON	_	_	_	_	20:nsubj	ClusterId=c14|MentionSpan=15.1|MentionText=_
@@ -338,7 +338,7 @@
 15	kompetence	kompetence	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	10	nsubj	10:nsubj	ClusterId=c3|MentionSpan=14-15|MentionText=jeho_kompetence
 16	než	než	SCONJ	J,-------------	_	17	mark	17:mark	LId=než-2
 17	volba	volba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	advcl	10:advcl:než	_
-18	místa	místo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen|22:obl	SpaceAfter=No|LId=místo-1|LGloss=(fyzické_umístění)|ClusterId=c15|MentionSpan=18,20-25|MentionText=místa_kde_bude_sídlit_jeho_ústřední_orgán
+18	místa	místo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen|22:obl	SpaceAfter=No|LId=místo-1|LGloss=(fyzické_umístění)|ClusterId=c15|MentionSpan=18-25|MentionText=místa_,_kde_bude_sídlit_jeho_ústřední_orgán
 19	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 20	kde	kde	ADV	Db-------------	PronType=Int,Rel	22	advmod	18:ref	ClusterId=c15|MentionSpan=20|MentionText=kde
 21	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
@@ -413,7 +413,7 @@
 18	pravomoci	pravomoc	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	19	obj	19:obj	ClusterId=c3|MentionSpan=18|MentionText=pravomoci
 18.1	_	#PersPron	PRON	_	_	_	_	19:nsubj	ClusterId=c17|MentionSpan=18.1|MentionText=_
 19	vytýčil	vytýčit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	conj	0:root|16:conj	_
-20	celkům	celek	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	19	obl:arg	19:obl:arg:dat|23:nmod	SpaceAfter=No|ClusterId=c2|MentionSpan=20,22-27,29-36,38-45|MentionText=celkům_jejichž_počet_je_dodnes_ve_hvězdách_vždyť_až_po_schválení_těchto_zásad___se_např_objevil_šokující___návrh_ODS_na_vytvoření_osmdesáti_regionů
+20	celkům	celek	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	19	obl:arg	19:obl:arg:dat|23:nmod	SpaceAfter=No|ClusterId=c2|MentionSpan=20-45|MentionText=celkům_,_jejichž_počet_je_dodnes_ve_hvězdách_(_vždyť_až_po_schválení_těchto_zásad___se_např_._objevil_šokující___návrh_ODS_na_vytvoření_osmdesáti_regionů
 21	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 22	jejichž	jenž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	23	det	20:ref	LGloss=(který...[ve_vedl._větě])|ClusterId=c2|MentionSpan=22|MentionText=jejichž
 23	počet	počet	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	24	nsubj	24:nsubj	ClusterId=c10|MentionSpan=22-23|MentionText=jejichž_počet
