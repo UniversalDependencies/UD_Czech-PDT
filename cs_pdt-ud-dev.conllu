@@ -147,7 +147,7 @@
 27	jejímž	jenž	DET	P1ZS6FS3-------	Case=Loc|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	28	det	24:ref	LGloss=(který...[ve_vedl._větě])|ClusterId=c6|MentionSpan=27|MentionText=jejímž|MentionHead=27
 27.1	_	#Gen	PRON	_	_	_	_	30:nsubj	_
 28	odebrání	odebrání	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	35	obl:arg	35:obl:arg:o:loc	LDeriv=odebrat
-29	poplatníkům	poplatník	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	28	nmod	28:nmod:dat	ClusterId=c3|ClusterType=Gen|MentionSpan=29|MentionText=poplatníkům|MentionHead=29
+29	poplatníkům	poplatník	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	28	nmod	28:nmod:dat	ClusterId=c3|ClusterType=Gen|MentionSpan=29|MentionText=poplatníkům|MentionHead=29|ClusterTypeMismatch=Spec:Gen:2
 30	a	a	CCONJ	J^-------------	_	32	cc	32:cc	LId=a-1
 31	následovném	následovný	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	32	amod	32:amod	_
 32	přerozdělení	přerozdělení	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	28	conj	28:conj|35:obl:arg:o:loc	LDeriv=přerozdělit
@@ -168,7 +168,7 @@
 6	zájmu	zájem	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	conj	0:root|2:conj	_
 7	mlčky	mlčky	ADV	Db-------------	_	8	advmod	8:advmod	_
 8	platící	platící	ADJ	AGFS2-----A----	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	9:amod	LDeriv=platit
-9	veřejnosti	veřejnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	6:nmod:gen	SpaceAfter=No|LDeriv=veřejný|ClusterId=c3|ClusterType=Spec|MentionSpan=7-9|MentionText=mlčky_platící_veřejnosti|MentionHead=9
+9	veřejnosti	veřejnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	6:nmod:gen	SpaceAfter=No|LDeriv=veřejný|ClusterTypeMismatch=Gen:Spec:2|ClusterId=c3|ClusterType=Spec|MentionSpan=7-9|MentionText=mlčky_platící_veřejnosti|MentionHead=9
 10	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = ln94200-103-p2s8
@@ -266,7 +266,7 @@
 12	jen	jen	PART	TT-------------	_	14	advmod:emph	14:advmod:emph	LId=jen-1|LGloss=(pouze)
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=v-1
 14	zájmu	zájem	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	11	obl	11:obl:v:loc	_
-15	voličů	volič	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	14	nmod	14:nmod:gen	SpaceAfter=No|ClusterId=c3|ClusterType=Gen|MentionSpan=15|MentionText=voličů|MentionHead=15
+15	voličů	volič	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	14	nmod	14:nmod:gen	SpaceAfter=No|ClusterTypeMismatch=Gen:Spec:2|ClusterId=c3|ClusterType=Gen|MentionSpan=15|MentionText=voličů|MentionHead=15
 16	,	,	PUNCT	Z:-------------	_	33	punct	33:punct	_
 17-18	aby	_	_	_	_	_	_	_	_
 17	aby	aby	SCONJ	J,-------------	_	33	mark	33:mark	_
