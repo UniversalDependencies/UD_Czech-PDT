@@ -379,11 +379,11 @@
 6	poslanec	poslanec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	ClusterId=c13|ClusterType=Gen|MentionSpan=6|MentionText=poslanec|MentionHead=6
 7	dbá	dbát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 8	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	10:case	LId=o-1
-9	své	svůj	DET	P8NS4---------1	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	10:det	LId=svůj-1|LGloss=(přivlast.)|ClusterId=c13|MentionSpan=9|MentionText=své|MentionHead=9
+9	své	svůj	DET	P8NS4---------1	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	10:det	LId=svůj-1|LGloss=(přivlast.)|ClusterId=c13|ClusterType=Gen|MentionSpan=9|MentionText=své|MentionHead=9
 10	vzdělání	vzdělání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	7	obl:arg	7:obl:arg:o:acc	LDeriv=vzdělat
 11	či	či	CCONJ	J^-------------	_	14	cc	14:cc	_
 12	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	14	case	14:case	LId=o-1
-13	svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	14:det	LId=svůj-1|LGloss=(přivlast.)|ClusterId=c13|MentionSpan=13|MentionText=svůj|MentionHead=13
+13	svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	14:det	LId=svůj-1|LGloss=(přivlast.)|ClusterId=c13|ClusterType=Gen|MentionSpan=13|MentionText=svůj|MentionHead=13
 14	zevnějšek	zevnějšek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	10	conj	7:obl:arg:o:acc|10:conj	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 

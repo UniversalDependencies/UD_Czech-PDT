@@ -3,10 +3,10 @@
 # sent_id = ln94200-104-p1s1
 # text = Boj mezi loteriemi způsobili úředníci ministerstva financí
 # orig_file_sentence ln94200_104#1
-0.1	_	#Rcp	PRON	_	_	_	_	1:obj	ClusterId=c1|MentionSpan=0.1|MentionText=_|MentionHead=0.1
+0.1	_	#Rcp	PRON	_	_	_	_	1:obj	ClusterId=c1|MentionSpan=0.1|MentionText=_|MentionHead=0.1|ClusterType=Spec
 1	Boj	boj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obj	4:obj	_
 2	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	3	case	3:case	LId=mezi-1
-3	loteriemi	loterie	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	1	nmod	1:nmod:mezi:ins	ClusterId=c1|MentionSpan=2-3|MentionText=mezi_loteriemi|MentionHead=3
+3	loteriemi	loterie	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	1	nmod	1:nmod:mezi:ins	ClusterId=c1|MentionSpan=2-3|MentionText=mezi_loteriemi|MentionHead=3|ClusterType=Spec
 4	způsobili	způsobit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	úředníci	úředník	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	4	nsubj	4:nsubj	ClusterId=c16|ClusterType=Spec|MentionSpan=5-7|MentionText=úředníci_ministerstva_financí|MentionHead=5
 6	ministerstva	ministerstvo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	5	nmod	5:nmod:gen	ClusterId=c9|ClusterType=Spec|MentionSpan=6-7|MentionText=ministerstva_financí|MentionHead=6
@@ -248,7 +248,7 @@
 6	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 7	že	že	SCONJ	J,-------------	_	10	mark	10:mark	_
 8	stát	stát	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	10:nsubj|11:nsubj|15:nsubj	LId=stát-1|LGloss=(státní_útvar)|ClusterId=c13|ClusterType=Spec|MentionSpan=8|MentionText=stát|MentionHead=8
-9	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	11	obl	11:obl:dat	LGloss=(zvr._zájmeno/částice)|ClusterId=c13|MentionSpan=9|MentionText=si|MentionHead=9
+9	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	11	obl	11:obl:dat	LGloss=(zvr._zájmeno/částice)|ClusterId=c13|ClusterType=Spec|MentionSpan=9|MentionText=si|MentionHead=9
 10	hodlá	hodlat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	5:csubj	ClusterId=c15|MentionSpan=7-20|MentionText=že_stát_si_hodlá_udržet_a_dokonce_i_posílit_v_oblasti_číselných_loterií_monopol|MentionHead=10
 11	udržet	udržet	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	_
 12	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1
@@ -359,13 +359,13 @@
 18	nadále	nadále	ADV	Db-------------	_	19	advmod	19:advmod	_
 19	mohly	moci	VERB	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	acl	13:acl:aby	LGloss=(mít_možnost_[něco_dělat])
 20	vedle	vedle	ADP	RR--2----------	AdpType=Prep|Case=Gen	21	case	21:case	LId=vedle-1
-21	sebe	se	PRON	P6-X2----------	Case=Gen|PronType=Prs|Reflex=Yes	22	obl	22:obl:vedle:gen	LGloss=(zvr._zájmeno/částice)|ClusterId=c1|MentionSpan=20-21|MentionText=vedle_sebe|MentionHead=21
+21	sebe	se	PRON	P6-X2----------	Case=Gen|PronType=Prs|Reflex=Yes	22	obl	22:obl:vedle:gen	LGloss=(zvr._zájmeno/částice)|ClusterId=c1|MentionSpan=20-21|MentionText=vedle_sebe|MentionHead=21|ClusterType=Spec
 22	existovat	existovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	19	xcomp	19:xcomp	_
 23	obě	oba	NUM	ClHP1----------	Case=Nom|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	24	nummod	24:nummod	LNumValue=2
-24	loterie	loterie	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	19	nsubj	19:nsubj|22:nsubj|28:nmod	SpaceAfter=No|ClusterId=c1|MentionSpan=23-34|MentionText=obě_loterie_,_z_jejichž_výnosů___by_nepřišla_zkrátka_kultura_ani_sport|MentionHead=
+24	loterie	loterie	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	19	nsubj	19:nsubj|22:nsubj|28:nmod	SpaceAfter=No|ClusterId=c1|MentionSpan=23-34|MentionText=obě_loterie_,_z_jejichž_výnosů___by_nepřišla_zkrátka_kultura_ani_sport|MentionHead=|ClusterType=Spec
 25	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
 26	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	28	case	28:case	LId=z-1
-27	jejichž	jenž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	28	det	24:ref	LGloss=(který...[ve_vedl._větě])|ClusterId=c1|MentionSpan=27|MentionText=jejichž|MentionHead=27
+27	jejichž	jenž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	28	det	24:ref	LGloss=(který...[ve_vedl._větě])|ClusterId=c1|ClusterType=Spec|MentionSpan=27|MentionText=jejichž|MentionHead=27
 28	výnosů	výnos	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	30	obl	30:obl:z:gen	_
 28.1	_	#Neg	PART	_	_	_	_	30:advmod	_
 29	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	30	aux	30:aux	_
@@ -638,7 +638,7 @@
 27	ministerstva	ministerstvo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	26	nmod	26:nmod:gen	ClusterId=c21|ClusterType=Spec|MentionSpan=27-28|MentionText=ministerstva_financí|MentionHead=27
 28	financí	finance	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	27	nmod	27:nmod:gen	SpaceAfter=No
 29	,	,	PUNCT	Z:-------------	_	37	punct	37:punct	_
-30	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	37	nsubj	26:ref	ClusterId=c35|MentionSpan=30|MentionText=kteří|MentionHead=30
+30	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	37	nsubj	26:ref	ClusterId=c35|ClusterType=Spec|MentionSpan=30|MentionText=kteří|MentionHead=30
 31	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	34	case	34:case	LId=v-1
 32	rozporu	rozpor	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	31	fixed	31:fixed	LGloss=(např._v_názorech)
 33	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	31	fixed	31:fixed	LId=s-1
