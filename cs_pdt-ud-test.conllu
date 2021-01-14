@@ -68,12 +68,12 @@
 # sent_id = ln94200-104-p2s3
 # text = Předseda školského výboru František Kozel navrhuje Českou lotynku zlikvidovat, neboť podle něj příliš prodělává.
 # orig_file_sentence ln94200_104#5
-1	Předseda	předseda	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	6:nsubj	_
+1	Předseda	předseda	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	6:nsubj	ClusterId=c7|MentionSpan=1-2,3-5|MentionText=Předseda_školského_výboru_František_Kozel|MentionHead=1
 2	školského	školský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 2.1	_	#Gen	PRON	_	_	_	_	6:obl:arg	_
 3	výboru	výbor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	1	nmod	1:nmod:gen	_
 4	František	František	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	1	flat	1:flat	_
-5	Kozel	Kozel	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Pro,Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	ClusterId=c7|MentionSpan=1-2,3-5|MentionText=Předseda_školského_výboru_František_Kozel|MentionHead=1
+5	Kozel	Kozel	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Pro,Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 6	navrhuje	navrhovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	Českou	český	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	ClusterId=c4|MentionSpan=7|MentionText=Českou|MentionHead=7
 8	lotynku	lotynka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	9	obj	9:obj	ClusterId=c3|MentionSpan=7-8|MentionText=Českou_lotynku|MentionHead=8
@@ -151,9 +151,9 @@
 # text = Před Pavlem Tigridem a Ivanem Kočárníkem totiž stojí nelehký úkol: jak se vyrovnat s faktem, že v rozporu se zákonem č 202 z roku 1990 u nás existují dvě číselné loterie.
 # orig_file_sentence ln94200_104#8
 1	Před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	2	case	2:case	LId=před-1
-2	Pavlem	Pavel	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	8	obl	8:obl:před:ins	LId=Pavel-1
+2	Pavlem	Pavel	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	8	obl	8:obl:před:ins	LId=Pavel-1|ClusterId=c2|MentionSpan=1-6|MentionText=Před_Pavlem_Tigridem_a_Ivanem_Kočárníkem|MentionHead=2
 3	Tigridem	Tigrid	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	2	flat	2:flat	LId=Tigrid-1
-4	a	a	CCONJ	J^-------------	_	5	cc	5:cc	LId=a-1|ClusterId=c2|MentionSpan=1-6|MentionText=Před_Pavlem_Tigridem_a_Ivanem_Kočárníkem|MentionHead=2
+4	a	a	CCONJ	J^-------------	_	5	cc	5:cc	LId=a-1
 5	Ivanem	Ivan	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	2	conj	2:conj|8:obl:před:ins	_
 6	Kočárníkem	Kočárník	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	5	flat	5:flat	_
 7	totiž	totiž	ADV	Db-------------	_	8	advmod	8:advmod	_
@@ -209,8 +209,8 @@
 15	.	.	PUNCT	Z:-------------	_	18	punct	18:punct	SpaceAfter=No
 16	.	.	PUNCT	Z:-------------	_	18	punct	18:punct	SpaceAfter=No
 17	.	.	PUNCT	Z:-------------	_	18	punct	18:punct	SpaceAfter=No
-18	mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	LGloss=(mít_možnost_[něco_dělat])
-19	provozovat	provozovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	18	xcomp	18:xcomp	ClusterId=c11|MentionSpan=8.1-39|MentionText=loterie_:_Peněžité_a_číselné_loterie_._._._._mohou_provozovat_jen_organizace_k_tomu_účelu_zvláště_zřízené_,_pokud_není___provozovatelem_přímo_stát_(_ministerstvo_,_nebo_jím_pověřená_organizace|MentionHead=18
+18	mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	LGloss=(mít_možnost_[něco_dělat])|ClusterId=c11|MentionSpan=8.1-39|MentionText=loterie_:_Peněžité_a_číselné_loterie_._._._._mohou_provozovat_jen_organizace_k_tomu_účelu_zvláště_zřízené_,_pokud_není___provozovatelem_přímo_stát_(_ministerstvo_,_nebo_jím_pověřená_organizace|MentionHead=18
+19	provozovat	provozovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	18	xcomp	18:xcomp	_
 20	jen	jen	PART	TT-------------	_	21	advmod:emph	21:advmod:emph	LId=jen-1|LGloss=(pouze)
 21	organizace	organizace	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	18	nsubj	18:nsubj|19:nsubj	_
 22	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	24	case	24:case	LId=k-1
@@ -249,16 +249,16 @@
 7	že	že	SCONJ	J,-------------	_	10	mark	10:mark	_
 8	stát	stát	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	10:nsubj|11:nsubj|15:nsubj	LId=stát-1|LGloss=(státní_útvar)|ClusterId=c13|MentionSpan=8|MentionText=stát|MentionHead=8
 9	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	11	obl	11:obl:dat	LGloss=(zvr._zájmeno/částice)|ClusterId=c13|MentionSpan=9|MentionText=si|MentionHead=9
-10	hodlá	hodlat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	5:csubj	_
+10	hodlá	hodlat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	5:csubj	ClusterId=c15|MentionSpan=7-20|MentionText=že_stát_si_hodlá_udržet_a_dokonce_i_posílit_v_oblasti_číselných_loterií_monopol|MentionHead=10
 11	udržet	udržet	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	_
-12	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1|ClusterId=c15|MentionSpan=7-20|MentionText=že_stát_si_hodlá_udržet_a_dokonce_i_posílit_v_oblasti_číselných_loterií_monopol|MentionHead=10
+12	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1
 13	dokonce	dokonce	ADV	Db-------------	_	14	advmod:emph	14:advmod:emph	_
 14	i	i	CCONJ	J^-------------	_	15	advmod:emph	15:advmod:emph	LId=i-1
 15	posílit	posílit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	11	conj	10:xcomp|11:conj	_
 16	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	LId=v-1
-17	oblasti	oblast	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	11	obl	11:obl:v:loc|15:obl:v:loc	_
+17	oblasti	oblast	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	11	obl	11:obl:v:loc|15:obl:v:loc	ClusterId=c14|MentionSpan=16-19|MentionText=v_oblasti_číselných_loterií|MentionHead=17
 18	číselných	číselný	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	19	amod	19:amod	_
-19	loterií	loterie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	17	nmod	17:nmod:gen	ClusterId=c14|MentionSpan=16-19|MentionText=v_oblasti_číselných_loterií|MentionHead=17
+19	loterií	loterie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	17	nmod	17:nmod:gen	_
 20	monopol	monopol	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	11	obj	11:obj|15:obj	SpaceAfter=No
 21	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
@@ -551,9 +551,9 @@
 8.1	_	#Gen	PRON	_	_	_	_	5:nsubj	_
 9	tomu	ten	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	12	det	12:det	_
 9.1	subjektu	subjekt	NOUN	_	_	_	_	10:obl:arg:dat	_
-10	či	či	CCONJ	J^-------------	_	11	cc	11:cc	ClusterId=c30|MentionSpan=9-12|MentionText=tomu_subjektu_či_onomu_subjektu|MentionHead=12
+10	či	či	CCONJ	J^-------------	_	11	cc	11:cc	_
 11	onomu	onen	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	conj	9:conj|12:det	_
-12	subjektu	subjekt	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	2	obl:arg	2:obl:arg:dat	_
+12	subjektu	subjekt	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	2	obl:arg	2:obl:arg:dat	ClusterId=c30|MentionSpan=9-12|MentionText=tomu_subjektu_či_onomu_subjektu|MentionHead=12
 12.1	_	#Gen	PRON	_	_	_	_	2:nsubj	_
 13	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	18	aux	18:aux	_
 14	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	18	cop	18:cop	_

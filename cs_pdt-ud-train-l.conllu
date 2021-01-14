@@ -61,10 +61,10 @@
 21	značné	značný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	22	amod	22:amod	_
 22	pravomoci	pravomoc	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	16	obj	16:obj	SpaceAfter=No|ClusterId=c3|MentionSpan=20-22|MentionText=poměrně_značné_pravomoci|MentionHead=22
 23	:	:	PUNCT	Z:-------------	_	30	punct	30:punct	_
-24	kraje	kraj	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	30	nsubj	30:nsubj	SpaceAfter=No
+24	kraje	kraj	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	30	nsubj	30:nsubj	SpaceAfter=No|ClusterId=c5|MentionSpan=24-28|MentionText=kraje_,_země_či_regiony|MentionHead=24
 25	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 26	země	země	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	24	conj	24:conj|30:nsubj	_
-27	či	či	CCONJ	J^-------------	_	28	cc	28:cc	ClusterId=c5|MentionSpan=24-28|MentionText=kraje_,_země_či_regiony|MentionHead=24
+27	či	či	CCONJ	J^-------------	_	28	cc	28:cc	_
 28	regiony	region	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	24	conj	24:conj|30:nsubj	_
 29	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	30	aux	30:aux	_
 30	hospodařit	hospodařit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	appos	16:appos	_
@@ -223,9 +223,9 @@
 # sent_id = ln94200-105-p3s4
 # text = Václav Klaus sice opakovaně ubezpečuje, že vláda kompetence celků považuje za důležitější než jejich množství a vymezení, jeho slova však zanikají ve hřmotu návrhů na nejrůznější a často též nejnepochopitelnější počet celků a vzájemného obviňování se ze lži a porušování předchozích dohod.
 # orig_file_sentence ln94200_105#10
-1	Václav	Václav	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
+1	Václav	Václav	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	ClusterId=c11|MentionSpan=1,2|MentionText=Václav_Klaus|MentionHead=1
 1.1	_	#Gen	PRON	_	_	_	_	5:obl:arg	_
-2	Klaus	Klaus	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	ClusterId=c11|MentionSpan=1,2|MentionText=Václav_Klaus|MentionHead=1
+2	Klaus	Klaus	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 3	sice	sice	ADV	Db-------------	_	5	cc	5:cc	LGloss=(spojka/příslovce;_připouští_se_určitá_fakta)
 4	opakovaně	opakovaně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	5:advmod	LDeriv=opakovat
 5	ubezpečuje	ubezpečovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
