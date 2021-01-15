@@ -208,7 +208,7 @@
 9	nedávno	nedávno	ADV	Db-------------	_	10	advmod	10:advmod	_
 10	zveřejněný	zveřejněný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	LDeriv=zveřejnit
 11	iniciativní	iniciativní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	_
-12	poslanecký	poslanecký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	Bridging=c15:Subset|MentionSpan=12|MentionText=poslanecký|MentionHead=12
+12	poslanecký	poslanecký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	Bridging=c7:Subset+c15:Subset|MentionSpan=12|MentionText=poslanecký|MentionHead=12
 13	návrh	návrh	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	16	nsubj	16:nsubj	ClusterId=c16|MentionSpan=7-13|MentionText=tím_spíše_nedávno_zveřejněný_iniciativní_poslanecký_návrh|MentionHead=8,13
 14	však	však	CCONJ	J^-------------	_	16	cc	16:cc	_
 15	přesto	přesto	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	16	advmod	16:advmod	_
