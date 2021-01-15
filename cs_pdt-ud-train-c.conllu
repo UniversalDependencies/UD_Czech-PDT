@@ -553,7 +553,7 @@
 4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	LId=na-1
 5	příslušnou	příslušný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	LDeriv=příslušet
 6	slovenskou	slovenský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	ClusterId=c5|ClusterType=Spec|MentionSpan=6|MentionText=slovenskou|MentionHead=6
-7	zkušebnu	zkušebna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl:na:acc|20:nsubj	Bridging=c31:CONTRAST|MentionSpan=4-7,18-26|MentionText=na_příslušnou_slovenskou_zkušebnu_která_bude_vydávat_na_základě_dodaných_podkladů_příslušné_certifikáty|MentionHead=
+7	zkušebnu	zkušebna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl:na:acc|20:nsubj	_
 8	(	(	PUNCT	Z:-------------	_	9	punct	9:punct	SpaceAfter=No|ClusterId=c33|MentionSpan=4-26|MentionText=na_příslušnou_slovenskou_zkušebnu_(_SPPI_-_Slovenskou_potravinářskou_a_zemědělskou_inspekci_)_,_která_bude_vydávat_na_základě_dodaných_podkladů_příslušné_certifikáty|MentionHead=
 9	SPPI	SPPI	PROPN	NNFXX-----A---8	Abbr=Yes|Foreign=Yes|Gender=Fem|NameType=Com|Polarity=Pos	7	appos	7:appos	LGloss=(Slovenská_potravinárská_a_zemědělská_inspek)
 10	-	-	PUNCT	Z:-------------	_	15	punct	15:punct	_
