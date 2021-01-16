@@ -36,7 +36,7 @@
 9	oběma	oba	NUM	ClXP7----------	Case=Ins|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	10	nummod	10:nummod	LNumValue=2
 10	subjekty	subjekt	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	7	nmod	7:nmod:mezi:ins	ClusterId=cmpr9410-001-c2|MentionSpan=8-11,12|MentionHead=10|MentionText=mezi_oběma_subjekty_celního_soustátí
 11	celního	celní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	_
-11.1	_	#Rcp	PRON	_	_	_	_	7:obj	ClusterId=cmpr9410-001-c2|MentionSpan=11.1|MentionHead=11.1|MentionText=_
+11.1	_	#Rcp	PRON	_	_	_	_	7:obj	Functor=PAT|ClusterId=cmpr9410-001-c2|MentionSpan=11.1|MentionHead=11.1|MentionText=_
 12	soustátí	soustátí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	10	nmod	10:nmod:gen	ClusterId=cmpr9410-001-c4|ClusterType=Spec|MentionSpan=11,12|MentionHead=12|MentionText=celního_soustátí
 13	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 14	okamžitě	okamžitě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	15	advmod	15:advmod	LDeriv=okamžitý
@@ -53,10 +53,10 @@
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	3:case	LId=na-1
 3	jednu	jeden	NUM	ClFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	0	root	0:root|11:nsubj|21:nsubj	LNumValue=1
 4	jedinou	jediný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	SpaceAfter=No
-4.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=1,3-4.1,9-17,20-25|MentionHead=4.1|MentionText=Až jednu jedinou smluv která proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok
+4.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	Functor=DENOM|ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=1,3-4.1,9-17,20-25|MentionHead=4.1|MentionText=Až jednu jedinou smluv která proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok
 5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	ClusterId=cmpr9410-001-c6|MentionSpan=1,3-25|MentionHead=|MentionText=Až_jednu_jedinou_smluv_,_tu_smluv_hlavní_,_která_proklamativně_zakotvuje_existenci_Česko_-_Slovenské_celní_unie_,_a_která_má_výpovědní_lhůtu_jeden_rok
 6	tu	ten	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	appos	3:appos	_
-6.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=6-17,20-25|MentionHead=6,6.1,9,11,20|MentionText=tu smluv hlavní , která proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok
+6.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	Functor=DENOM|ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=6-17,20-25|MentionHead=6,6.1,9,11,20|MentionText=tu smluv hlavní , která proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok
 7	hlavní	hlavní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	3:ref	ClusterId=cmpr9410-001-c6|MentionSpan=9|MentionHead=9|MentionText=která
@@ -107,7 +107,7 @@
 23	teprve	teprve	ADV	Db-------------	_	25	advmod:emph	25:advmod:emph	_
 24	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	25	case	25:case	LId=v-1
 25	březnu	březen	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	28	obl	28:obl:v:loc	_
-25.1	_	#PersPron	PRON	_	_	_	_	30:nsubj	ClusterId=cmpr9410-001-c9|ClusterType=Spec|MentionSpan=25.1|MentionHead=25.1|MentionText=_
+25.1	_	#PersPron	PRON	_	_	_	_	30:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c9|ClusterType=Spec|MentionSpan=25.1|MentionHead=25.1|MentionText=_
 26	příštího	příští	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	27	amod	27:amod	_
 27	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	25	nmod	25:nmod:gen	_
 28	mohla	moci	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	4:ccomp	LGloss=(mít_možnost_[něco_dělat])
@@ -155,7 +155,7 @@
 20	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	18	nmod	18:nmod:mezi	LId=ČR-1|LGloss=(Česká_republika)|ClusterId=cmpr9410-001-c9|ClusterType=Spec|MentionSpan=19-20|MentionHead=20|MentionText=mezi_ČR
 21	a	a	CCONJ	J^-------------	_	22	cc	22:cc	LId=a-1|ClusterId=cmpr9410-001-c11|MentionSpan=19-22|MentionHead=20|MentionText=mezi_ČR_a_SR
 22	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	20	conj	18:nmod:mezi|20:conj	LId=SR-1|LGloss=(Slovenská_republika)|ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=19,22|MentionHead=19,22|MentionText=mezi_SR
-22.1	_	#Rcp	PRON	_	_	_	_	18:obl:arg	ClusterId=cmpr9410-001-c11|MentionSpan=22.1|MentionHead=22.1|MentionText=_
+22.1	_	#Rcp	PRON	_	_	_	_	18:obl:arg	Functor=ADDR|ClusterId=cmpr9410-001-c11|MentionSpan=22.1|MentionHead=22.1|MentionText=_
 23	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	24	aux	24:aux	_
 24	mít	mít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	11	csubj	11:csubj	_
 25	co	co	ADV	Db-------------	_	26	advmod	26:advmod	LId=co-5|LGloss=(př._co_nejméně,_co_nevidět,_co_chvíli,_co_do_počtu,_atd.)
@@ -226,7 +226,7 @@
 11	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	8:ref	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=11|MentionHead=11|MentionText=která
 12	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pv	13:expl:pv	LGloss=(zvr._zájmeno/částice)
 13	rozhodla	rozhodnout	VERB	VpQW---XR-AA--1	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	acl:relcl	8:acl:relcl	_
-13.1	_	#Cor	PRON	_	_	_	_	14:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=_
+13.1	_	#Cor	PRON	_	_	_	_	14:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=_
 14	zavést	zavést	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	13	xcomp	13:xcomp	ClusterId=cmpr9410-001-c15|ClusterType=Spec|Bridging=cmpr9410-001-c16:Subset|MentionSpan=13.1-25|MentionHead=14|MentionText=__zavést_již_před_časem_avizovanou_desetiprocentní_dovozní_přirážku_na_zboží_zahraniční_provenience
 15	již	již	ADV	Db-------------	_	17	advmod:emph	17:advmod:emph	_
 16	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	17	case	17:case	LId=před-1
@@ -248,23 +248,23 @@
 2	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	18:advcl:byť	_
 3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	LId=na-1
 4	tento	tento	DET	PDIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	5:det	_
-4.1	_	#Cor	PRON	_	_	_	_	5:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
+4.1	_	#Cor	PRON	_	_	_	_	5:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
 5	krok	krok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	7	nmod	7:nmod:na:acc	ClusterId=cmpr9410-001-c15|ClusterType=Spec|MentionSpan=3-5|MentionHead=5|MentionText=na_tento___krok
-5.1	_	#QCor	PRON	_	_	_	_	7:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=5.1|MentionHead=5.1|MentionText=_
+5.1	_	#QCor	PRON	_	_	_	_	7:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=5.1|MentionHead=5.1|MentionText=_
 6	určité	určitý	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 7	právo	právo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	2	iobj	2:iobj	LGloss=(právo_na_něco;_také_jako_obor)
 8	(	(	PUNCT	Z:-------------	_	10	punct	10:punct	SpaceAfter=No
 9	jako	jako	SCONJ	J,-------------	_	10	mark	10:mark	_
 10	člen	člen	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	xcomp	2:xcomp	_
 11	GATT	GATT	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	10	nmod	10:nmod	SpaceAfter=No|ClusterId=cmpr9410-001-c22|ClusterType=Spec|MentionSpan=11|MentionHead=11|MentionText=GATT
-11.1	_	#PersPron	PRON	_	_	_	_	18:nsubj	ClusterId=cmpr9410-001-c15|ClusterType=Spec|MentionSpan=11.1|MentionHead=11.1|MentionText=_
+11.1	_	#PersPron	PRON	_	_	_	_	18:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c15|ClusterType=Spec|MentionSpan=11.1|MentionHead=11.1|MentionText=_
 12	)	)	PUNCT	Z:-------------	_	10	punct	10:punct	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	_
 14	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	16	case	16:case	LId=v-1
 15	daném	daný	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	okamžiku	okamžik	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	18	obl	18:obl:v:loc	_
 17	však	však	CCONJ	J^-------------	_	18	cc	18:cc	_
-17.1	_	#PersPron	PRON	_	_	_	_	2:nsubj|10:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=17.1|MentionHead=17.1|MentionText=_
+17.1	_	#PersPron	PRON	_	_	_	_	2:nsubj|10:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=17.1|MentionHead=17.1|MentionText=_
 18	vyznívá	vyznívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LDeriv=vyznít
 19	jako	jako	SCONJ	J,-------------	_	22	mark	22:mark	_
 20	tvrdé	tvrdý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	22	amod	22:amod	_
@@ -275,7 +275,7 @@
 25	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	27	nsubj	23:ref	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=25|MentionHead=25|MentionText=která
 26	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	27	expl:pv	27:expl:pv	LGloss=(zvr._zájmeno/částice)
 27	snaží	snažit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	23:acl:relcl	_
-27.1	_	#Cor	PRON	_	_	_	_	32:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=27.1|MentionHead=27.1|MentionText=_
+27.1	_	#Cor	PRON	_	_	_	_	32:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=27.1|MentionHead=27.1|MentionText=_
 28	velice	velice	ADV	Db-------------	_	29	advmod	29:advmod	_
 29	rezolutními	rezolutní	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	31	amod	31:amod	_
 30	administrativními	administrativní	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	31	amod	31:amod	_
@@ -296,12 +296,12 @@
 # orig_file_sentence cmpr9410_001#12
 1	Podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	2:case	LId=podle-2
 2	regulí	regule	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	4	obl	4:obl:podle:gen	_
-2.1	_	#Gen	PRON	_	_	_	_	4:obl	ClusterId=cmpr9410-001-c23|MentionSpan=2.1|MentionHead=2.1|MentionText=_
+2.1	někdo	#Gen	PRON	_	_	_	_	4:obl	Functor=BEN|ClusterId=cmpr9410-001-c23|MentionSpan=2.1|MentionHead=2.1|MentionText=někdo
 3	GATT	GATT	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	2	nmod	2:nmod	ClusterId=cmpr9410-001-c22|ClusterType=Spec|MentionSpan=3|MentionHead=3|MentionText=GATT
-4	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	ClusterId=cmpr9410-001-c24|ClusterType=Spec|MentionSpan=1-17|MentionHead=4|MentionText=Podle_regulí___GATT_lze_toto_opatření___přijmout_maximálně_na_období_šesti_měsíců_a_pouze_u_vybraných_položek
+4	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	ClusterId=cmpr9410-001-c24|ClusterType=Spec|MentionSpan=1-17|MentionHead=4|MentionText=Podle_regulí_někdo_GATT_lze_toto_opatření___přijmout_maximálně_na_období_šesti_měsíců_a_pouze_u_vybraných_položek
 5	toto	tento	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	6:det	_
 6	opatření	opatření	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	7	obj	7:obj	LDeriv=opatřit|ClusterId=cmpr9410-001-c15|ClusterType=Spec|MentionSpan=5-6|MentionHead=6|MentionText=toto_opatření
-6.1	_	#Cor	PRON	_	_	_	_	13:nsubj	ClusterId=cmpr9410-001-c23|MentionSpan=6.1|MentionHead=6.1|MentionText=_
+6.1	_	#Cor	PRON	_	_	_	_	13:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c23|MentionSpan=6.1|MentionHead=6.1|MentionText=_
 7	přijmout	přijmout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	csubj	4:csubj	LId=přijmout-2
 8	maximálně	maximálně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	10	advmod:emph	10:advmod:emph	LDeriv=maximální
 9	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	10:case	LId=na-1
@@ -397,7 +397,7 @@
 2	listu	list	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg:dat	ClusterId=cmpr9410-001-c30|ClusterType=Spec|MentionSpan=1-2|MentionHead=2|MentionText=Našemu_listu
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	podařilo	podařit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-4.1	_	#Cor	PRON	_	_	_	_	5:nsubj	ClusterId=cmpr9410-001-c30|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
+4.1	_	#Cor	PRON	_	_	_	_	5:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c30|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
 5	získat	získat	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	csubj	4:csubj	_
 6	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	LId=od-1
 7	představitelů	představitel	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	5	obl:arg	5:obl:arg:od:gen	_
@@ -436,12 +436,12 @@
 7	měla	mít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	acl:relcl	3:acl:relcl	_
 8	plně	plně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	9	advmod	9:advmod	LDeriv=plný
 9	vstoupit	vstoupit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	_
-9.1	_	#QCor	PRON	_	_	_	_	11:nsubj	ClusterId=cmpr9410-001-c18|ClusterType=Spec|MentionSpan=9.1|MentionHead=9.1|MentionText=_
+9.1	_	#QCor	PRON	_	_	_	_	11:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c18|ClusterType=Spec|MentionSpan=9.1|MentionHead=9.1|MentionText=_
 10	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	LId=v-1
 11	platnost	platnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	9	obl	9:obl:v:acc	LDeriv=platný
 12	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	15	case	15:case	LId=po-1
 13	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	15	nummod	15:nummod	SpaceAfter=No
-13.1	_	#PersPron	PRON	_	_	_	_	16:nsubj	ClusterId=cmpr9410-001-c30|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=_
+13.1	_	#PersPron	PRON	_	_	_	_	16:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c30|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=_
 14	.	.	PUNCT	Z:-------------	_	13	punct	13:punct	_
 15	dubnu	duben	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	7:obl:po:loc	ClusterId=cmpr9410-001-c34|ClusterType=Spec|MentionSpan=12-13,15|MentionHead=15|MentionText=po_1_dubnu
 16	vyjímáme	vyjímat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
@@ -462,7 +462,7 @@
 9	plném	plný	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	rozsahu	rozsah	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	7:obl:v:loc	_
 11	postup	postup	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	_
-11.1	_	#Rcp	PRON	_	_	_	_	13:obl:arg	ClusterId=cmpr9410-001-c33|MentionSpan=11.1|MentionHead=11.1|MentionText=_
+11.1	_	#Rcp	PRON	_	_	_	_	13:obl:arg	Functor=ADDR|ClusterId=cmpr9410-001-c33|MentionSpan=11.1|MentionHead=11.1|MentionText=_
 12	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	13:case	LId=podle-2
 13	dohody	dohoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:podle:gen|22:nmod	ClusterId=cmpr9410-001-c32|MentionSpan=11.1-50|MentionHead=|MentionText=__podle_dohody_ÚNMZ_ČR_a_ÚNMS_SR_,_na_jejímž_základě_český_výrobce_(_slovenský_dovozce_)_získá_na_základě_schválení_české_zkušebny_a_rozhodnutí_Ministerstva_zdravotnictví_SR_na_ÚNMS_SR_potvrzení_o_platnosti_rozhodnutí_i_na_území_SR
 14	ÚNMZ	ÚNMZ	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|NameType=Com|Polarity=Pos	13	nmod	13:nmod	LId=ÚNMZ-1|LGloss=(Úřad_pro_tech._normal.,_metrol._a_st._zk.)|ClusterId=cmpr9410-001-c33|MentionSpan=14-18|MentionHead=14|MentionText=ÚNMZ_ČR_a_ÚNMS_SR
@@ -569,11 +569,11 @@
 9	federace	federace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	8:nmod:gen	_
 10	platí	platit	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 11	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1
-11.1	_	#Gen	PRON	_	_	_	_	14:obl	ClusterId=cmpr9410-001-c38|MentionSpan=11.1|MentionHead=11.1|MentionText=_
+11.1	někdo	#Gen	PRON	_	_	_	_	14:obl	Functor=BEN|ClusterId=cmpr9410-001-c38|MentionSpan=11.1|MentionHead=11.1|MentionText=někdo
 12	toto	tento	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	det	13:det	_
 13	zboží	zboží	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	17	obj	17:obj	_
 14	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	0:root|10:conj	_
-14.1	_	#Cor	PRON	_	_	_	_	21:nsubj	ClusterId=cmpr9410-001-c38|MentionSpan=14.1|MentionHead=14.1|MentionText=_
+14.1	_	#Cor	PRON	_	_	_	_	21:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c38|MentionSpan=14.1|MentionHead=14.1|MentionText=_
 15	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	16	case	16:case	LId=do-1
 16	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	14	obl	14:obl:do	LId=SR-1|LGloss=(Slovenská_republika)|ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=15-16|MentionHead=16|MentionText=do_SR
 17	dodávat	dodávat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	14	csubj	14:csubj	LDeriv=dodat
@@ -636,9 +636,9 @@
 1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	3:case	LId=na-1
 2	tomto	tento	DET	PDZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	3:det	_
 3	úřadě	úřad	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	4	obl	4:obl:na:loc	ClusterId=cmpr9410-001-c31|ClusterType=Spec|MentionSpan=1-3|MentionHead=3|MentionText=Na_tomto_úřadě
-3.1	_	#Gen	PRON	_	_	_	_	4:obl	ClusterId=cmpr9410-001-c41|MentionSpan=3.1|MentionHead=3.1|MentionText=_
+3.1	někdo	#Gen	PRON	_	_	_	_	4:obl	Functor=BEN|ClusterId=cmpr9410-001-c41|MentionSpan=3.1|MentionHead=3.1|MentionText=někdo
 4	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4.1	_	#Cor	PRON	_	_	_	_	5:nsubj	ClusterId=cmpr9410-001-c41|MentionSpan=4.1|MentionHead=4.1|MentionText=_
+4.1	_	#Cor	PRON	_	_	_	_	5:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c41|MentionSpan=4.1|MentionHead=4.1|MentionText=_
 5	získat	získat	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	csubj	4:csubj	_
 6	i	i	CCONJ	J^-------------	_	8	advmod:emph	8:advmod:emph	LId=i-1
 7	potřebné	potřebný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	8:amod	_
@@ -687,12 +687,12 @@
 1	6	6	NUM	C=-------------	NumForm=Digit|NumType=Card	7	nmod	7:nmod	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	7	punct	7:punct	_
 3	Povinnost	povinnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	LDeriv=povinný
-3.1	_	#Gen	PRON	_	_	_	_	7:nsubj	ClusterId=cmpr9410-001-c43|MentionSpan=3.1|MentionHead=3.1|MentionText=_
+3.1	někdo	#Gen	PRON	_	_	_	_	7:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c43|MentionSpan=3.1|MentionHead=3.1|MentionText=někdo
 4	certifikace	certifikace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	3:nmod:gen	ClusterId=cmpr9410-001-c39|ClusterType=Gen|MentionSpan=4,5-6.1|MentionHead=4|MentionText=certifikace_těchto_výrobků__
-4.1	_	#QCor	PRON	_	_	_	_	3:nsubj	ClusterId=cmpr9410-001-c43|MentionSpan=4.1|MentionHead=4.1|MentionText=_
+4.1	_	#QCor	PRON	_	_	_	_	3:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c43|MentionSpan=4.1|MentionHead=4.1|MentionText=_
 5	těchto	tento	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	6	det	6:det	_
 6	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	4	nmod	4:nmod:gen	ClusterId=cmpr9410-001-c29|ClusterType=Gen|MentionSpan=5-6|MentionHead=6|MentionText=těchto_výrobků
-6.1	_	#Cor	PRON	_	_	_	_	4:nsubj	ClusterId=cmpr9410-001-c43|MentionSpan=6.1|MentionHead=6.1|MentionText=_
+6.1	_	#Cor	PRON	_	_	_	_	4:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c43|MentionSpan=6.1|MentionHead=6.1|MentionText=_
 7	vznikla	vzniknout	VERB	VpQW---XR-AA--1	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 8	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	LId=na-1
 9	základě	základ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	8	fixed	8:fixed	_
@@ -728,13 +728,13 @@
 # text = 7) Ve všech případech vzniká od 1. dubna povinnost, aby při přechodu slovenských hranic byla dodávka vybavena originálem nebo ověřenou kopií certifikátu SPPI.
 # orig_file_sentence cmpr9410_001#28
 1	7	7	NUM	C=-------------	NumForm=Digit|NumType=Card	6	nmod	6:nmod	SpaceAfter=No
-1.1	_	#Gen	PRON	_	_	_	_	6:nsubj	ClusterId=cmpr9410-001-c44|MentionSpan=1.1|MentionHead=1.1|MentionText=_
+1.1	někdo	#Gen	PRON	_	_	_	_	6:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c44|MentionSpan=1.1|MentionHead=1.1|MentionText=někdo
 2	)	)	PUNCT	Z:-------------	_	6	punct	6:punct	_
 3	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	5	case	5:case	LId=v-1
 4	všech	všechen	DET	PLXP6----------	Case=Loc|Number=Plur|PronType=Tot	5	det	5:det	_
 5	případech	případ	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	6	obl	6:obl:v:loc	_
 6	vzniká	vznikat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-6.1	_	#QCor	PRON	_	_	_	_	11:nsubj	ClusterId=cmpr9410-001-c44|MentionSpan=6.1|MentionHead=6.1|MentionText=_
+6.1	_	#QCor	PRON	_	_	_	_	11:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c44|MentionSpan=6.1|MentionHead=6.1|MentionText=_
 7	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	LId=od-1
 8	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	10	nummod	10:nummod	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
@@ -767,8 +767,8 @@
 2	)	)	PUNCT	Z:-------------	_	11	punct	11:punct	_
 3	Stejné	stejný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
 4	požadavky	požadavek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	11:obj	ClusterId=cmpr9410-001-c45|ClusterType=Spec|MentionSpan=3-4.2,6-8|MentionHead=4,4.1,4.2|MentionText=Stejné_požadavky_____na_dovážené_výrobky
-4.1	_	#PersPron	PRON	_	_	_	_	11:nsubj	ClusterId=cmpr9410-001-c37|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
-4.2	_	#PersPron	PRON	_	_	_	_	11:obj	ClusterId=cmpr9410-001-c45|ClusterType=Spec|MentionSpan=4.2|MentionHead=4.2|MentionText=_
+4.1	_	#PersPron	PRON	_	_	_	_	11:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c37|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
+4.2	_	#PersPron	PRON	_	_	_	_	11:obj	Functor=PAT|ClusterId=cmpr9410-001-c45|ClusterType=Spec|MentionSpan=4.2|MentionHead=4.2|MentionText=_
 5	jako	jako	SCONJ	J,-------------	_	8	mark	8:mark	_
 6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	8:case	LId=na-1
 7	dovážené	dovážený	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	LGloss=(dokončit_vážení)|LDeriv=dovážit
@@ -794,13 +794,13 @@
 # sent_id = cmpr9410-001-p24s1
 # text = ŽE BY NOVÁ CESTA JAK ŘEŠIT PROBLÉMY CELNÍ UNIE?
 # orig_file_sentence cmpr9410_001#31
-0.1	_	#Gen	PRON	_	_	_	_	4:nsubj	ClusterId=cmpr9410-001-c46|MentionSpan=0.1|MentionHead=0.1|MentionText=_
+0.1	někdo	#Gen	PRON	_	_	_	_	4:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c46|MentionSpan=0.1|MentionHead=0.1|MentionText=někdo
 1	ŽE	že	SCONJ	J,-------------	_	2	mark	2:mark	_
 2	BY	být	VERB	Vc-------------	Mood=Cnd|VerbForm=Fin	0	root	0:root	_
 3	NOVÁ	nový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	CESTA	cesta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	dep	2:dep	LGloss=(konkrétní_i_abstr.;_i_'soudní_cestou')
 5	JAK	jak	ADV	Db-------------	PronType=Int,Rel	6	advmod	6:advmod	LId=jak-3
-5.1	_	#Cor	PRON	_	_	_	_	6:nsubj	ClusterId=cmpr9410-001-c46|MentionSpan=5.1|MentionHead=5.1|MentionText=_
+5.1	_	#Cor	PRON	_	_	_	_	6:nsubj	Functor=ACT|ClusterId=cmpr9410-001-c46|MentionSpan=5.1|MentionHead=5.1|MentionText=_
 6	ŘEŠIT	řešit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	acl	4:acl	_
 7	PROBLÉMY	problém	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	6	obj	6:obj	_
 8	CELNÍ	celní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	9:amod	_
