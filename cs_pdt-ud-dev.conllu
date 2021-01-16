@@ -276,12 +276,12 @@
 31	částky	částka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	29	obj	29:obj	SpaceAfter=No
 32	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 33	měli	mít	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	csubj	11:csubj	_
-33.1	_	#QCor	PRON	_	PronType=Prs	_	_	37:nsubj	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=33.1|MentionHead=33.1|MentionText=_
+33.1	_	#QCor	PRON	_	PronType=Prs	_	_	37:nmod	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=33.1|MentionHead=33.1|MentionText=_
 34	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	36	case	36:case	LId=o-1
 35	veřejnou	veřejný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	36	amod	36:amod	_
 36	službu	služba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	37	nmod	37:nmod:o:acc	_
 37	zájem	zájem	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	33	obj	33:obj	SpaceAfter=No
-37.1	_	#Cor	PRON	_	PronType=Prs	_	_	36:nsubj	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=37.1|MentionHead=37.1|MentionText=_
+37.1	_	#Cor	PRON	_	PronType=Prs	_	_	36:nmod	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=37.1|MentionHead=37.1|MentionText=_
 38	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # sent_id = ln94200-103-p3s5
