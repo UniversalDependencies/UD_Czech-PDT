@@ -26,7 +26,6 @@
 1	"	"	PUNCT	Z:-------------	_	8	punct	8:punct	SpaceAfter=No
 2	Ne	ne	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	_
 3	Praha	Praha	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	8	nsubj	8:nsubj	SpaceAfter=No
-3.1	byla	být	AUX	_	_	_	_	5:obl:arg	_
 4	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 5	ale	ale	CCONJ	J^-------------	_	6	cc	6:cc	_
 6	Ostrava	Ostrava	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	3	conj	3:conj|8:nsubj	ClusterId=mf920922-004-c3|ClusterType=Spec|MentionSpan=6|MentionHead=6|MentionText=Ostrava
@@ -157,7 +156,7 @@
 18	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
 19	řekl	říci	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 20	pan	pan	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	19	nsubj	19:nsubj|28:obl:arg:dat	LId=pan-1|LGloss=(oslovení)
-21	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	20:flat	SpaceAfter=No|ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=20-39,40|MentionHead=|MentionText=pan_Rozen_,_kterému_primátor_Ostravy_Jiří_Smejkal_přislíbil_,_že_se_na_místech_spojených_s_židovským_hnutím_objeví_pamětní_desky
+21	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	20:flat	SpaceAfter=No|ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=20-40|MentionHead=|MentionText=pan_Rozen_,_kterému_primátor_Ostravy_Jiří_Smejkal_přislíbil_,_že_se_na_místech_spojených_s_židovským_hnutím_objeví_pamětní_desky
 22	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 23	kterému	který	DET	P4ZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	28	obl:arg	20:ref	ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=23|MentionHead=23|MentionText=kterému
 24	primátor	primátor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	28	nsubj	28:nsubj	ClusterId=mf920922-004-c14|Bridging=mf920922-004-c15:Subset|MentionSpan=24-25|MentionHead=24|MentionText=primátor_Ostravy
@@ -176,7 +175,6 @@
 37	hnutím	hnutí	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	34	obl	34:obl:s:ins	LGloss=(mysli,politické,...)
 38	objeví	objevit	VERB	VB-P---3P-AA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	28:ccomp	_
 39	pamětní	pamětní	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	40	amod	40:amod	_
-39.1	_	#Gen	PRON	_	_	_	_	19:obl:arg	_
 40	desky	deska	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	38	nsubj	38:nsubj	SpaceAfter=No
 41	.	.	PUNCT	Z:-------------	_	19	punct	19:punct	_
 
@@ -186,10 +184,9 @@
 1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	4:case	LId=na-1
 2	bývalém	bývalý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 3	židovském	židovský	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	4:amod	_
-4	hřbitově	hřbitov	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	obl	14:obl:na:loc	SpaceAfter=No|ClusterId=mf920922-004-c16|MentionSpan=1-12|MentionHead=4|MentionText=Na_bývalém_židovském_hřbitově_,_který___byl_zlikvidován_teprve_před_třemi_roky
+4	hřbitově	hřbitov	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	obl	14:obl:na:loc	SpaceAfter=No|ClusterId=mf920922-004-c16|MentionSpan=1-12|MentionHead=4|MentionText=Na_bývalém_židovském_hřbitově_,_který_byl_zlikvidován_teprve_před_třemi_roky
 5	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 6	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj:pass	8:nsubj:pass	ClusterId=mf920922-004-c16|MentionSpan=6|MentionHead=6|MentionText=který
-6.1	_	#Gen	PRON	_	_	_	_	8:nsubj	_
 7	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	aux:pass	8:aux:pass	_
 8	zlikvidován	zlikvidovaný	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	amod	4:amod	LDeriv=zlikvidovat
 9	teprve	teprve	ADV	Db-------------	_	12	advmod:emph	12:advmod:emph	_
