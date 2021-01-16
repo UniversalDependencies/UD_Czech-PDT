@@ -67,7 +67,7 @@
 # text = Pan Rozen, který se v Ostravě narodil, jednal s představiteli města o blížícím se výročí prvního transportu židů za druhé světové války, který odjel z Moravské Ostravy.
 # orig_file_sentence mf920922_004#4
 1	Pan	pan	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	8:nsubj|10:nsubj	LId=pan-1|LGloss=(oslovení)
-2	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	SpaceAfter=No|ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=1-8|MentionText=Pan_Rozen_,_který_se_v_Ostravě_narodil|MentionHead=
+2	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	SpaceAfter=No|ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=1-8|MentionHead=|MentionText=Pan_Rozen_,_který_se_v_Ostravě_narodil
 3	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 4	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	1:ref	ClusterId=mf920922-004-c5|ClusterType=Spec|Bridging=mf920922-004-c9:Subset|MentionSpan=4|MentionHead=4|MentionText=který
 5	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	8	expl:pv	8:expl:pv	LGloss=(zvr._zájmeno/částice)
@@ -84,7 +84,7 @@
 16	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	15	expl:pv	15:expl:pv	LGloss=(zvr._zájmeno/částice)
 17	výročí	výročí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	10	obl:arg	10:obl:arg:o:loc	_
 18	prvního	první	ADJ	CrIS2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	19	amod	19:amod	_
-19	transportu	transport	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen|27:nsubj	ClusterId=mf920922-004-c6|ClusterType=Spec|MentionSpan=18-30|MentionText=prvního_transportu_židů_za_druhé_světové_války_,_který_odjel_z_Moravské_Ostravy|MentionHead=
+19	transportu	transport	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen|27:nsubj	ClusterId=mf920922-004-c6|ClusterType=Spec|MentionSpan=18-30|MentionHead=|MentionText=prvního_transportu_židů_za_druhé_světové_války_,_který_odjel_z_Moravské_Ostravy
 20	židů	žid	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	19	nmod	19:nmod:gen	ClusterId=mf920922-004-c7|Bridging=mf920922-004-c1:Other|MentionSpan=20|MentionHead=20|MentionText=židů
 21	za	za	ADP	RR--2----------	AdpType=Prep|Case=Gen	24	case	24:case	LId=za-1
 22	druhé	druhý	ADJ	CrFS2----------	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	24	amod	24:amod	_
@@ -126,7 +126,7 @@
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	3:case	LId=na-1
 3	něj	on	PRON	P5ZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	1	obl	1:obl:na:acc	LId=on-1|ClusterId=mf920922-004-c10|ClusterType=Spec|MentionSpan=2-3|MentionHead=3|MentionText=na_něj
 4	především	především	ADV	Db-------------	_	5	advmod:emph	5:advmod:emph	_
-5	židy	žid	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	1	obj	1:obj|10:nsubj	SpaceAfter=No|ClusterId=mf920922-004-c11|MentionSpan=5-10|MentionText=židy_,_kteří_v_Ostravě_žili|MentionHead=|Bridging=mf920922-004-c1:Subset|MentionHead=|ClusterType=Spec
+5	židy	žid	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	1	obj	1:obj|10:nsubj	SpaceAfter=No|ClusterId=mf920922-004-c11|Bridging=mf920922-004-c1:Subset|ClusterType=Spec|MentionSpan=5-10|MentionHead=|MentionText=židy_,_kteří_v_Ostravě_žili
 6	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 7	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	10	nsubj	5:ref	ClusterId=mf920922-004-c11|ClusterType=Spec|MentionSpan=7|MentionHead=7|MentionText=kteří
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	LId=v-1
@@ -157,7 +157,7 @@
 18	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
 19	řekl	říci	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 20	pan	pan	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	19	nsubj	19:nsubj|28:obl:arg:dat	LId=pan-1|LGloss=(oslovení)
-21	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	20:flat	SpaceAfter=No|ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=20-39,40|MentionText=pan_Rozen_,_kterému_primátor_Ostravy_Jiří_Smejkal_přislíbil_,_že_se_na_místech_spojených_s_židovským_hnutím_objeví_pamětní_desky|MentionHead=
+21	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	20:flat	SpaceAfter=No|ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=20-39,40|MentionHead=|MentionText=pan_Rozen_,_kterému_primátor_Ostravy_Jiří_Smejkal_přislíbil_,_že_se_na_místech_spojených_s_židovským_hnutím_objeví_pamětní_desky
 22	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 23	kterému	který	DET	P4ZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	28	obl:arg	20:ref	ClusterId=mf920922-004-c5|ClusterType=Spec|MentionSpan=23|MentionHead=23|MentionText=kterému
 24	primátor	primátor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	28	nsubj	28:nsubj	ClusterId=mf920922-004-c14|Bridging=mf920922-004-c15:Subset|MentionSpan=24-25|MentionHead=24|MentionText=primátor_Ostravy

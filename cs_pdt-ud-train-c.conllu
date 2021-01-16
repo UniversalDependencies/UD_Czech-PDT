@@ -57,9 +57,9 @@
 3	jednu	jeden	NUM	ClFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	0	root	0:root|11:nsubj|21:nsubj	LNumValue=1
 4	jedinou	jediný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	SpaceAfter=No
 4.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=1,3-4.1,9-17,20-25|MentionHead=4.1|MentionText=Až jednu jedinou smluv která _ proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok
-5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	ClusterId=cmpr9410-001-c6|MentionSpan=1,3-25|MentionText=Až_jednu_jedinou_smluv_,_tu_smluv_hlavní_,_která___proklamativně_zakotvuje_existenci_Česko_-_Slovenské_celní_unie_,_a_která_má_výpovědní_lhůtu_jeden_rok|MentionHead=
+5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	ClusterId=cmpr9410-001-c6|MentionSpan=1,3-25|MentionHead=|MentionText=Až_jednu_jedinou_smluv_,_tu_smluv_hlavní_,_která___proklamativně_zakotvuje_existenci_Česko_-_Slovenské_celní_unie_,_a_která_má_výpovědní_lhůtu_jeden_rok
 6	tu	ten	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	appos	3:appos	_
-6.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=6-17,20-25|MentionText=tu smluv hlavní , která _ proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok|MentionHead=6,6.1,9,11,20
+6.1	smluv	smlouva	NOUN	_	_	_	_	5:parataxis	ClusterId=cmpr9410-001-c8|ClusterType=Spec|MentionSpan=6-17,20-25|MentionHead=6,6.1,9,11,20|MentionText=tu smluv hlavní , která _ proklamativně zakotvuje existenci Česko - Slovenské celní unie která má výpovědní lhůtu jeden rok
 7	hlavní	hlavní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	3:ref	ClusterId=cmpr9410-001-c6|MentionSpan=9|MentionHead=9|MentionText=která
@@ -160,7 +160,7 @@
 19	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	20	case	20:case	LId=mezi-1
 20	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	18	nmod	18:nmod:mezi	LId=ČR-1|LGloss=(Česká_republika)|ClusterId=cmpr9410-001-c9|ClusterType=Spec|MentionSpan=19-20|MentionHead=20|MentionText=mezi_ČR
 21	a	a	CCONJ	J^-------------	_	22	cc	22:cc	LId=a-1|ClusterId=cmpr9410-001-c11|MentionSpan=19-22|MentionHead=20|MentionText=mezi_ČR_a_SR
-22	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	20	conj	18:nmod:mezi|20:conj	LId=SR-1|LGloss=(Slovenská_republika)|ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=19,22|MentionText=mezi_SR|MentionHead=19,22
+22	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	20	conj	18:nmod:mezi|20:conj	LId=SR-1|LGloss=(Slovenská_republika)|ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=19,22|MentionHead=19,22|MentionText=mezi_SR
 22.1	_	#Rcp	PRON	_	_	_	_	18:obl:arg	ClusterId=cmpr9410-001-c11|MentionSpan=22.1|MentionHead=22.1|MentionText=_
 23	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	24	aux	24:aux	_
 24	mít	mít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	11	csubj	11:csubj	_
@@ -227,7 +227,7 @@
 5	dávají	dávat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LDeriv=dát
 6	nejnovější	nový	ADJ	AAIP1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	_
 7	kroky	krok	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	5	nsubj	5:nsubj	ClusterId=cmpr9410-001-c16|MentionSpan=6-25|MentionHead=7|MentionText=nejnovější_kroky_vlády_SR_,_která_se_rozhodla___zavést_již_před_časem_avizovanou_desetiprocentní_dovozní_přirážku_na_zboží_zahraniční_provenience
-8	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	7	nmod	7:nmod:gen|13:nsubj|14:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=8-25|MentionText=vlády_SR_,_která_se_rozhodla___zavést_již_před_časem_avizovanou_desetiprocentní_dovozní_přirážku_na_zboží_zahraniční_provenience|MentionHead=
+8	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	7	nmod	7:nmod:gen|13:nsubj|14:nsubj	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=8-25|MentionHead=|MentionText=vlády_SR_,_která_se_rozhodla___zavést_již_před_časem_avizovanou_desetiprocentní_dovozní_přirážku_na_zboží_zahraniční_provenience
 9	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	8	nmod	8:nmod	SpaceAfter=No|LId=SR-1|LGloss=(Slovenská_republika)|ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=9|MentionHead=9|MentionText=SR
 10	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 11	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	8:ref	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=11|MentionHead=11|MentionText=která
@@ -241,7 +241,7 @@
 18	avizovanou	avizovaný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	LDeriv=avizovat
 19	desetiprocentní	desetiprocentní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	_
 20	dovozní	dovozní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	_
-21	přirážku	přirážka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	14	obj	14:obj	ClusterId=cmpr9410-001-c17|MentionSpan=15-25|MentionText=již_před_časem_avizovanou_desetiprocentní_dovozní_přirážku_na_zboží_zahraniční_provenience|MentionHead=17,21|Bridging=cmpr9410-001-c18:Subset
+21	přirážku	přirážka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	14	obj	14:obj	ClusterId=cmpr9410-001-c17|Bridging=cmpr9410-001-c18:Subset|MentionSpan=15-25|MentionHead=17,21|MentionText=již_před_časem_avizovanou_desetiprocentní_dovozní_přirážku_na_zboží_zahraniční_provenience
 22	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	23	case	23:case	LId=na-1
 23	zboží	zboží	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	21	nmod	21:nmod:na:acc	_
 24	zahraniční	zahraniční	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	25	amod	25:amod	_
@@ -281,7 +281,7 @@
 20	tvrdé	tvrdý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	22	amod	22:amod	_
 21	politické	politický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	22	amod	22:amod	_
 22	rozhodnutí	rozhodnutí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	18	advcl	18:advcl:jako	LDeriv=rozhodnout|ClusterId=cmpr9410-001-c15|ClusterType=Spec|Bridging=cmpr9410-001-c20:Subset|MentionSpan=18.4,20-39|MentionHead=22|MentionText=__tvrdé_politické_rozhodnutí_vlády_,_která_se_snaží___velice_rezolutními_administrativními_kroky_zredukovat_mnohamilionové_pasívum_v_obchodní_výměně_s_ČR
-23	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	22	nmod	22:nmod:gen|27:nsubj|32:nsubj	SpaceAfter=No|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=23-39|MentionText=vlády_,_která_se_snaží___velice_rezolutními_administrativními_kroky_zredukovat_mnohamilionové_pasívum_v_obchodní_výměně_s_ČR|MentionHead=
+23	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	22	nmod	22:nmod:gen|27:nsubj|32:nsubj	SpaceAfter=No|ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=23-39|MentionHead=|MentionText=vlády_,_která_se_snaží___velice_rezolutními_administrativními_kroky_zredukovat_mnohamilionové_pasívum_v_obchodní_výměně_s_ČR
 24	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
 25	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	27	nsubj	23:ref	ClusterId=cmpr9410-001-c14|ClusterType=Spec|MentionSpan=25|MentionHead=25|MentionText=která
 26	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	27	expl:pv	27:expl:pv	LGloss=(zvr._zájmeno/částice)
@@ -446,7 +446,7 @@
 # orig_file_sentence cmpr9410_001#17
 1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	LId=z-1
 2	rozhodujících	rozhodující	ADJ	AGNP2-----A----	Aspect=Imp|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	3:amod	LDeriv=rozhodovat
-3	opatření	opatření	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	16	obl	7:nsubj|9:nsubj|16:obl:z:gen	SpaceAfter=No|LDeriv=opatřit|ClusterId=cmpr9410-001-c18|ClusterType=Spec|MentionSpan=1-13,15|MentionText=Z_rozhodujících_opatření_,_která_by_měla_plně_vstoupit___v_platnost_po_1_dubnu|MentionHead=
+3	opatření	opatření	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	16	obl	7:nsubj|9:nsubj|16:obl:z:gen	SpaceAfter=No|LDeriv=opatřit|ClusterId=cmpr9410-001-c18|ClusterType=Spec|MentionSpan=1-13,15|MentionHead=|MentionText=Z_rozhodujících_opatření_,_která_by_měla_plně_vstoupit___v_platnost_po_1_dubnu
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 5	která	který	DET	P4NP1----------	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	7	nsubj	3:ref	ClusterId=cmpr9410-001-c18|ClusterType=Spec|MentionSpan=5|MentionHead=5|MentionText=která
 6	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	7	aux	7:aux	_
@@ -482,7 +482,7 @@
 11	postup	postup	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	_
 11.1	_	#Rcp	PRON	_	_	_	_	13:obl:arg	ClusterId=cmpr9410-001-c33|MentionSpan=11.1|MentionHead=11.1|MentionText=_
 12	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	13:case	LId=podle-2
-13	dohody	dohoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:podle:gen|22:nmod	ClusterId=cmpr9410-001-c32|MentionSpan=11.1-50|MentionText=__podle_dohody_ÚNMZ_ČR_a_ÚNMS_SR_,_na_jejímž_základě_český_výrobce_(_slovenský_dovozce_)_získá___na_základě_schválení_české_zkušebny_a_rozhodnutí_Ministerstva_zdravotnictví_SR_na_ÚNMS_SR_potvrzení_o_platnosti_rozhodnutí_i_na_území_SR|MentionHead=
+13	dohody	dohoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:podle:gen|22:nmod	ClusterId=cmpr9410-001-c32|MentionSpan=11.1-50|MentionHead=|MentionText=__podle_dohody_ÚNMZ_ČR_a_ÚNMS_SR_,_na_jejímž_základě_český_výrobce_(_slovenský_dovozce_)_získá___na_základě_schválení_české_zkušebny_a_rozhodnutí_Ministerstva_zdravotnictví_SR_na_ÚNMS_SR_potvrzení_o_platnosti_rozhodnutí_i_na_území_SR
 14	ÚNMZ	ÚNMZ	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|NameType=Com|Polarity=Pos	13	nmod	13:nmod	LId=ÚNMZ-1|LGloss=(Úřad_pro_tech._normal.,_metrol._a_st._zk.)|ClusterId=cmpr9410-001-c33|MentionSpan=14-18|MentionHead=14|MentionText=ÚNMZ_ČR_a_ÚNMS_SR
 15	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Polarity=Pos	14	nmod	14:nmod	LId=ČR-1|LGloss=(Česká_republika)|ClusterId=cmpr9410-001-c9|ClusterType=Spec|MentionSpan=15|MentionHead=15|MentionText=ČR
 16	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1
@@ -554,7 +554,7 @@
 5	příslušnou	příslušný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	LDeriv=příslušet
 6	slovenskou	slovenský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=6|MentionHead=6|MentionText=slovenskou
 7	zkušebnu	zkušebna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl:na:acc|20:nsubj	_
-8	(	(	PUNCT	Z:-------------	_	9	punct	9:punct	SpaceAfter=No|ClusterId=cmpr9410-001-c37|MentionSpan=4-26|MentionText=na_příslušnou_slovenskou_zkušebnu_(_SPPI_-_Slovenskou_potravinářskou_a_zemědělskou_inspekci_)_,_která_bude_vydávat_na_základě_dodaných_podkladů_příslušné_certifikáty|MentionHead=|ClusterType=Spec
+8	(	(	PUNCT	Z:-------------	_	9	punct	9:punct	SpaceAfter=No|ClusterId=cmpr9410-001-c37|ClusterType=Spec|MentionSpan=4-26|MentionHead=|MentionText=na_příslušnou_slovenskou_zkušebnu_(_SPPI_-_Slovenskou_potravinářskou_a_zemědělskou_inspekci_)_,_která_bude_vydávat_na_základě_dodaných_podkladů_příslušné_certifikáty
 9	SPPI	SPPI	PROPN	NNFXX-----A---8	Abbr=Yes|Foreign=Yes|Gender=Fem|NameType=Com|Polarity=Pos	7	appos	7:appos	LGloss=(Slovenská_potravinárská_a_zemědělská_inspek)
 10	-	-	PUNCT	Z:-------------	_	15	punct	15:punct	_
 11	Slovenskou	slovenský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	15:amod	ClusterId=cmpr9410-001-c1|ClusterType=Spec|MentionSpan=11|MentionHead=11|MentionText=Slovenskou
@@ -793,7 +793,7 @@
 1	8	8	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nmod	11:nmod	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	11	punct	11:punct	_
 3	Stejné	stejný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
-4	požadavky	požadavek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	11:obj	ClusterId=cmpr9410-001-c45|ClusterType=Spec|MentionSpan=3-4.3,6-8|MentionText=Stejné_požadavky_____uplatňovat_na_dovážené_výrobky|MentionHead=4,4.1,4.2
+4	požadavky	požadavek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	11:obj	ClusterId=cmpr9410-001-c45|ClusterType=Spec|MentionSpan=3-4.3,6-8|MentionHead=4,4.1,4.2|MentionText=Stejné_požadavky_____uplatňovat_na_dovážené_výrobky
 4.1	_	#PersPron	PRON	_	_	_	_	11:nsubj	ClusterId=cmpr9410-001-c37|ClusterType=Spec|MentionSpan=4.1|MentionHead=4.1|MentionText=_
 4.2	_	#PersPron	PRON	_	_	_	_	11:obj	ClusterId=cmpr9410-001-c45|ClusterType=Spec|MentionSpan=4.2|MentionHead=4.2|MentionText=_
 4.3	uplatňovat	uplatňovat	VERB	_	_	_	_	3:obl	_
