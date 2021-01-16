@@ -168,7 +168,7 @@
 # sent_id = ln94200-103-p2s8
 # text = Snazší je závidět konkrétnímu poslanci nějakých dvacet tisíc než se zajímat o stovky miliard.
 # orig_file_sentence ln94200_103#10
-0.1	někdo	#Gen	PRON	_	_	_	_	1:obl	Functor=BEN|ClusterId=ln94200-103-c10|MentionSpan=0.1|MentionHead=0.1|MentionText=někdo
+0.1	pro_někoho	#Gen	PRON	_	_	_	_	1:obl	Functor=BEN|ClusterId=ln94200-103-c10|MentionSpan=0.1|MentionHead=0.1|MentionText=pro_někoho
 1	Snazší	snadný	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	0	root	0:root	_
 1.1	_	#Cor	PRON	_	_	_	_	11:nsubj	Functor=ACT|ClusterId=ln94200-103-c10|MentionSpan=1.1|MentionHead=1.1|MentionText=_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
@@ -242,7 +242,7 @@
 # orig_file_sentence ln94200_103#14
 1	Kromě	kromě	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 2	mnoha	mnoho	DET	Ca--2----------	Case=Gen|NumType=Card|PronType=Ind	5	det:nummod	5:det:nummod	LId=mnoho-1
-2.1	někdo	#Gen	PRON	_	_	_	_	6:obl	Functor=BEN|ClusterId=ln94200-103-c16|MentionSpan=2.1|MentionHead=2.1|MentionText=někdo
+2.1	pro_někoho	#Gen	PRON	_	_	_	_	6:obl	Functor=BEN|ClusterId=ln94200-103-c16|MentionSpan=2.1|MentionHead=2.1|MentionText=pro_někoho
 3	již	již	ADV	Db-------------	_	4	advmod	4:advmod	_
 4	publikovaných	publikovaný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	5:amod	LDeriv=publikovat
 5	důvodů	důvod	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	obl	6:obl:kromě:gen	_
