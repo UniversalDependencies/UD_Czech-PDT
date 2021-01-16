@@ -77,7 +77,7 @@
 9	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 10	jednal	jednat	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 11	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	12:case	LId=s-1
-12	představiteli	představitel	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	10	obl:arg	10:obl:arg:s:ins	ClusterId=c12|MentionSpan=11-13|MentionText=s_představiteli_města|MentionHead=12
+12	představiteli	představitel	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	10	obl:arg	10:obl:arg:s:ins	ClusterId=c11|MentionSpan=11-13|MentionText=s_představiteli_města|MentionHead=12
 13	města	město	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	12	nmod	12:nmod:gen	ClusterId=c3|ClusterType=Spec|MentionSpan=13|MentionText=města|MentionHead=13
 14	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	LId=o-1
 15	blížícím	blížící	ADJ	AGNS6-----A----	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	17:amod	LDeriv=blížit
@@ -106,7 +106,7 @@
 3	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 4	října	říjen	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	7:obl:gen	_
 5	1994	1994	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
-6	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	10	obl:arg	10:obl:arg:dat	LGloss=(zvr._zájmeno/částice)|ClusterId=c10|ClusterType=Spec|MentionSpan=6|MentionText=si|MentionHead=6
+6	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	10	obl:arg	10:obl:arg:dat	LGloss=(zvr._zájmeno/částice)|ClusterId=c7|MentionSpan=6|MentionText=si|MentionHead=6
 7	chceme	chtít	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	LId=v-1
 9	Ostravě	Ostrava	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	7	obl	7:obl:v:loc	ClusterId=c3|ClusterType=Spec|MentionSpan=8-9|MentionText=v_Ostravě|MentionHead=9
@@ -121,7 +121,7 @@
 # sent_id = mf920922-004-p2s5
 # text = Pozveme na něj především židy, kteří v Ostravě žili.
 # orig_file_sentence mf920922_004#6
-0.1	_	#PersPron	PRON	_	_	_	_	1:nsubj	ClusterId=c10|ClusterType=Spec|MentionSpan=0.1|MentionText=_|MentionHead=0.1
+0.1	_	#PersPron	PRON	_	_	_	_	1:nsubj	ClusterId=c7|ClusterType=Spec|MentionSpan=0.1|MentionText=_|MentionHead=0.1
 1	Pozveme	pozvat	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	3:case	LId=na-1
 3	něj	on	PRON	P5ZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	1	obl	1:obl:na:acc	LId=on-1|ClusterId=c8|ClusterType=Spec|MentionSpan=2-3|MentionText=na_něj|MentionHead=3
@@ -160,10 +160,10 @@
 21	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	20:flat	SpaceAfter=No|ClusterId=c5|ClusterType=Spec|MentionSpan=20-39,40|MentionText=pan_Rozen_,_kterému_primátor_Ostravy_Jiří_Smejkal_přislíbil_,_že_se_na_místech_spojených_s_židovským_hnutím_objeví_pamětní_desky|MentionHead=
 22	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 23	kterému	který	DET	P4ZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	28	obl:arg	20:ref	ClusterId=c5|ClusterType=Spec|MentionSpan=23|MentionText=kterému|MentionHead=23
-24	primátor	primátor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	28	nsubj	28:nsubj	Bridging=c12:Subset|MentionSpan=24-25|MentionText=primátor_Ostravy|MentionHead=24
+24	primátor	primátor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	28	nsubj	28:nsubj	Bridging=c11:Subset|MentionSpan=24-25|MentionText=primátor_Ostravy|MentionHead=24
 25	Ostravy	Ostrava	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	24	nmod	24:nmod:gen	ClusterId=c3|ClusterType=Spec|MentionSpan=25|MentionText=Ostravy|MentionHead=25
 26	Jiří	Jiří	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	24	flat	24:flat	_
-27	Smejkal	Smejkal	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	24	flat	24:flat	ClusterId=c14|ClusterType=Spec|MentionSpan=24-27|MentionText=primátor_Ostravy_Jiří_Smejkal|MentionHead=24
+27	Smejkal	Smejkal	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	24	flat	24:flat	ClusterId=c13|ClusterType=Spec|MentionSpan=24-27|MentionText=primátor_Ostravy_Jiří_Smejkal|MentionHead=24
 28	přislíbil	přislíbit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	20	acl:relcl	20:acl:relcl	SpaceAfter=No
 29	,	,	PUNCT	Z:-------------	_	38	punct	38:punct	_
 30	že	že	SCONJ	J,-------------	_	38	mark	38:mark	_
@@ -186,9 +186,9 @@
 1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	4:case	LId=na-1
 2	bývalém	bývalý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 3	židovském	židovský	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	4:amod	_
-4	hřbitově	hřbitov	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	obl	14:obl:na:loc	SpaceAfter=No|ClusterId=c13|MentionSpan=1-12|MentionText=Na_bývalém_židovském_hřbitově_,_který___byl_zlikvidován_teprve_před_třemi_roky|MentionHead=4
+4	hřbitově	hřbitov	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	obl	14:obl:na:loc	SpaceAfter=No|ClusterId=c12|MentionSpan=1-12|MentionText=Na_bývalém_židovském_hřbitově_,_který___byl_zlikvidován_teprve_před_třemi_roky|MentionHead=4
 5	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
-6	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj:pass	8:nsubj:pass	ClusterId=c13|MentionSpan=6|MentionText=který|MentionHead=6
+6	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj:pass	8:nsubj:pass	ClusterId=c12|MentionSpan=6|MentionText=který|MentionHead=6
 6.1	_	#Gen	PRON	_	_	_	_	8:nsubj	_
 7	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	aux:pass	8:aux:pass	_
 8	zlikvidován	zlikvidovaný	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	amod	4:amod	LDeriv=zlikvidovat
@@ -208,22 +208,22 @@
 1	Chanan	Chanan	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	ClusterId=c5|ClusterType=Spec|MentionSpan=1-2|MentionText=Chanan_Rozen|MentionHead=1
 2	Rozen	Rozen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 3	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	LId=s-1
-4	primátorem	primátor	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	5	obl:arg	5:obl:arg:s:ins	ClusterId=c14|ClusterType=Spec|MentionSpan=3-4|MentionText=s_primátorem|MentionHead=4
+4	primátorem	primátor	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	5	obl:arg	5:obl:arg:s:ins	ClusterId=c13|ClusterType=Spec|MentionSpan=3-4|MentionText=s_primátorem|MentionHead=4
 5	projednal	projednat	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	také	také	ADV	Db-------------	_	5	advmod	5:advmod	LGloss=(rovněž)
 7	připravovanou	připravovaný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	LDeriv=připravovat
 8	smlouvu	smlouva	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	5:obj	_
-8.1	_	#Rcp	PRON	_	_	_	_	10:obl:arg	ClusterId=c16|MentionSpan=8.1|MentionText=_|MentionHead=8.1
+8.1	_	#Rcp	PRON	_	_	_	_	10:obl:arg	ClusterId=c15|MentionSpan=8.1|MentionText=_|MentionHead=8.1
 9	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	LId=o-1
 10	spolupráci	spolupráce	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	8:nmod:o:loc	_
-11	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	12:case	LId=mezi-1|ClusterId=c15|MentionSpan=11,14-26|MentionText=mezi_izraelským_městem_Rechovot_,_kde_je_jeden_z_největších_vědeckých_ústavů_na_světě|MentionHead=11
+11	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	12:case	LId=mezi-1|ClusterId=c14|MentionSpan=11,14-26|MentionText=mezi_izraelským_městem_Rechovot_,_kde_je_jeden_z_největších_vědeckých_ústavů_na_světě|MentionHead=11
 12	Ostravou	Ostrava	PROPN	NNFS7-----A----	Case=Ins|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	10	nmod	10:nmod:mezi:ins	ClusterId=c3|ClusterType=Spec|MentionSpan=11-12|MentionText=mezi_Ostravou|MentionHead=12
-13	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1|ClusterId=c16|MentionSpan=11-26|MentionText=mezi_Ostravou_a_izraelským_městem_Rechovot_,_kde_je_jeden_z_největších_vědeckých_ústavů_na_světě|MentionHead=12
+13	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1|ClusterId=c15|MentionSpan=11-26|MentionText=mezi_Ostravou_a_izraelským_městem_Rechovot_,_kde_je_jeden_z_největších_vědeckých_ústavů_na_světě|MentionHead=12
 14	izraelským	izraelský	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	15	amod	15:amod	ClusterId=c4|ClusterType=Spec|MentionSpan=14|MentionText=izraelským|MentionHead=14
 15	městem	město	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	12	conj	10:nmod:mezi:ins|12:conj|19:obl	_
 16	Rechovot	Rechovot	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	15	nmod	15:nmod:nom	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
-18	kde	kde	ADV	Db-------------	PronType=Int,Rel	19	advmod	15:ref	ClusterId=c15|MentionSpan=18|MentionText=kde|MentionHead=18
+18	kde	kde	ADV	Db-------------	PronType=Int,Rel	19	advmod	15:ref	ClusterId=c14|MentionSpan=18|MentionText=kde|MentionHead=18
 19	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	15:acl:relcl	_
 20	jeden	jeden	NUM	ClYS1----------	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	19	nsubj	19:nsubj	LNumValue=1
 21	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	24	case	24:case	LId=z-1
