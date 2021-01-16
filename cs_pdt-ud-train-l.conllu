@@ -338,9 +338,9 @@
 15	kompetence	kompetence	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	10	nsubj	10:nsubj	ClusterId=ln94200-105-c4|ClusterType=Spec|MentionSpan=14-15|MentionText=jeho_kompetence|MentionHead=15
 16	než	než	SCONJ	J,-------------	_	17	mark	17:mark	LId=než-2
 17	volba	volba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	advcl	10:advcl:než	_
-18	místa	místo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen|22:obl	SpaceAfter=No|LId=místo-1|LGloss=(fyzické_umístění)|ClusterId=ln94200-105-c20|MentionSpan=18-25|MentionText=místa_,_kde_bude_sídlit_jeho_ústřední_orgán|MentionHead=
+18	místa	místo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen|22:obl	SpaceAfter=No|LId=místo-1|LGloss=(fyzické_umístění)|ClusterId=ln94200-105-c20|MentionSpan=18-25|MentionText=místa_,_kde_bude_sídlit_jeho_ústřední_orgán|MentionHead=|ClusterType=Spec
 19	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
-20	kde	kde	ADV	Db-------------	PronType=Int,Rel	22	advmod	18:ref	ClusterId=ln94200-105-c20|MentionSpan=20|MentionText=kde|MentionHead=20
+20	kde	kde	ADV	Db-------------	PronType=Int,Rel	22	advmod	18:ref	ClusterId=ln94200-105-c20|MentionSpan=20|MentionText=kde|MentionHead=20|ClusterType=Spec
 21	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
 22	sídlit	sídlit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	18	acl:relcl	18:acl:relcl	_
 23	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	25:det	LGloss=(přivlast.)|ClusterId=ln94200-105-c3|ClusterType=Spec|MentionSpan=23|MentionText=jeho|MentionHead=23
