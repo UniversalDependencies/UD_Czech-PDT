@@ -109,7 +109,7 @@
 7	chceme	chtít	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	LId=v-1
 9	Ostravě	Ostrava	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	7	obl	7:obl:v:loc	ClusterId=mf920922-004-c3|ClusterType=Spec|MentionSpan=8-9|MentionHead=9|MentionText=v_Ostravě
-9.1	on	#PersPron	PRON	_	PronType=Prs	_	_	10:nsubj	Functor=ACT|ClusterId=mf920922-004-c9|ClusterType=Spec|MentionSpan=9.1|MentionHead=9.1|MentionText=on
+9.1	my	#PersPron	PRON	_	Number=Plur|Person=1|PronType=Prs	_	_	10:nsubj	Functor=ACT|ClusterId=mf920922-004-c9|ClusterType=Spec|MentionSpan=9.1|MentionHead=9.1|MentionText=my
 10	připomenout	připomenout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	_
 11	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	LGloss=(přivlast.)|ClusterId=mf920922-004-c6|ClusterType=Spec|MentionSpan=11|MentionHead=11|MentionText=jeho
 12	55	55	NUM	C=-------------	NumForm=Digit|NumType=Card	14	nummod	14:nummod	SpaceAfter=No

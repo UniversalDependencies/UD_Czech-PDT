@@ -467,7 +467,7 @@
 11	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1
 12	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	13:det	LGloss=(přivlast.)|ClusterId=ln94200-105-c35|ClusterType=Spec|MentionSpan=12|MentionHead=12|MentionText=jejich
 13	působnosti	působnost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	9	conj	9:conj|15:obl:arg:o:loc	ClusterId=ln94200-105-c5|ClusterType=Spec|MentionSpan=8,12-13|MentionHead=8,13|MentionText=o_jejich_působnosti
-13.1	on	#PersPron	PRON	_	PronType=Prs	_	_	15:nsubj	Functor=ACT|ClusterId=ln94200-105-c33|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=on
+13.1	oni	#PersPron	PRON	_	Number=Plur|Person=3|PronType=Prs	_	_	15:nsubj	Functor=ACT|ClusterId=ln94200-105-c33|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=oni
 14	chtějí	chtít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	_
 15	rozhodnout	rozhodnout	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	14:xcomp	_
 16	současně	současně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	15	advmod	15:advmod	SpaceAfter=No|LDeriv=současný
