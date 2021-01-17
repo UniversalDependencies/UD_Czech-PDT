@@ -170,7 +170,6 @@
 # orig_file_sentence ln94200_103#10
 0.1	pro_někoho	#Gen	PRON	_	PronType=Ind	_	_	1:obl	Functor=BEN|ClusterId=ln94200-103-c10|MentionSpan=0.1|MentionHead=0.1|MentionText=pro_někoho
 1	Snazší	snadný	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	0	root	0:root	_
-1.1	_	#Cor	PRON	_	PronType=Prs	_	_	11:nsubj	Functor=ACT|ClusterId=ln94200-103-c10|MentionSpan=1.1|MentionHead=1.1|MentionText=_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
 2.1	_	#Cor	PRON	_	PronType=Prs	_	_	3:nsubj	Functor=ACT|ClusterId=ln94200-103-c10|MentionSpan=2.1|MentionHead=2.1|MentionText=_
 3	závidět	závidět	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	csubj	1:csubj	_
@@ -181,6 +180,7 @@
 8	tisíc	tisíc	NUM	ClXS2----------	Case=Gen|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	7	compound	7:compound	LId=tisíc-1|LNumValue=1000
 9	než	než	SCONJ	J,-------------	_	11	mark	11:mark	LId=než-2
 10	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	11:expl:pv	LGloss=(zvr._zájmeno/částice)
+10.1	_	#Cor	PRON	_	PronType=Prs	_	_	11:nsubj	Functor=ACT|ClusterId=ln94200-103-c10|MentionSpan=10.1|MentionHead=10.1|MentionText=_
 11	zajímat	zajímat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	advcl	1:advcl:než	_
 12	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	13:case	LId=o-1
 13	stovky	stovka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	11	obl:arg	11:obl:arg:o:acc	_
@@ -242,10 +242,10 @@
 # orig_file_sentence ln94200_103#14
 1	Kromě	kromě	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 2	mnoha	mnoho	DET	Ca--2----------	Case=Gen|NumType=Card|PronType=Ind	5	det:nummod	5:det:nummod	LId=mnoho-1
-2.1	pro_někoho	#Gen	PRON	_	PronType=Ind	_	_	6:obl	Functor=BEN|ClusterId=ln94200-103-c16|MentionSpan=2.1|MentionHead=2.1|MentionText=pro_někoho
 3	již	již	ADV	Db-------------	_	4	advmod	4:advmod	_
 4	publikovaných	publikovaný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	5:amod	LDeriv=publikovat
 5	důvodů	důvod	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	obl	6:obl:kromě:gen	_
+5.1	pro_někoho	#Gen	PRON	_	PronType=Ind	_	_	6:obl	Functor=BEN|ClusterId=ln94200-103-c16|MentionSpan=5.1|MentionHead=5.1|MentionText=pro_někoho
 6	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6.1	_	#Cor	PRON	_	PronType=Prs	_	_	7:nsubj	Functor=ACT|ClusterId=ln94200-103-c16|MentionSpan=6.1|MentionHead=6.1|MentionText=_
 7	připomenout	připomenout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	6	csubj	6:csubj	_
@@ -276,12 +276,12 @@
 31	částky	částka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	29	obj	29:obj	SpaceAfter=No
 32	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 33	měli	mít	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	csubj	11:csubj	_
-33.1	_	#QCor	PRON	_	PronType=Prs	_	_	37:nmod	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=33.1|MentionHead=33.1|MentionText=_
 34	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	36	case	36:case	LId=o-1
 35	veřejnou	veřejný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	36	amod	36:amod	_
+35.1	_	#Cor	PRON	_	PronType=Prs	_	_	36:nmod	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=35.1|MentionHead=35.1|MentionText=_
 36	službu	služba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	37	nmod	37:nmod:o:acc	_
+36.1	_	#QCor	PRON	_	PronType=Prs	_	_	37:nmod	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=36.1|MentionHead=36.1|MentionText=_
 37	zájem	zájem	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	33	obj	33:obj	SpaceAfter=No
-37.1	_	#Cor	PRON	_	PronType=Prs	_	_	36:nmod	Functor=ACT|ClusterId=ln94200-103-c15|MentionSpan=37.1|MentionHead=37.1|MentionText=_
 38	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # sent_id = ln94200-103-p3s5
@@ -299,13 +299,13 @@
 10	prostředky	prostředek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	8	obj	8:obj	LId=prostředek-2|LGloss=(způsob,_nástroj)
 11	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	13:case	LId=na-1
 12	studijní	studijní	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	_
-13	materiály	materiál	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	10	nmod	10:nmod:na:acc|16:nmod	ClusterId=ln94200-103-c18|MentionSpan=11-20|MentionHead=|MentionText=na_studijní_materiály_(_jejichž_koupi_oni_by_pak_dokládali_potvrzeními
+13	materiály	materiál	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	10	nmod	10:nmod:na:acc|16:nmod	ClusterId=ln94200-103-c18|MentionSpan=11-20|MentionHead=|MentionText=na_studijní_materiály_(_jejichž_koupi_by_pak_oni_dokládali_potvrzeními
 14	(	(	PUNCT	Z:-------------	_	19	punct	19:punct	SpaceAfter=No
 15	jejichž	jenž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	16	det	13:ref	LGloss=(který...[ve_vedl._větě])|ClusterId=ln94200-103-c18|MentionSpan=15|MentionHead=15|MentionText=jejichž
 16	koupi	koupě	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	19	obj	19:obj	LGloss=(př._byla_to_dobrá_koupě)
-16.1	oni	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	_	_	19:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=16.1|MentionHead=16.1|MentionText=oni
 17	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	19	aux	19:aux	_
 18	pak	pak	ADV	Db-------------	_	19	advmod	19:advmod	_
+18.1	oni	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	_	_	19:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=18.1|MentionHead=18.1|MentionText=oni
 19	dokládali	dokládat	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	acl:relcl	13:acl:relcl	_
 20	potvrzeními	potvrzení	NOUN	NNNP7-----A----	Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos	19	obl	19:obl:ins	SpaceAfter=No|LDeriv=potvrdit
 21	)	)	PUNCT	Z:-------------	_	19	punct	19:punct	_
@@ -315,9 +315,9 @@
 # text = Proč mají každý rok fasovat speciální taxu na oblečení?
 # orig_file_sentence ln94200_103#16
 1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	2:advmod	_
+1.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj|5:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=1.1|MentionHead=1.1|MentionText=oni
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	4	det	4:det	_
-3.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj|5:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=3.1|MentionHead=3.1|MentionText=oni
 4	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	obl	5:obl:acc	_
 5	fasovat	fasovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
 6	speciální	speciální	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
@@ -329,8 +329,8 @@
 # sent_id = ln94200-103-p3s7
 # text = Proč mají dostávat zvlášť diety a cestovné?
 # orig_file_sentence ln94200_103#17
-0.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj|3:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=0.1|MentionHead=0.1|MentionText=oni
 1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	2:advmod	_
+1.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj|3:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=1.1|MentionHead=1.1|MentionText=oni
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	dostávat	dostávat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	LDeriv=dostat
 4	zvlášť	zvlášť	ADV	Db-------------	_	3	advmod	3:advmod	_
@@ -396,12 +396,12 @@
 # sent_id = ln94200-103-p4s2
 # text = Ať si s ním dělá , co chce.
 # orig_file_sentence ln94200_103#21
-0.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	5:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=0.1|MentionHead=0.1|MentionText=on
 1	Ať	ať	PART	TT-------------	_	5	advmod	5:advmod	_
 2	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	5	obl	5:obl:dat	LGloss=(zvr._zájmeno/částice)|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=2|MentionHead=2|MentionText=si
 3	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	LId=s-1
 4	ním	on	PRON	P5ZS7--3-------	Case=Ins|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	5	obl	5:obl:s:ins	LId=on-1|ClusterId=ln94200-103-c17|ClusterType=Gen|MentionSpan=3-4|MentionHead=4|MentionText=s_ním
-5	dělá	dělat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	ClusterId=ln94200-103-c23|ClusterType=Spec|MentionSpan=0.1-8|MentionHead=5|MentionText=on_Ať_si_s_ním_dělá_,_co_on_chce
+4.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	5:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=4.1|MentionHead=4.1|MentionText=on
+5	dělá	dělat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	ClusterId=ln94200-103-c23|ClusterType=Spec|MentionSpan=1-8|MentionHead=5|MentionText=Ať_si_s_ním_on_dělá_,_co_on_chce
 6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 7	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	8	obj	8:obj	LId=co-1
 7.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	8:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=7.1|MentionHead=7.1|MentionText=on

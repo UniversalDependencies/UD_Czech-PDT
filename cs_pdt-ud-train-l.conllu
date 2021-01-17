@@ -111,9 +111,9 @@
 70	mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	16:appos|30:conj	LGloss=(mít_možnost_[něco_dělat])
 71	dokonce	dokonce	ADV	Db-------------	_	72	advmod:emph	72:advmod:emph	_
 72	rozhodnout	rozhodnout	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	70	xcomp	70:xcomp	_
-72.1	někým	#PersPron	PRON	_	Case=Ins|PronType=Prs	_	_	74:nmod:ins	Functor=ACT|ClusterId=ln94200-105-c10|ClusterType=Spec|MentionSpan=72.1|MentionHead=72.1|MentionText=někým
-72.2	_	#Rcp	PRON	_	PronType=Prs	_	_	74:nmod	Functor=ADDR|ClusterId=ln94200-105-c12|MentionSpan=72.2|MentionHead=72.2|MentionText=_
 73	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	74	case	74:case	LId=o-1
+73.1	někým	#PersPron	PRON	_	Case=Ins|PronType=Prs	_	_	74:nmod:ins	Functor=ACT|ClusterId=ln94200-105-c10|ClusterType=Spec|MentionSpan=73.1|MentionHead=73.1|MentionText=někým
+73.2	_	#Rcp	PRON	_	PronType=Prs	_	_	74:nmod	Functor=ADDR|ClusterId=ln94200-105-c12|MentionSpan=73.2|MentionHead=73.2|MentionText=_
 74	spojování	spojování	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	72	obl:arg	72:obl:arg:o:loc	LDeriv=spojovat
 75	obcí	obec	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	74	nmod	74:nmod:gen	ClusterId=ln94200-105-c12|Bridging=ln94200-105-c4:Part|MentionSpan=75|MentionHead=75|MentionText=obcí
 76	a	a	CCONJ	J^-------------	_	78	cc	78:cc	LId=a-1
@@ -222,10 +222,10 @@
 8	vláda	vláda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	nsubj	11:nsubj	ClusterId=ln94200-105-c13|ClusterType=Spec|MentionSpan=8|MentionHead=8|MentionText=vláda
 9	kompetence	kompetence	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	11	obj	11:obj	ClusterId=ln94200-105-c5|ClusterType=Spec|MentionSpan=9-10|MentionHead=9|MentionText=kompetence_celků
 10	celků	celek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	9	nmod	9:nmod:gen	ClusterId=ln94200-105-c4|ClusterType=Spec|MentionSpan=10|MentionHead=10|MentionText=celků
+10.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	11:nsubj	Functor=ACT|ClusterId=ln94200-105-c13|ClusterType=Spec|MentionSpan=10.1|MentionHead=10.1|MentionText=on
 11	považuje	považovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	5:ccomp	_
 12	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	13:case	LId=za-1
 13	důležitější	důležitý	ADJ	AAFP4----2A----	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|Polarity=Pos	11	obl:arg	11:obl:arg:za:acc	_
-13.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	11:nsubj	Functor=ACT|ClusterId=ln94200-105-c13|ClusterType=Spec|MentionSpan=13.1|MentionHead=13.1|MentionText=on
 14	než	než	SCONJ	J,-------------	_	16	mark	16:mark	LId=než-2
 15	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	16:det|18:det	LGloss=(přivlast.)|ClusterId=ln94200-105-c4|ClusterType=Spec|MentionSpan=15|MentionHead=15|MentionText=jejich
 16	množství	množství	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	13	dep	13:dep	ClusterId=ln94200-105-c17|ClusterType=Spec|MentionSpan=15-16|MentionHead=16|MentionText=jejich_množství
@@ -249,9 +249,9 @@
 33	počet	počet	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	26	nmod	26:nmod:na:acc	_
 34	celků	celek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	33	nmod	33:nmod:gen	ClusterId=ln94200-105-c4|ClusterType=Spec|MentionSpan=34|MentionHead=34|MentionText=celků
 35	a	a	CCONJ	J^-------------	_	37	cc	37:cc	LId=a-1
-35.1	někdo	#Gen	PRON	_	PronType=Ind	_	_	37:nmod	Functor=ACT|ClusterId=ln94200-105-c20|MentionSpan=35.1|MentionHead=35.1|MentionText=někdo
-35.2	se	#Rcp	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	_	_	37:nmod:acc	Functor=ADDR|ClusterId=ln94200-105-c20|MentionSpan=35.2|MentionHead=35.2|MentionText=se
 36	vzájemného	vzájemný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	37	amod	37:amod	_
+36.1	někdo	#Gen	PRON	_	PronType=Ind	_	_	37:nmod	Functor=ACT|ClusterId=ln94200-105-c20|MentionSpan=36.1|MentionHead=36.1|MentionText=někdo
+36.2	se	#Rcp	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	_	_	37:nmod:acc	Functor=ADDR|ClusterId=ln94200-105-c20|MentionSpan=36.2|MentionHead=36.2|MentionText=se
 37	obviňování	obviňování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	26	conj	25:nmod:gen|26:conj	LDeriv=obviňovat
 38	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	37	nmod	37:nmod:acc	LGloss=(zvr._zájmeno/částice)
 39	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	40	case	40:case	LId=z-1
@@ -265,8 +265,8 @@
 # sent_id = ln94200-105-p3s5
 # text = Pravděpodobnější se proto zdá být opak: právě počet celků je zřejmě fetišem, který jsou koaliční lídři ochotni vyměnit za tu či onu pravomoc budoucích územně správních útvarů.
 # orig_file_sentence ln94200_105#11
+0.1	_	#Cor	PRON	_	PronType=Prs	_	_	1:nsubj	Functor=ACT|ClusterId=ln94200-105-c24|MentionSpan=0.1|MentionHead=0.1|MentionText=_
 1	Pravděpodobnější	pravděpodobný	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	4	xcomp	4:xcomp	_
-1.1	_	#Cor	PRON	_	PronType=Prs	_	_	1:nsubj	Functor=ACT|ClusterId=ln94200-105-c24|MentionSpan=1.1|MentionHead=1.1|MentionText=_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	proto	proto	CCONJ	J^-------------	_	4	advmod	4:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 3.1	někdo	#Gen	PRON	_	PronType=Ind	_	_	1:nsubj|4:nsubj	Functor=ACT|ClusterId=ln94200-105-c24|MentionSpan=3.1|MentionHead=3.1|MentionText=někdo
@@ -279,14 +279,14 @@
 10	celků	celek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	9	nmod	9:nmod:gen	ClusterId=ln94200-105-c4|ClusterType=Spec|MentionSpan=10|MentionHead=10|MentionText=celků
 11	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
 12	zřejmě	zřejmě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	13:advmod	LDeriv=zřejmý
-13	fetišem	fetiš	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj|20:obj	SpaceAfter=No|ClusterId=ln94200-105-c21|MentionSpan=13-29|MentionHead=|MentionText=fetišem_,_který___jsou_koaliční_lídři_ochotni_vyměnit_za_tu_či_onu_pravomoc_budoucích_územně_správních_útvarů
+13	fetišem	fetiš	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj|20:obj	SpaceAfter=No|ClusterId=ln94200-105-c21|MentionSpan=13-29|MentionHead=|MentionText=fetišem_,_který_jsou_koaliční_lídři_ochotni___vyměnit_za_tu_či_onu_pravomoc_budoucích_územně_správních_útvarů
 14	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 15	který	který	DET	P4IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	20	obj	13:ref	ClusterId=ln94200-105-c21|MentionSpan=15|MentionHead=15|MentionText=který
-15.1	_	#Cor	PRON	_	PronType=Prs	_	_	20:nsubj	Functor=ACT|ClusterId=ln94200-105-c25|MentionSpan=15.1|MentionHead=15.1|MentionText=_
 16	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
 17	koaliční	koaliční	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	18:amod	ClusterId=ln94200-105-c37|ClusterType=Spec|MentionSpan=17|MentionHead=17|MentionText=koaliční
 18	lídři	lídr	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	19	nsubj	19:nsubj	ClusterId=ln94200-105-c25|MentionSpan=17-18|MentionHead=18|MentionText=koaliční_lídři
 19	ochotni	ochotný	ADJ	ACMP------A----	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	13	acl:relcl	13:acl:relcl	_
+19.1	_	#Cor	PRON	_	PronType=Prs	_	_	20:nsubj	Functor=ACT|ClusterId=ln94200-105-c25|MentionSpan=19.1|MentionHead=19.1|MentionText=_
 20	vyměnit	vyměnit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	xcomp	19:xcomp	_
 21	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	25	case	25:case	LId=za-1
 22	tu	ten	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	25	det	25:det	_
@@ -362,9 +362,9 @@
 9	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1
 10	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	11:det	LGloss=(přivlast.)|ClusterId=ln94200-105-c4|ClusterType=Spec|MentionSpan=10|MentionHead=10|MentionText=jejich
 11	kompetence	kompetence	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	7	conj	7:conj|13:nsubj:pass	ClusterId=ln94200-105-c5|ClusterType=Spec|MentionSpan=10-11|MentionHead=11|MentionText=jejich_kompetence
-11.1	někdo	#Gen	PRON	_	PronType=Ind	_	_	13:nsubj	Functor=ACT|ClusterId=ln94200-105-c28|MentionSpan=11.1|MentionHead=11.1|MentionText=někdo
-11.2	_	#Rcp	PRON	_	PronType=Prs	_	_	13:obl:arg	Functor=ADDR|ClusterId=ln94200-105-c28|MentionSpan=11.2|MentionHead=11.2|MentionText=_
 12	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pass	13:expl:pass	LGloss=(zvr._zájmeno/částice)
+12.1	někdo	#Gen	PRON	_	PronType=Ind	_	_	13:nsubj	Functor=ACT|ClusterId=ln94200-105-c28|MentionSpan=12.1|MentionHead=12.1|MentionText=někdo
+12.2	_	#Rcp	PRON	_	PronType=Prs	_	_	13:obl:arg	Functor=ADDR|ClusterId=ln94200-105-c28|MentionSpan=12.2|MentionHead=12.2|MentionText=_
 13	projednávají	projednávat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	4:acl:že	LDeriv=projednat
 14	odděleně	odděleně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	13:advmod	SpaceAfter=No|LDeriv=oddělit
 15	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -424,12 +424,13 @@
 # sent_id = ln94200-105-p4s3
 # text = O tom, že jiné pravomoci by měl mít celek velikosti okresu a jiné celek podobný bývalému kraji, nepochybuje snad nikdo.
 # orig_file_sentence ln94200_105#16
-0.1	_	#QCor	PRON	_	PronType=Prs	_	_	6:nmod	Functor=ACT|ClusterId=ln94200-105-c31|MentionSpan=0.1|MentionHead=0.1|MentionText=_
 1	O	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	2:case	LId=o-1
 2	tom	ten	DET	PDZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	20	obl:arg	20:obl:arg:o:loc	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 4	že	že	SCONJ	J,-------------	_	8	mark	8:mark	_
 5	jiné	jiný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	6	amod	6:amod	_
+5.1	_	#QCor	PRON	_	PronType=Prs	_	_	6:nmod	Functor=ACT|ClusterId=ln94200-105-c31|MentionSpan=5.1|MentionHead=5.1|MentionText=_
+5.2	_	#QCor	PRON	_	PronType=Prs	_	_	6:nmod	Functor=ACT|ClusterId=ln94200-105-c32|MentionSpan=5.2|MentionHead=5.2|MentionText=_
 6	pravomoci	pravomoc	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	9	obj	9:obj	_
 7	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	8	aux	8:aux	_
 8	měl	mít	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	acl	2:acl:že	_
@@ -440,7 +441,6 @@
 12.1	_	_	_	_	_	_	_	2:acl:že|8:conj	_
 13	a	a	CCONJ	J^-------------	_	14	cc	12.1:cc	LId=a-1
 14	jiné	jiný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	conj	12.1:dep	_
-14.1	_	#QCor	PRON	_	PronType=Prs	_	_	6:nmod	Functor=ACT|ClusterId=ln94200-105-c32|MentionSpan=14.1|MentionHead=14.1|MentionText=_
 15	celek	celek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	14	orphan	12.1:dep	ClusterId=ln94200-105-c32|MentionSpan=15-18|MentionHead=15|MentionText=celek_podobný_bývalému_kraji
 16	podobný	podobný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	15	amod	15:amod	_
 17	bývalému	bývalý	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	18:amod	_
@@ -505,10 +505,10 @@
 14	předtím	předtím	ADV	Db-------------	_	20	advmod	20:advmod	_
 15	koalice	koalice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	20	nsubj	20:nsubj	ClusterId=ln94200-105-c37|ClusterType=Spec|MentionSpan=15|MentionHead=15|MentionText=koalice
 16	vše	všechen	DET	PLNS4---------1	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	20	obj	20:obj	_
-16.1	_	#Rcp	PRON	_	PronType=Prs	_	_	20:obl:arg	Functor=ADDR|ClusterId=ln94200-105-c37|ClusterType=Spec|MentionSpan=16.1|MentionHead=16.1|MentionText=_
 17	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	19	case	19:case	LId=o-1
 18	územněsprávním	územněsprávní	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	19	amod	19:amod	_
 19	uspořádání	uspořádání	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	16	nmod	16:nmod:o:loc	LDeriv=uspořádat
+19.1	_	#Rcp	PRON	_	PronType=Prs	_	_	20:obl:arg	Functor=ADDR|ClusterId=ln94200-105-c37|ClusterType=Spec|MentionSpan=19.1|MentionHead=19.1|MentionText=_
 20	vyříkala	vyříkat	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	acl	6:acl:aby	_
 21	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	23	case	23:case	LId=mezi-1
 22	osmi	osm	NUM	Cn-P7----------	Case=Ins|Number=Plur|NumForm=Word|NumType=Card	23	nummod	23:nummod	LNumValue=8
