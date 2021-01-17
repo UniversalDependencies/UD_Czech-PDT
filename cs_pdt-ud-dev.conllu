@@ -317,7 +317,7 @@
 1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	2:advmod	_
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	4	det	4:det	_
-3.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	5:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=3.1|MentionHead=3.1|MentionText=oni
+3.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj|5:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=3.1|MentionHead=3.1|MentionText=oni
 4	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	obl	5:obl:acc	_
 5	fasovat	fasovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
 6	speciální	speciální	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
@@ -329,7 +329,7 @@
 # sent_id = ln94200-103-p3s7
 # text = Proč mají dostávat zvlášť diety a cestovné?
 # orig_file_sentence ln94200_103#17
-0.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	3:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=0.1|MentionHead=0.1|MentionText=oni
+0.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj|3:nsubj	Functor=ACT|ClusterId=ln94200-103-c6|ClusterType=Gen|MentionSpan=0.1|MentionHead=0.1|MentionText=oni
 1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	2:advmod	_
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	dostávat	dostávat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	LDeriv=dostat
