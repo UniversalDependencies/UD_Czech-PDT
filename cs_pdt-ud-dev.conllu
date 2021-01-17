@@ -213,7 +213,7 @@
 # sent_id = ln94200-103-p3s2
 # text = Ne pro samotnou výši.
 # orig_file_sentence ln94200_103#12
-0.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	0:root	Functor=ACT|ClusterId=ln94200-103-c13|ClusterType=Spec|MentionSpan=0.1|MentionHead=0.1|MentionText=on
+0.1	on	#PersPron	PRON	_	Case=Nom|PronType=Prs	_	_	0:root	Functor=ACT|ClusterId=ln94200-103-c13|ClusterType=Spec|MentionSpan=0.1|MentionHead=0.1|MentionText=on
 1	Ne	ne	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	_
 2	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	4:case	LId=pro-1
 3	samotnou	samotný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_

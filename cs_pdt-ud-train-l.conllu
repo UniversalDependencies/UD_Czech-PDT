@@ -111,7 +111,7 @@
 70	mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	16:appos|30:conj	LGloss=(mít_možnost_[něco_dělat])
 71	dokonce	dokonce	ADV	Db-------------	_	72	advmod:emph	72:advmod:emph	_
 72	rozhodnout	rozhodnout	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	70	xcomp	70:xcomp	_
-72.1	někoho	#PersPron	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	_	_	74:nmod:gen	Functor=ACT|ClusterId=ln94200-105-c10|ClusterType=Spec|MentionSpan=72.1|MentionHead=72.1|MentionText=někoho
+72.1	někoho	#PersPron	PRON	_	Case=Gen|PronType=Prs	_	_	74:nmod:gen	Functor=ACT|ClusterId=ln94200-105-c10|ClusterType=Spec|MentionSpan=72.1|MentionHead=72.1|MentionText=někoho
 72.2	_	#Rcp	PRON	_	PronType=Prs	_	_	74:nmod	Functor=ADDR|ClusterId=ln94200-105-c12|MentionSpan=72.2|MentionHead=72.2|MentionText=_
 73	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	74	case	74:case	LId=o-1
 74	spojování	spojování	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	72	obl:arg	72:obl:arg:o:loc	LDeriv=spojovat

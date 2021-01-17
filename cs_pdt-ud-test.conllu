@@ -105,7 +105,7 @@
 15	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	16	obl	16:obl:acc	_
 16	přišel	přijít	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	acl:relcl	8:acl:relcl	_
 17	sport	sport	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	16	nsubj	16:nsubj	ClusterId=ln94200-104-c26|ClusterType=Gen|MentionSpan=17|MentionHead=17|MentionText=sport
-17.1	někoho	#PersPron	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	_	_	20:nmod:gen	Functor=ACT|ClusterId=ln94200-104-c9|ClusterType=Spec|MentionSpan=17.1|MentionHead=17.1|MentionText=někoho
+17.1	někoho	#PersPron	PRON	_	Case=Gen|PronType=Prs	_	_	20:nmod:gen	Functor=ACT|ClusterId=ln94200-104-c9|ClusterType=Spec|MentionSpan=17.1|MentionHead=17.1|MentionText=někoho
 18	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	19	case	19:case	LId=v-1
 19	případě	případ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	16	obl	16:obl:v:loc	_
 20	odebrání	odebrání	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	19	nmod	19:nmod:gen	LDeriv=odebrat
@@ -295,7 +295,7 @@
 20	)	)	PUNCT	Z:-------------	_	19	punct	19:punct	SpaceAfter=No
 21	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 22	připustili	připustit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-22.1	někoho	#PersPron	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	_	_	23:nmod:gen	Functor=ACT|ClusterId=ln94200-104-c20|ClusterType=Spec|MentionSpan=22.1|MentionHead=22.1|MentionText=někoho
+22.1	někoho	#PersPron	PRON	_	Case=Gen|PronType=Prs	_	_	23:nmod:gen	Functor=ACT|ClusterId=ln94200-104-c20|ClusterType=Spec|MentionSpan=22.1|MentionHead=22.1|MentionText=někoho
 23	vydáním	vydání	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	22	obl	22:obl:ins	LId=vydání-1|LGloss=(emitovat:_cenné_papíry,_knihu,_zvuk,...)|LDeriv=vydat|ClusterId=ln94200-104-c46|ClusterType=Spec|MentionSpan=22.1-40|MentionHead=23|MentionText=někoho_vydáním_povolení_na_provozování_téměř_identických_číselných_her_jak_soukromé_akciové_společnosti_Sazka_,_tak_státní_České_lotynce
 24	povolení	povolení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	23	nmod	23:nmod:gen	LDeriv=povolit
 25	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	26	case	26:case	LId=na-1
@@ -622,7 +622,7 @@
 # sent_id = ln94200-104-p7s2
 # text = Měli by být hnáni k odpovědnosti.
 # orig_file_sentence ln94200_104#24
-0.1	někoho	#PersPron	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	_	_	4:obj	Functor=PAT|ClusterId=ln94200-104-c20|ClusterType=Spec|MentionSpan=0.1|MentionHead=0.1|MentionText=někoho
+0.1	někoho	#PersPron	PRON	_	Case=Acc|PronType=Prs	_	_	4:obj	Functor=PAT|ClusterId=ln94200-104-c20|ClusterType=Spec|MentionSpan=0.1|MentionHead=0.1|MentionText=někoho
 1	Měli	mít	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	1	aux	1:aux	_
 3	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	aux:pass	4:aux:pass	_
