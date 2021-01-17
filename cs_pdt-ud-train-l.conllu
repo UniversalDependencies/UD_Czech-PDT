@@ -266,7 +266,7 @@
 # text = Pravděpodobnější se proto zdá být opak: právě počet celků je zřejmě fetišem, který jsou koaliční lídři ochotni vyměnit za tu či onu pravomoc budoucích územně správních útvarů.
 # orig_file_sentence ln94200_105#11
 1	Pravděpodobnější	pravděpodobný	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	4	xcomp	4:xcomp	_
-1.1	_	#Cor	PRON	_	PronType=Prs	_	_	5:nsubj	Functor=ACT|ClusterId=ln94200-105-c24|MentionSpan=1.1|MentionHead=1.1|MentionText=_
+1.1	_	#Cor	PRON	_	PronType=Prs	_	_	1:nsubj	Functor=ACT|ClusterId=ln94200-105-c24|MentionSpan=1.1|MentionHead=1.1|MentionText=_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	proto	proto	CCONJ	J^-------------	_	4	advmod	4:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 3.1	někdo	#Gen	PRON	_	PronType=Ind	_	_	1:nsubj|4:nsubj	Functor=ACT|ClusterId=ln94200-105-c24|MentionSpan=3.1|MentionHead=3.1|MentionText=někdo
