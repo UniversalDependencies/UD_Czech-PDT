@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">102072</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, celý, poslední -->
     <tag name="ADP">81947</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
-    <tag name="ADV">41138</tag><!-- tak, už, také, včera, více, jak, ještě, již, dnes, jen -->
+    <tag name="ADV">41139</tag><!-- tak, už, také, včera, více, jak, ještě, již, dnes, jen -->
     <tag name="AUX">22627</tag><!-- být, bývat, bývávat -->
     <tag name="CCONJ">31502</tag><!-- a, i, ale, však, nebo, či, ani, tedy, proto, totiž -->
     <tag name="DET">32742</tag><!-- ten, který, tento, jeho, svůj, všechen, náš, některý, každý, tisíc -->
@@ -28,7 +28,7 @@
     <tag name="PRON">24878</tag><!-- se, on, jenž, my, co, já, kdo, což, nic, něco -->
     <tag name="PROPN">45746</tag><!-- Praha, ČR, LN, Evropa, Německo, ODS, Brno, Jiří, Slovensko, Jan -->
     <tag name="PUNCT">119050</tag><!-- ., ,, -, ), (, ", :, ?, /, ; -->
-    <tag name="SCONJ">15446</tag><!-- že, jako, aby, než, když, protože, pokud, zda, li, jak -->
+    <tag name="SCONJ">15445</tag><!-- že, jako, aby, než, když, protože, pokud, zda, li, jak -->
     <tag name="SYM">671</tag><!-- %, +, §, x, =, /, *, §§, : -->
     <tag name="VERB">76523</tag><!-- mít, být, moci, muset, říci, stát, chtít, jít, uvést, lze -->
     <tag name="X">4632</tag><!-- New, de, the, open, York, Floyd, Pink, play, off, of -->
