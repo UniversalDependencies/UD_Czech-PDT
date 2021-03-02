@@ -161,7 +161,7 @@
     <dep name="flat:foreign">2151</dep>
     <dep name="iobj">633</dep>
     <dep name="mark">15422</dep>
-    <dep name="nmod">82494</dep>
+    <dep name="nmod">82551</dep>
     <dep name="nsubj">49310</dep>
     <dep name="nsubj:pass">4158</dep>
     <dep name="nummod">10967</dep>
@@ -170,8 +170,8 @@
     <dep name="obl">48200</dep>
     <dep name="obl:arg">18906</dep>
     <dep name="orphan">2418</dep>
-    <dep name="parataxis">902</dep>
-    <dep name="punct">119095</dep>
+    <dep name="parataxis">901</dep>
+    <dep name="punct">119039</dep>
     <dep name="root">49428</dep>
     <dep name="vocative">40</dep>
     <dep name="xcomp">10365</dep>
