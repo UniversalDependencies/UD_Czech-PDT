@@ -84,6 +84,10 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fixed bug: SpaceAfter=No should not occur at the end of paragraph.
+  * "§" is now SYM instead of NOUN.
+  * Fixed recognition of clauses with passive participles (ADJ).
 * 2020-11-15 v2.7
   * Fixed bug: question marks were replaced by asterisks.
   * Adjusted treatment of double lemmas like "m`metr".
