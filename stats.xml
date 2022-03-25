@@ -10,7 +10,7 @@
     <dev><sentences>9270</sentences><tokens>158958</tokens><words>159284</words><fused>326</fused></dev>
     <test><sentences>10148</sentences><tokens>173584</tokens><words>173918</words><fused>334</fused></test>
   </size>
-  <lemmas unique="58214" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <lemmas unique="58217" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
   <forms unique="128229" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
   <fusions unique="10" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys, Neníť -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -34,13 +34,13 @@
     <tag name="X">13</tag><!-- a, h, m, s -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="113">
+  <feats unique="114">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PROPN,VERB,X">21743</feat><!-- ČR, LN, r, ODS, m, s, j, např, a, tzv -->
     <feat name="AdpType" value="Comprep" upos="ADP">286</feat><!-- vzhledem, nehledě, narozdíl -->
     <feat name="AdpType" value="Prep" upos="ADP">134515</feat><!-- v, na, o, z, s, do, k, pro, za, po -->
     <feat name="AdpType" value="Voc" upos="ADP">11142</feat><!-- ve, se, ze, ke, ode, beze, ku, skrze, přede, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">112134</feat><!-- kteří, kdo, lidí, ministr, předseda, měli, byli, lidé, ředitel, prezident -->
-    <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">200793</feat><!-- co, roku, roce, byly, případě, které, zákona, rok, světa, trhu -->
+    <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">201486</feat><!-- co, roku, roce, byly, případě, které, zákona, rok, světa, trhu -->
     <feat name="Aspect" value="Imp" upos="ADJ,ADP,AUX,VERB">53405</feat><!-- říká, patří, znamená, tvrdí, tvoří, představuje, uvádí, považuje, snaží, existuje -->
     <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">38503</feat><!-- řekl, prohlásil, podařilo, získat, dodal, sdělil, získal, říci, oznámil, označil -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">180442</feat><!-- se, na, pro, o, za, to, v, které, je, své -->
@@ -119,7 +119,7 @@
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">20659</feat><!-- není, nebude, nejsou, nelze, nemá, nemůže, nebyl, nebylo, nemají, nebyla -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,SYM,VERB">811399</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, Praha -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">17024</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
-    <feat name="PrepCase" value="Npr" upos="PRON">948</feat><!-- jež, jehož, jenž, jemuž, jímž, jimž, jimiž, jichž, jíž, již -->
+    <feat name="PrepCase" value="Npr" upos="PRON">3932</feat><!-- je, ji, jim, jež, jej, jí, jich, jehož, jenž, jím -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
     <feat name="PronType" value="Dem" upos="ADV,DET">27233</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
     <feat name="PronType" value="Emp" upos="DET">700</feat><!-- sám, sama, sami, samy, samo, samu, samého -->
@@ -145,28 +145,29 @@
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">144</feat><!-- počínaje, nemluvě, konče, Mluvě, soudě, říkajíc, jsouce, jsa, jsouc, maje -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">93481</feat><!-- je, by, jsou, bude, má, není, jsem, jsme, může, budou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">26268</feat><!-- být, mít, získat, stát, hrát, říci, platit, muset, dělat, dostat -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">71005</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, byli -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">84811</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, byli -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">24838</feat><!-- jednání, utkání, rozhodnutí, řešení, zařízení, řízení, opatření, zvýšení, setkání, podnikání -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">145235</feat><!-- je, jsou, bude, byl, má, není, bylo, jsem, jsme, byla -->
-    <feat name="Voice" value="Pass" upos="ADJ">9526</feat><!-- řečeno, přesvědčen, připravena, připraven, otevřena, rozhodnuto, zvolen, uzavřena, uvedeno, založena -->
+    <feat name="Voice" value="Pass" upos="ADJ">23332</feat><!-- spojených, spojené, řečeno, přesvědčen, připravena, připraven, uvedené, určené, příslušné, zmíněné -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
     <dep name="acl">6450</dep>
     <dep name="acl:relcl">15371</dep>
-    <dep name="advcl">10658</dep>
+    <dep name="advcl">10659</dep>
     <dep name="advmod">60132</dep>
     <dep name="advmod:emph">23517</dep>
     <dep name="amod">158119</dep>
     <dep name="appos">7723</dep>
-    <dep name="aux">14808</dep>
-    <dep name="aux:pass">5981</dep>
+    <dep name="aux">14806</dep>
+    <dep name="aux:pass">5983</dep>
     <dep name="case">145179</dep>
     <dep name="cc">52635</dep>
     <dep name="ccomp">10956</dep>
     <dep name="compound">2800</dep>
     <dep name="conj">66953</dep>
     <dep name="cop">20597</dep>
-    <dep name="csubj">5757</dep>
+    <dep name="csubj">5760</dep>
     <dep name="csubj:pass">474</dep>
     <dep name="dep">12573</dep>
     <dep name="det">29206</dep>
@@ -181,12 +182,12 @@
     <dep name="iobj">1064</dep>
     <dep name="mark">28201</dep>
     <dep name="nmod">147576</dep>
-    <dep name="nsubj">86458</dep>
-    <dep name="nsubj:pass">7700</dep>
+    <dep name="nsubj">86453</dep>
+    <dep name="nsubj:pass">7702</dep>
     <dep name="nummod">19656</dep>
     <dep name="nummod:gov">7349</dep>
     <dep name="obj">53170</dep>
-    <dep name="obl">85303</dep>
+    <dep name="obl">85302</dep>
     <dep name="obl:arg">33786</dep>
     <dep name="orphan">4121</dep>
     <dep name="parataxis">1885</dep>
