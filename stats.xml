@@ -34,7 +34,7 @@
     <tag name="X">4632</tag><!-- New, de, the, open, York, Floyd, Pink, play, off, of -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="94">
+  <feats unique="95">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PROPN,VERB">13209</feat><!-- ČR, Kč, LN, ODS, USA, m, a, s, j, OSN -->
     <feat name="AdpType" value="Comprep" upos="ADP">160</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">75411</feat><!-- v, na, o, z, s, do, pro, za, k, po -->
@@ -101,8 +101,8 @@
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">11644</feat><!-- není, nebude, nejsou, nemá, nelze, nemůže, nebyl, nebylo, nemají, nedávno -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,VERB">445131</feat><!-- je, jsou, bude, byl, má, být, jsem, Praha, bylo, roku -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">9336</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
-    <feat name="PrepCase" value="Npr" upos="PRON">2009</feat><!-- je, jim, ji, jej, jí, jich, jehož, jemuž, jím, jimž -->
-    <feat name="PrepCase" value="Pre" upos="PRON">2181</feat><!-- nich, něj, ní, nichž, níž, něm, němž, nimi, ně, něho -->
+    <feat name="PrepCase" value="Npr" upos="PRON">2014</feat><!-- je, jim, ji, jej, jí, jich, jehož, jemuž, jím, jimž -->
+    <feat name="PrepCase" value="Pre" upos="PRON">2182</feat><!-- nich, něj, ní, nichž, níž, něm, němž, nimi, ně, něho -->
     <feat name="PronType" value="Dem" upos="ADV,DET">14678</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
     <feat name="PronType" value="Dem,Ind" upos="ADV,DET">134</feat><!-- kolik, pár, nejednou, kolika, párkrát -->
     <feat name="PronType" value="Emp" upos="DET">413</feat><!-- sám, sami, sama, samy, samo, samu -->
@@ -126,9 +126,10 @@
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">68</feat><!-- počínaje, nemluvě, Mluvě, soudě, konče, Jsouc, jsouce, chtíc, jsa, navazuje -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">50905</feat><!-- je, by, jsou, bude, má, jsem, není, jsme, budou, může -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">14658</feat><!-- být, mít, získat, stát, hrát, muset, platit, říci, dělat, dát -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">40806</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, mělo -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">48232</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, mělo -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">13998</feat><!-- jednání, vedení, utkání, rozhodnutí, řešení, řízení, zařízení, opatření, sdružení, setkání -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">81344</feat><!-- je, jsou, bude, byl, má, jsem, bylo, není, byla, jsme -->
-    <feat name="Voice" value="Pass" upos="ADJ">5025</feat><!-- řečeno, přesvědčen, připravena, připraven, otevřena, uzavřena, rozhodnuto, zvolen, stanovena, obviněn -->
+    <feat name="Voice" value="Pass" upos="ADJ">12451</feat><!-- spojených, spojené, řečeno, přesvědčen, připravena, vyrovnaný, připraven, otevřena, dotázaných, přidané -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
@@ -139,15 +140,15 @@
     <dep name="advmod:emph">12951</dep>
     <dep name="amod">87170</dep>
     <dep name="appos">3915</dep>
-    <dep name="aux">8477</dep>
-    <dep name="aux:pass">3236</dep>
+    <dep name="aux">8475</dep>
+    <dep name="aux:pass">3238</dep>
     <dep name="case">81674</dep>
     <dep name="cc">28987</dep>
     <dep name="ccomp">6454</dep>
     <dep name="compound">1165</dep>
     <dep name="conj">36731</dep>
     <dep name="cop">10908</dep>
-    <dep name="csubj">3019</dep>
+    <dep name="csubj">3020</dep>
     <dep name="csubj:pass">240</dep>
     <dep name="dep">7163</dep>
     <dep name="det">17174</dep>
@@ -162,8 +163,8 @@
     <dep name="iobj">632</dep>
     <dep name="mark">15422</dep>
     <dep name="nmod">82551</dep>
-    <dep name="nsubj">49263</dep>
-    <dep name="nsubj:pass">4151</dep>
+    <dep name="nsubj">49260</dep>
+    <dep name="nsubj:pass">4153</dep>
     <dep name="nummod">10967</dep>
     <dep name="nummod:gov">3265</dep>
     <dep name="obj">29949</dep>
