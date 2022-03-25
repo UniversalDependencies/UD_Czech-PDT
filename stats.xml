@@ -145,10 +145,10 @@
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">144</feat><!-- počínaje, nemluvě, konče, Mluvě, soudě, říkajíc, jsouce, jsa, jsouc, maje -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">93481</feat><!-- je, by, jsou, bude, má, není, jsem, jsme, může, budou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">26268</feat><!-- být, mít, získat, stát, hrát, říci, platit, muset, dělat, dostat -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">84811</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, byli -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">83869</feat><!-- byl, bylo, byla, řekl, měl, byly, měla, uvedl, měli, byli -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">24838</feat><!-- jednání, utkání, rozhodnutí, řešení, zařízení, řízení, opatření, zvýšení, setkání, podnikání -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">145235</feat><!-- je, jsou, bude, byl, má, není, bylo, jsem, jsme, byla -->
-    <feat name="Voice" value="Pass" upos="ADJ">23332</feat><!-- spojených, spojené, řečeno, přesvědčen, připravena, připraven, uvedené, určené, příslušné, zmíněné -->
+    <feat name="Voice" value="Pass" upos="ADJ">22390</feat><!-- spojených, spojené, řečeno, přesvědčen, připravena, připraven, uvedené, určené, příslušné, zmíněné -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
