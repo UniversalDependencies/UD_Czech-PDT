@@ -84,6 +84,9 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
+  * Added VerbForm=Vnoun to verbal nouns.
 * 2021-05-15 v2.8
   * Fixed bug: SpaceAfter=No should not occur at the end of paragraph.
   * "§" is now SYM instead of NOUN.
