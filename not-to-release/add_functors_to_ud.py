@@ -29,7 +29,7 @@ for line in f:
         dict[sentid][wordid] = functor
     else:
         print("WARNING: Cannot parse node id '%s'" % id)
-    if not re.match(r"^[A-Z]+$", functor):
+    if not re.match(r"^[A-Z1-3]+$", functor):
         print("WARNING: Unexpected format of functor '%s'" % functor)
 
 # Read the CoNLL-U file, add functors to recognized nodes, and write it again.
@@ -46,18 +46,30 @@ for d in documents:
         if sid in dict:
             # We assume that the low-level tokenization has not changed, that is,
             # the number and order of tokens is the same as in the original PDT.
-            # However, if there are multi-word tokens ('abychom, kdybychom, tys...'),
-            # we must stick to the token index, rather than word/node ord.
+            # More precisely, we assume that the word ids from PDT form a sequence
+            # and correspond to our node ids (ords). This is in general quite risky
+            # because the only guarantee about the PDT ids is that they are unique.
+            # Multi-word tokens 'abych', 'abys', 'aby', 'abychom', 'abyste',
+            # 'kdybych', 'kdybys', 'kdyby', 'kdybychom', 'kdybyste' might work
+            # because they used to be split in PDT 1.0 and the word id of the
+            # following word skips one position. But there are other types of
+            # MWT in UD, and there might be other traps in PDT ids.
+            ###!!! We should add a sanity check: export word forms alongside the
+            ###!!! word ids, then see if they match the word forms in UD.
             nodes = root.descendants
-            wids = []
+            wids = [str(0)]
             wid = 1
             for node in nodes:
-                wids[node.ord] = str(wid)
-                if not node.multiword_token or node == node.multiword_token.words[-1]:
-                    wid += 1
+                wids.append(str(wid))
+                ###!!! Here we should adjust the wid mapping to the fact that PDT
+                ###!!! does not have MWTs. However, since some of them actually
+                ###!!! existed as MWT in PDT 1.0, the adjustment would put us off!
+                #if not node.multiword_token or node.ord == node.multiword_token.words[-1].ord:
+                wid += 1
             for node in nodes:
                 wid = wids[node.ord]
                 if wid in dict[sid]:
                     node.misc['Functor'] = dict[sid][wid]
+                    node.misc['PDTId'] = sid+'w'+wid
     ###!!! If there are multiple documents in the input file, only the last one will survive on output.
     d.store_conllu('output.conllu') ### možná nahoře neimportovat reader, ale rovnou Document a vytvořit ho konstruktorem (filename=, viz dokumentace)
