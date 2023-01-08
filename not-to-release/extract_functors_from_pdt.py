@@ -3,7 +3,7 @@
 #import os
 #from argparse import ArgumentParser
 
-import lxml.etree as ET
+import lxml.etree as ET # if not installed: /opt/python/3.9.7/bin/python3 -m pip install lxml
 
 ###!!! We will want to take the file names as command line arguments.
 fname_tfile = 'cmpr9410_001.t' # gunzipped; at present we do not need the other files (.a, .m, .w); /net/data/pdt-c-1.0/data/PDT/pml/tamw/train-1 contains the gzipped files
