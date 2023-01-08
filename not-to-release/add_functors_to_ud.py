@@ -17,8 +17,7 @@ fname_udout = 'output.conllu' # the same file enhanced with functors where node 
 dict = {}
 f = open(fname_functors)
 for line in f:
-    # For some reason, the script preparing the functors added spaces around the tab.
-    (id, functor) = line.rstrip().split(" \t ")
+    (id, functor) = line.rstrip().split("\t")
     # a#a-cmpr9410-001-p2s1w2
     m = re.match(r"^a#a-(.+)w([0-9]+)$", id)
     if m:

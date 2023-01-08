@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
 
 #import os
-#import re
 #from argparse import ArgumentParser
-#from collections import defaultdict
 
 import lxml.etree as ET
 
-t_file = ET.parse('./Sample/cmpr9410_001.t')
+###!!! We will want to take the file names as command line arguments.
+fname_tfile = 'cmpr9410_001.t' # gunzipped; at present we do not need the other files (.a, .m, .w); /net/data/pdt-c-1.0/data/PDT/pml/tamw/train-1 contains the gzipped files
 
+t_file = ET.parse(fname_tfile)
+
+# Find all elements <lex.rf> in the PML namespace.
 for lex_rf in t_file.findall('//{http://ufal.mff.cuni.cz/pdt/pml/}lex.rf'):
-    #print(lex_rf.text)
-    parent_element = lex_rf.getparent().getparent()
-    for child in parent_element:
+    # The parent element is <a> (groups all lex and aux references to a-tree).
+    # The grandparent element is <LM> (list member of the list <children>, i.e., the element corresponding to a t-node).
+    grandparent_element = lex_rf.getparent().getparent()
+    for child in grandparent_element:
         if child.tag == '{http://ufal.mff.cuni.cz/pdt/pml/}functor':
-            print(lex_rf.text, '\t', child.text)
-# check words in UD and PDT
+            print("%s\t%s" % (lex_rf.text, child.text))
+
+###!!! check words in UD and PDT
