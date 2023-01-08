@@ -15,11 +15,13 @@ fname_udout = 'output.conllu' # the same file enhanced with functors where node 
 # Read the list of node ids and functors extracted from the t-layer of PDT.
 # Store it in a dictionary.
 dict = {}
+forms = {} # only for sanity check
 f = open(fname_functors)
 for line in f:
-    (id, functor) = line.rstrip().split("\t")
-    # a#a-cmpr9410-001-p2s1w2
-    m = re.match(r"^a#a-(.+)w([0-9]+)$", id)
+    (id, functor, form) = line.rstrip().split("\t")
+    forms[id] = form
+    # cmpr9410-001-p2s1w2
+    m = re.match(r"^(.+)w([0-9]+)$", id)
     if m:
         sentid = m.group(1)
         wordid = m.group(2)
@@ -53,8 +55,6 @@ for d in documents:
             # because they used to be split in PDT 1.0 and the word id of the
             # following word skips one position. But there are other types of
             # MWT in UD, and there might be other traps in PDT ids.
-            ###!!! We should add a sanity check: export word forms alongside the
-            ###!!! word ids, then see if they match the word forms in UD.
             nodes = root.descendants
             wids = [str(0)]
             wid = 1
@@ -69,6 +69,13 @@ for d in documents:
                 wid = wids[node.ord]
                 if wid in dict[sid]:
                     node.misc['Functor'] = dict[sid][wid]
-                    node.misc['PDTId'] = sid+'w'+wid
+                    fullwid = sid+'w'+wid
+                    node.misc['PDTId'] = fullwid
+                    # Sanity check of the word form.
+                    if fullwid in forms:
+                        if node.form != forms[fullwid]:
+                            print("WARNING: The UD form '%s' does not match the PDT form '%s' of the word id '%s'." % (node.form, forms[fullwid], fullwid))
+                    else:
+                        print("WARNING: Missing PDT form of the word id '%s'" % (fullwid))
     ###!!! If there are multiple documents in the input file, only the last one will survive on output.
     d.store_conllu('output.conllu') ### možná nahoře neimportovat reader, ale rovnou Document a vytvořit ho konstruktorem (filename=, viz dokumentace)
