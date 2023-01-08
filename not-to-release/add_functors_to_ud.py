@@ -8,8 +8,8 @@ from udapi.block.read.conllu import Conllu
 import re
 
 ###!!! We will want to take the file names as command line arguments.
-fname_functors = 'not-to-release/functors.txt' # node ids and functors extracted from t-trees in PDT
-fname_udin = 'cs_pdt-ud-train-c.conllu' # PDT converted to UD (or a part of it)
+fname_functors = 'functors.txt' # node ids and functors extracted from t-trees in PDT
+fname_udin = '../cs_pdt-ud-train-c.conllu' # PDT converted to UD (or a part of it)
 fname_udout = 'output.conllu' # the same file enhanced with functors where node ids match
 
 # Read the list of node ids and functors extracted from the t-layer of PDT.
