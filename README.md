@@ -84,6 +84,8 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 # Changelog
 
+* CorefUD 1.1
+  * Removed superfluous empty nodes #Rcp, #Cor.
 * CorefUD 1.0
   * Fixed bug: Distinction between clauses and nominals.
   * Fixed bug: Gapping empty nodes vs. coreference empty nodes.
