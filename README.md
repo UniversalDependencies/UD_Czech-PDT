@@ -87,6 +87,7 @@ This table summarizes the origins and checking of the various columns of the CoN
 * 2023-05-15 v2.12
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.
+  * Added the enhanced relation subtype nsubj:xsubj.
 * 2022-05-15 v2.10
   * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
   * Added VerbForm=Vnoun to verbal nouns.
