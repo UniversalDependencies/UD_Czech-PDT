@@ -160,14 +160,14 @@
     <dep name="fixed">2789</dep>
     <dep name="flat">11698</dep>
     <dep name="flat:foreign">2151</dep>
-    <dep name="iobj">632</dep>
+    <dep name="iobj">359</dep>
     <dep name="mark">15422</dep>
     <dep name="nmod">82551</dep>
     <dep name="nsubj">49238</dep>
     <dep name="nsubj:pass">4152</dep>
     <dep name="nummod">10967</dep>
     <dep name="nummod:gov">3265</dep>
-    <dep name="obj">29949</dep>
+    <dep name="obj">30222</dep>
     <dep name="obl">47992</dep>
     <dep name="obl:arg">18906</dep>
     <dep name="orphan">2418</dep>
