@@ -85,7 +85,8 @@ This table summarizes the origins and checking of the various columns of the CoN
 # Changelog
 
 * CorefUD 1.1
-  * Removed superfluous empty nodes #Rcp, #Cor.
+  * Removed superfluous empty nodes #Rcp, #Cor, #QCor.
+  * Removed empty nodes depending on the artificial 0:root.
   * "Bych/bys/by/bychom/byste" in MWTs no longer breaks mention spans.
   * Improved guessing of pronominal forms for empty nodes.
   * Functors added also to non-empty nodes.
