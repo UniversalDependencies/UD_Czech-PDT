@@ -1,17 +1,17 @@
 # Summary
 
-The Czech-PDT UD treebank is based on the Prague Dependency Treebank 3.0 (PDT),
-created at the Charles University in Prague.
+The Czech-PDT UD treebank is based on the Prague Dependency Treebank – Consolidated 1.0
+(PDT-C), created at the Charles University in Prague.
 
 
 # Introduction
 
-The treebank consists of 87,913 sentences (1.5 M tokens) and its domain is
+The treebank consists of 87,907 sentences (1.5 M tokens) and its domain is
 mainly newswire, reaching also to business and popular scientific articles
 from the 1990s. The treebank is licensed under the terms of
-[CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 and its original (non-UD) version can be downloaded from
-[http://hdl.handle.net/11858/00-097C-0000-0023-1AAF-3](http://hdl.handle.net/11858/00-097C-0000-0023-1AAF-3).
+[http://hdl.handle.net/11234/1-3185](http://hdl.handle.net/11234/1-3185).
 
 The morphological and syntactic annotation of the Czech UD treebank is created
 through a conversion of PDT data. The conversion procedure has been designed by
@@ -27,6 +27,13 @@ Anna Nedoluzhko, Jarmila Panevová, Lucie Poláková, Magda Ševčíková,
 Jan Štěpánek, and Šárka Zikánová.
 
 ## References
+
+* Jan Hajič, Eduard Bejček, Jaroslava Hlaváčová, Marie Mikulová, Milan Straka,
+  Jan Štěpánek, and Barbora Štěpánková. 2020. Prague Dependency Treebank –
+  Consolidated 1.0.
+  In: Proceedings of the 12th Conference on Language Resources and Evaluation
+  (LREC 2020), Marseille, France, pp. 5208-5218.
+  https://aclanthology.org/2020.lrec-1.641.pdf
 
 * Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová, Václava Kettnerová,
   Veronika Kolářová, Marie Mikulová, Jiří Mírovský, Anna Nedoluzhko,
@@ -70,16 +77,16 @@ This table summarizes the origins and checking of the various columns of the CoN
 
 | Column | Status |
 | ------ | ------ |
-| ID | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
-| FORM | Identical to Prague Dependency Treebank 3.0 form. |
-| LEMMA | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
-| UPOS | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
-| XPOS | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
-| FEATS | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
-| HEAD | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| ID     | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
+| FORM   | Identical to Prague Dependency Treebank 3.0 form. |
+| LEMMA  | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
+| UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| XPOS   | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
+| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| HEAD   | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
 | DEPREL | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
-| DEPS | Generated from the basic UD tree and additional annotation from the original PDT. |
-| MISC | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. |
+| DEPS   | Generated from the basic UD tree and additional annotation from the original PDT. |
+| MISC   | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. Some other annotation from PDT, such as coreference and functors (for parts of the corpus). |
 
 
 # Changelog
@@ -94,33 +101,32 @@ This table summarizes the origins and checking of the various columns of the CoN
   * The tectogrammatical (t-) layer of source annotation is now used for documents for which it is available.
     * Sentences converted with the help of t-layer have the comment "Tectogrammatical annotation available."
     * There are more enhanced dependency relations and empty nodes.
-    * The MISC column contains CorefUD-style annotation of coreference.
+    * The MISC column contains CorefUD-style annotation of coreference (now also in the UD release).
     * The MISC column contains tectogrammatical functors.
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.
   * Added the enhanced relation subtype nsubj:xsubj.
-* 2022-05-15 v2.10
-  * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
-  * Added VerbForm=Vnoun to verbal nouns.
-  * The verb 'být' is now AUX in all contexts.
-  * Merged PRON/DET 'sám', 'samý'.
-* 2021-05-15 v2.8
-  * Fixed bug: SpaceAfter=No should not occur at the end of paragraph.
-  * "§" is now SYM instead of NOUN.
-  * Fixed recognition of clauses with passive participles (ADJ).
-* CorefUD 1.1
+* 2023-??-?? CorefUD 1.1
   * Removed superfluous empty nodes #Rcp, #Cor, #QCor.
   * Removed empty nodes depending on the artificial 0:root.
   * "Bych/bys/by/bychom/byste" in MWTs no longer breaks mention spans.
   * Improved guessing of pronominal forms for empty nodes.
   * Functors added also to non-empty nodes.
-* CorefUD 1.0
+* 2022-05-15 v2.10
+  * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
+  * Added VerbForm=Vnoun to verbal nouns.
+  * The verb 'být' is now AUX in all contexts.
+  * Merged PRON/DET 'sám', 'samý'.
+* 2022-04-06 CorefUD 1.0
   * Fixed bug: Distinction between clauses and nominals.
   * Fixed bug: Gapping empty nodes vs. coreference empty nodes.
 * 2021-05-15 v2.8
   * Fixed bug: SpaceAfter=No should not occur at the end of paragraph.
   * "§" is now SYM instead of NOUN.
   * Fixed recognition of clauses with passive participles (ADJ).
+* 2021-03-11 CorefUD 0.1
+  * First release of the coreference annotation together with UD morphology and syntax in the CorefUD collection.
+  * Unlike the main releases for UD, CorefUD uses the tectogrammatical layer of PDT and does not include the PDT sentences that lack this layer.
 * 2020-11-15 v2.7
   * Fixed bug: question marks were replaced by asterisks.
   * Adjusted treatment of double lemmas like "m`metr".
@@ -183,7 +189,7 @@ This table summarizes the origins and checking of the various columns of the CoN
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.0
-License: CC BY-NC-SA 3.0
+License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: news reviews nonfiction
 Lemmas: converted from manual
