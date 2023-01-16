@@ -91,6 +91,11 @@ This table summarizes the origins and checking of the various columns of the CoN
     * Somewhat different XPOS tag set.
     * UD features: now all verbs have Aspect; minor changes at various other places.
     * Foreign words are now systematically tagged X (previously, many of them had descriptive UPOS tags).
+  * The tectogrammatical (t-) layer of source annotation is now used for documents for which it is available.
+    * Sentences converted with the help of t-layer have the comment "Tectogrammatical annotation available."
+    * There are more enhanced dependency relations and empty nodes.
+    * The MISC column contains CorefUD-style annotation of coreference.
+    * The MISC column contains tectogrammatical functors.
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.
   * Added the enhanced relation subtype nsubj:xsubj.
