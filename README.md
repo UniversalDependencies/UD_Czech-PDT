@@ -88,6 +88,28 @@ This table summarizes the origins and checking of the various columns of the CoN
 | DEPS   | Generated from the basic UD tree and additional annotation from the original PDT. |
 | MISC   | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. Some other annotation from PDT, such as coreference and functors (for parts of the corpus). |
 
+The original PDT has four layers of annotation: word layer, morphological layer,
+analytical (surface-syntactic) layer, and tectogrammatical (deep-syntactic) layer;
+they are also referred to as w-, m-, a-, and t-layer. Until UD release 2.11, the
+conversion was based only on the first three layers. From release 2.12 on, the
+conversion procedure also uses information from the t-layer. Note that this layer
+of annotation is not available for the entire treebank but only for a part of it.
+Sentences for which the t-layer was available can be recognized by the sentence-
+level comment "Tectogrammatical annotation available." Some attributes specific
+to the t-layer are ported to the MISC column of the CoNLL-U file:
+
+* Functor ... The tectogrammatical functor of this node w.r.t. its parent in the
+  t-tree. It often corresponds to the parent in the UD tree but it is not always
+  the case.
+* Entity ... Coreference annotation in the [CorefUD](https://ufal.mff.cuni.cz/corefud)
+  format. While the format could be also used for named entity annotation, named
+  entities are annotated only if it is needed for coreference.
+* Bridging ... Annotation of bridging relations in the CorefUD format.
+
+Furthermore, conversion of syntactic annotation may occasionally differ from what
+it would look like without the tectogrammatical input. This is especially true of
+the enhanced dependency graph.
+
 
 # Changelog
 
