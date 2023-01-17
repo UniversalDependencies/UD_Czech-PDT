@@ -134,7 +134,7 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
     <dep name="acl">6413</dep>
-    <dep name="acl:relcl">15372</dep>
+    <dep name="acl:relcl">15373</dep>
     <dep name="advcl">10655</dep>
     <dep name="advmod">59362</dep>
     <dep name="advmod:emph">23506</dep>
@@ -142,8 +142,8 @@
     <dep name="appos">7768</dep>
     <dep name="aux">14805</dep>
     <dep name="aux:pass">5984</dep>
-    <dep name="case">145187</dep>
-    <dep name="cc">53672</dep>
+    <dep name="case">145186</dep>
+    <dep name="cc">53673</dep>
     <dep name="ccomp">10955</dep>
     <dep name="compound">2596</dep>
     <dep name="conj">66955</dep>
@@ -162,7 +162,7 @@
     <dep name="flat:foreign">3879</dep>
     <dep name="iobj">593</dep>
     <dep name="mark">28233</dep>
-    <dep name="nmod">149331</dep>
+    <dep name="nmod">149330</dep>
     <dep name="nsubj">86412</dep>
     <dep name="nsubj:pass">7699</dep>
     <dep name="nummod">20080</dep>
