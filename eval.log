@@ -1,106 +1,42 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Czech-PDT:
-commit 2c0243c40014569d66898dee816a8717763610c6
+commit c3861c2c9ce9d5b550af773aedaad95a551edf74
+Merge: 9a0569c 00cca1c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 13:57:31 2022 +0200
-Size: counted 1000000 of 1506483 words (nodes).
-Size: min(0, log((N/1000)**2)) = 13.8155105579643.
+Size: counted 333201 of 333201 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.6174918229773.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Found more than 10000 training words.
+Split: Did not find more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 1151484 out of 1506483 total words have one or more features.
+Features: 254413 out of 333201 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1021
-Udapi: found 1021 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 1506483 words.
+               TOTAL       1726
+Udapi: found 1726 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 333201 words.
 Genres: found 3 out of 17 known.
-validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-dev.conllu
-[Line 16706 Sent cmpr9415-025-p14s4 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 17809 Sent cmpr9415-025-p47s2 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 42503 Sent lnd94104-127-p1s6 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 22]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 83535 Sent ln94207-54-p2s4 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 122335 Sent ln95044-136-p2s4 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 169820 Sent mf920925-104-p2s2 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 198654 Sent vesm9303-025-p11s6 Node 32]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 7
-*** FAILED *** with 7 errors
-Exit code: 1
-validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-test.conllu
-[Line 3682 Sent cmpr9407-023-p14s8 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 31036 Sent lnd91303-107-p3s3 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 128336 Sent ln95047-010-p3s1 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 134927 Sent ln95048-030-p6s5 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 145832 Sent ln95049-036-p6s10 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 196139 Sent vesm9301-028-p4s2 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 207499 Sent vesm9303-046-p27s3 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 7
-*** FAILED *** with 7 errors
-Exit code: 1
-validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-train-c.conllu
-[Line 11444 Sent cmpr9406-015-p10s7 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 16475 Sent cmpr9406-028-p14s1 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 40414 Sent cmpr9407-014-p16s3 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 111609 Sent cmpr9413-052-p24s4 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [18, 27]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 120207 Sent cmpr9415-022-p26s1 Node 22]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [15, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 159596 Sent cmpr9417-010-p18s1 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 169475 Sent cmpr9417-027-p3s2 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 176514 Sent cmpr9417-039-p5s2 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 8
-*** FAILED *** with 8 errors
-Exit code: 1
-validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-train-l.conllu
-[Line 23983 Sent lnd91303-031-p3s4 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 29177 Sent lnd91303-053-p3s9 Node 2]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 45882 Sent lnd91303-112-p7s3 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 79770 Sent lnd94103-061-p1s11 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [20, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 88445 Sent lnd94103-089-p1s4 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 94322 Sent lnd94103-108-p1s1 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 25]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 96031 Sent lnd94103-117-p1s2B Node 35]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 37]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 98006 Sent lnd94103-134-p1s6 Node 19]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [17, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 116573 Sent lnd94104-076-p1s10 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-...suppressing further errors regarding Syntax
-Syntax errors: 37
-*** FAILED *** with 37 errors
-Exit code: 1
-validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-train-m.conllu
-[Line 9670 Sent mf920901-047-p2s1 Node 34]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [35, 38]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 27268 Sent mf920902-015-p3s2 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 33973 Sent mf920902-046-p2s10 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 52909 Sent mf920902-147-p3s2 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 79553 Sent mf920922-122-p2s26 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 155260 Sent mf920925-062-p2s18 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 27]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 201853 Sent mf930713-017-p2s3 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 7
-*** FAILED *** with 7 errors
-Exit code: 1
-validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-train-v.conllu
-[Line 90869 Sent vesm9301-014-p2s5 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 91654 Sent vesm9301-014-p23s2 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 92012 Sent vesm9301-014-p35s1 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 116506 Sent vesm9301-036-p12s5 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 143970 Sent vesm9303-037-p3s2 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 5
-*** FAILED *** with 5 errors
-Exit code: 1
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-dev.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-test.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=1) = 0.256410256410256
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.256410256410256) * (score{size}=0.840902098712534) = 0.215615922746804
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.993222625147446) = 0.30560696158383
+(weight=0.307692307692308) * (score{udapi}=0.948199435175765) = 0.291753672361774
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.864711767747459) * (availability=1) * (validity=0.01) = 0.00864711767747459
-STARS = 0
-UD_Czech-PDT	0.00864711767747459	0
+(TOTAL score=0.793141067938874) * (availability=1) * (validity=1) = 0.793141067938874
+STARS = 4
+UD_Czech-PDT	0.793141067938874	4
