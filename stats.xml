@@ -34,7 +34,7 @@
     <tag name="X">8399</tag><!-- New, de, the, of, York, open, play, off, Floyd, Pink -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="95">
+  <feats unique="94">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PROPN,VERB">24584</feat><!-- ČR, Kč, LN, r, m, a, s, ODS, USA, p -->
     <feat name="AdpType" value="Comprep" upos="ADP">286</feat><!-- vzhledem, nehledě, narozdíl -->
     <feat name="AdpType" value="Prep" upos="ADP">134078</feat><!-- v, na, o, z, s, do, k, pro, za, po -->
@@ -94,7 +94,6 @@
     <feat name="NumType" value="Mult,Sets" upos="ADJ">102</feat><!-- dvojí, obojí, jedny, dvojím, jedni, dvojího, dvoje, jedněch, obojím, trojí -->
     <feat name="NumType" value="Ord" upos="ADJ,DET">8377</feat><!-- první, druhé, tisíc, milionů, miliónů, prvním, třetí, miliardy, druhý, miliard -->
     <feat name="NumType" value="Sets" upos="DET">5</feat><!-- několikerého, několikerá, několikerý, tolikeré -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">5281</feat><!-- tři, pět, čtyři, deset, tří, půl, pěti, šest, sedm, osm -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">16939</feat><!-- jsem, jsme, nás, nám, bychom, mi, naše, bych, naší, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2762</feat><!-- jste, vám, vás, viz, byste, můžete, máte, vaše, vy, buď -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">88751</feat><!-- je, jsou, bude, jeho, by, má, jejich, není, může, budou -->
