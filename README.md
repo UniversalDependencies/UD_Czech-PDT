@@ -115,6 +115,7 @@ the enhanced dependency graph.
 
 * 2023-11-15 v2.13
   * Removed NumValue from all Czech UD treebanks.
+  * Pseudo-existential _být_ with oblique/adverbial modifiers changed to copula.
 * 2023-05-15 v2.12
   * Source data switched from PDT 3.0 to PDT-C 1.0.
     * Underlying text data is the same.
