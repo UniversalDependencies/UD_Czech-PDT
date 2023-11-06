@@ -34,7 +34,7 @@
     <tag name="X">8399</tag><!-- New, de, the, of, York, open, play, off, Floyd, Pink -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="95">
+  <feats unique="94">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PROPN,VERB">24584</feat><!-- ČR, Kč, LN, r, m, a, s, ODS, USA, p -->
     <feat name="AdpType" value="Comprep" upos="ADP">286</feat><!-- vzhledem, nehledě, narozdíl -->
     <feat name="AdpType" value="Prep" upos="ADP">134078</feat><!-- v, na, o, z, s, do, k, pro, za, po -->
@@ -94,7 +94,6 @@
     <feat name="NumType" value="Mult,Sets" upos="ADJ">102</feat><!-- dvojí, obojí, jedny, dvojím, jedni, dvojího, dvoje, jedněch, obojím, trojí -->
     <feat name="NumType" value="Ord" upos="ADJ,DET">8377</feat><!-- první, druhé, tisíc, milionů, miliónů, prvním, třetí, miliardy, druhý, miliard -->
     <feat name="NumType" value="Sets" upos="DET">5</feat><!-- několikerého, několikerá, několikerý, tolikeré -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">5281</feat><!-- tři, pět, čtyři, deset, tří, půl, pěti, šest, sedm, osm -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">16939</feat><!-- jsem, jsme, nás, nám, bychom, mi, naše, bych, naší, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2762</feat><!-- jste, vám, vás, viz, byste, můžete, máte, vaše, vy, buď -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">88751</feat><!-- je, jsou, bude, jeho, by, má, jejich, není, může, budou -->
@@ -136,8 +135,8 @@
     <dep name="acl">6413</dep>
     <dep name="acl:relcl">15373</dep>
     <dep name="advcl">10655</dep>
-    <dep name="advmod">59362</dep>
-    <dep name="advmod:emph">23506</dep>
+    <dep name="advmod">58206</dep>
+    <dep name="advmod:emph">23487</dep>
     <dep name="amod">157090</dep>
     <dep name="appos">7768</dep>
     <dep name="aux">14805</dep>
@@ -147,7 +146,7 @@
     <dep name="ccomp">10955</dep>
     <dep name="compound">2596</dep>
     <dep name="conj">66955</dep>
-    <dep name="cop">20597</dep>
+    <dep name="cop">24801</dep>
     <dep name="csubj">5734</dep>
     <dep name="csubj:pass">474</dep>
     <dep name="dep">12641</dep>
@@ -168,8 +167,8 @@
     <dep name="nummod">20080</dep>
     <dep name="nummod:gov">5531</dep>
     <dep name="obj">53623</dep>
-    <dep name="obl">85009</dep>
-    <dep name="obl:arg">33807</dep>
+    <dep name="obl">82048</dep>
+    <dep name="obl:arg">33739</dep>
     <dep name="orphan">4123</dep>
     <dep name="parataxis">1886</dep>
     <dep name="punct">220859</dep>
