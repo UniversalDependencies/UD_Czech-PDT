@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Czech-PDT:
-commit c3861c2c9ce9d5b550af773aedaad95a551edf74
-Merge: 9a0569c 00cca1c
+commit e2aff53a0084a98f297a96aaf47296614d0cfb36
+Merge: 324a58c 8acdc4b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 333201 of 333201 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.6174918229773.
