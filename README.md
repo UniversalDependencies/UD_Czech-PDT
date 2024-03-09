@@ -118,6 +118,7 @@ the enhanced dependency graph.
   * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
   * Coreference annotation: If a bracket is in mention span, the paired bracket is added too, if possible.
   * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
+  * Fixed crossing coreference mentions.
 * 2023-11-15 v2.13
   * Removed NumValue from all Czech UD treebanks.
   * Pseudo-existential _být_ with oblique/adverbial modifiers changed to copula.
