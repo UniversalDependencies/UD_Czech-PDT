@@ -120,6 +120,7 @@ the enhanced dependency graph.
   * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
   * Fixed crossing coreference mentions.
   * Fixed treatment of "by" in aux/cop chains.
+  * Improved form and position of abstract predicates in gapping.
 * 2023-11-15 v2.13
   * Removed NumValue from all Czech UD treebanks.
   * Pseudo-existential "být" with oblique/adverbial modifiers changed to copula.
