@@ -139,7 +139,7 @@ the enhanced dependency graph.
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.
   * Added the enhanced relation subtype nsubj:xsubj.
-* 2023-??-?? CorefUD 1.1
+* 2023-02-24 CorefUD 1.1
   * Removed superfluous empty nodes #Rcp, #Cor, #QCor.
   * Removed empty nodes depending on the artificial 0:root.
   * "Bych/bys/by/bychom/byste" in MWTs no longer breaks mention spans.
