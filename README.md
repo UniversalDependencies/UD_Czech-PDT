@@ -114,7 +114,7 @@ the enhanced dependency graph.
 # Changelog
 
 * 2024-05-15 v2.14
-* 2024-??-?? CorefUD 1.2
+* 2024-03-28 CorefUD 1.2
   * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
   * Coreference annotation: If a bracket is in mention span, the paired bracket is added too, if possible.
   * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
