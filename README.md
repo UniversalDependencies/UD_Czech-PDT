@@ -113,9 +113,17 @@ the enhanced dependency graph.
 
 # Changelog
 
+* 2024-05-15 v2.14
+* 2024-03-28 CorefUD 1.2
+  * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
+  * Coreference annotation: If a bracket is in mention span, the paired bracket is added too, if possible.
+  * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
+  * Fixed crossing coreference mentions.
+  * Fixed treatment of "by" in aux/cop chains.
+  * Improved form and position of abstract predicates in gapping.
 * 2023-11-15 v2.13
   * Removed NumValue from all Czech UD treebanks.
-  * Pseudo-existential _být_ with oblique/adverbial modifiers changed to copula.
+  * Pseudo-existential "být" with oblique/adverbial modifiers changed to copula.
 * 2023-05-15 v2.12
   * Source data switched from PDT 3.0 to PDT-C 1.0.
     * Underlying text data is the same.
@@ -131,7 +139,7 @@ the enhanced dependency graph.
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.
   * Added the enhanced relation subtype nsubj:xsubj.
-* 2023-??-?? CorefUD 1.1
+* 2023-02-24 CorefUD 1.1
   * Removed superfluous empty nodes #Rcp, #Cor, #QCor.
   * Removed empty nodes depending on the artificial 0:root.
   * "Bych/bys/by/bychom/byste" in MWTs no longer breaks mention spans.
