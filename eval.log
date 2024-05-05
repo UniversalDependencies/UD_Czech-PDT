@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Czech-PDT:
-commit e2aff53a0084a98f297a96aaf47296614d0cfb36
-Merge: 324a58c 8acdc4b
+commit 9f8f4deff184d94e3d8aac95906b4527969c3848
+Merge: aa1751a 31d13a9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 333201 of 333201 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.6174918229773.
@@ -25,8 +25,16 @@ Udapi: found 1726 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 333201 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-dev.conllu
+[Line 207385 Sent vesm9303-035-p9s2 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-test.conllu
+[Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 205840 Sent vesm9301-038-p1s1 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 5
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
