@@ -10,7 +10,7 @@
     <dev><sentences>9270</sentences><tokens>158958</tokens><words>159283</words><fused>325</fused></dev>
     <test><sentences>10146</sentences><tokens>173584</tokens><words>173918</words><fused>334</fused></test>
   </size>
-  <lemmas unique="58497" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <lemmas unique="58624" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
   <forms unique="128225" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
   <fusions unique="9" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -97,8 +97,8 @@
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">16939</feat><!-- jsem, jsme, nás, nám, bychom, mi, naše, bych, naší, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2762</feat><!-- jste, vám, vás, viz, byste, můžete, máte, vaše, vy, buď -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">88751</feat><!-- je, jsou, bude, jeho, by, má, jejich, není, může, budou -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">20921</feat><!-- není, nebude, nejsou, nelze, nemá, nemůže, nebyl, nebylo, nemají, nebyla -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB">795109</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, Praha -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">20313</feat><!-- není, nebude, nejsou, nelze, nemá, nemůže, nebyl, nebylo, nemají, nebyla -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">350140</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, byla -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">17017</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">3521</feat><!-- je, ji, jim, jej, jí, jich, jehož, jím, jemuž, jež -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
