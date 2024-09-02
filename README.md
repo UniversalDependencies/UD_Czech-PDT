@@ -115,6 +115,7 @@ the enhanced dependency graph.
 
 * 2024-11-15 v2.15
   * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
+  * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
 * 2024-05-15 v2.14
 * 2024-03-28 CorefUD 1.2
   * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.

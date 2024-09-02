@@ -41,7 +41,7 @@
     <feat name="AdpType" value="Voc" upos="ADP">11145</feat><!-- ve, se, ze, ke, ode, beze, ku, skrze, přede, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">108766</feat><!-- kteří, kdo, lidí, ministr, předseda, měli, byli, lidé, ředitel, prezident -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">198105</feat><!-- co, roku, roce, byly, případě, které, zákona, tisíc, rok, světa -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">124258</feat><!-- je, by, jsou, bude, byl, má, být, není, bylo, jsem -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">127009</feat><!-- je, by, jsou, bude, byl, má, být, není, bylo, jsem -->
     <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">2865</feat><!-- informoval, investovat, konstatoval, organizuje, realizovat, konstatuje, jmenován, informovali, jmenuje, jmenoval -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">60824</feat><!-- řekl, uvedl, prohlásil, stal, podařilo, došlo, získat, dodal, dostal, dá -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">180132</feat><!-- se, na, pro, o, za, to, v, které, je, své -->
@@ -96,7 +96,7 @@
     <feat name="NumType" value="Sets" upos="DET">5</feat><!-- několikerého, několikerá, několikerý, tolikeré -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">16939</feat><!-- jsem, jsme, nás, nám, bychom, mi, naše, bych, naší, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2762</feat><!-- jste, vám, vás, viz, byste, můžete, máte, vaše, vy, buď -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">88751</feat><!-- je, jsou, bude, jeho, by, má, jejich, není, může, budou -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">86325</feat><!-- je, jsou, bude, jeho, má, jejich, není, může, budou, mají -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">20313</feat><!-- není, nebude, nejsou, nelze, nemá, nemůže, nebyl, nebylo, nemají, nebyla -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">350140</feat><!-- je, jsou, bude, byl, má, být, bylo, jsem, jsme, byla -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">17017</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
