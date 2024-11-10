@@ -118,6 +118,7 @@ the enhanced dependency graph.
   * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
   * Short forms of adjectives now have Degree=Pos (instead of no Degree).
   * Disambiguated NumType=Mult,Sets.
+  * Fixed conversion of "Cz" tags from PDT (not interrogative DET but cardinal NUM).
 * 2024-05-15 v2.14
 * 2024-03-28 CorefUD 1.2
   * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
