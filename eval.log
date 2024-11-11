@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Czech-PDT:
-commit 9f8f4deff184d94e3d8aac95906b4527969c3848
-Merge: aa1751a 31d13a9
+commit 79497aaf0e3ad721fed3d262564b1e2ad3d75657
+Merge: c7bee1e 162cb9c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 333201 of 333201 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.6174918229773.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 254413 out of 333201 total words have one or more features.
+Features: 254407 out of 333201 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -25,18 +25,78 @@ Udapi: found 1726 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 333201 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-dev.conllu
-[Line 207385 Sent vesm9303-035-p9s2 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 1
-*** PASSED ***
+[Line 795 Sent cmpr9410-019-p12s3 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:tím:det --> 19:chce:acl)
+[Line 14585 Sent lnd94103-063-p1s22 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:několik:det --> 7:bankrot:appos)
+[Line 15025 Sent lnd94103-074-p1s4]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+
+The following 89 feature values are currently permitted in language [cs]:
+Abbr=Yes, AdpType=Comprep, AdpType=Prep, AdpType=Voc, Animacy=Anim, Animacy=Inan, Aspect=Imp, Aspect=Perf, Case=Acc, Case=Dat, Case=Gen, Case=Ins, Case=Loc, Case=Nom, Case=Voc, ConjType=Oper, Degree=Cmp, Degree=Pos, Degree=Sup, Emph=Yes, Foreign=Yes, Gender=Fem, Gender=Masc, Gender=Neut, Gender[psor]=Fem, Gender[psor]=Masc, Gender[psor]=Neut, Hyph=Yes, Mood=Cnd, Mood=Imp, Mood=Ind, NameType=Com, NameType=Geo, NameType=Giv, NameType=Nat, NameType=Oth, NameType=Pro, NameType=Sur, NumForm=Digit, NumForm=Roman, NumForm=Word, NumType=Card, NumType=Frac, NumType=Mult, NumType=Ord, NumType=Sets, Number=Dual, Number=Plur, Number=Sing, Number[psor]=Plur, Number[psor]=Sing, Person=1, Person=2, Person=3, Polarity=Neg, Polarity=Pos, Polite=Form, Poss=Yes, PrepCase=Npr, PrepCase=Pre, PronType=Dem, PronType=Emp, PronType=Ind, PronType=Int, PronType=Neg, PronType=Prs, PronType=Rel, PronType=Tot, Reflex=Yes, Style=Coll, Style=Expr, Style=Rare, Style=Slng, Style=Vrnc, Style=Vulg, Tense=Fut, Tense=Imp, Tense=Past, Tense=Pres, Typo=Yes, Variant=Long, Variant=Short, VerbForm=Conv, VerbForm=Fin, VerbForm=Inf, VerbForm=Part, VerbForm=Vnoun, Voice=Act, Voice=Pass
+If a language needs a feature that is not documented in the universal guidelines, the feature must
+have a language-specific documentation page in a prescribed format.
+See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
+All features including universal must be specifically turned on for each language in which they are used.
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_feature.pl for details.
+
+[Line 20327 Sent ln94200-18-p2s1B]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 20376 Sent ln94200-18-p3s2]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 21295 Sent ln94200-36-p8s1 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:tom:det --> 31:dává:acl)
+[Line 21400 Sent ln94200-36-p10s1 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:to:det --> 22:vrácen:acl)
+[Line 31644 Sent ln94203-5-p3s1]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 31898 Sent ln94203-5-p6s1]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 31937 Sent ln94203-5-p6s3]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 32007 Sent ln94203-5-p7s1]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 32043 Sent ln94203-5-p8s2]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 32137 Sent ln94203-59-p2s2 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:tom:det --> 7:může:acl)
+[Line 36700 Sent ln94204-14-p3s1]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 37565 Sent ln94204-21-p2s1]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+...suppressing further errors regarding Morpho
+[Line 42334 Sent ln94205-139-p13s3 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:tím:det --> 11:pružné:acl)
+[Line 49332 Sent ln94206-18-p2s2 Node 20]: [L3 Warning leaf-det] 'det' not expected to have children (20:tom:det --> 22:kdo:dep)
+[Line 52317 Sent ln94206-90-p3s9 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:tom:det --> 20:konkrétní:acl)
+[Line 54033 Sent ln94207-18-p3s2 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:těch:det --> 14:prodávají:acl)
+[Line 55372 Sent ln94207-36-p7s1 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:těch:det --> 12:zažívají:acl)
+...suppressing further errors regarding Warning
+Morpho errors: 27
+Warnings: 61
+*** FAILED *** with 27 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDT/cs_pdt-ud-test.conllu
+[Line 1130 Sent cmpr9410-040-p8s4 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:ty:det --> 14:chtějí:acl)
+[Line 2845 Sent cmpr9413-018-p10s2 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:tom:det --> 16:zaměstná:acl)
 [Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 5628 Sent cmpr9415-026-p10s1 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 205840 Sent vesm9301-038-p1s1 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 5
-*** PASSED ***
-Validity: 1
+[Line 11182 Sent lnd94103-115-p1s4 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tom:det --> 15:hře:acl)
+[Line 16420 Sent ln94200-46-p8s10 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:tolik:det --> 24:potřeba:advcl)
+[Line 21705 Sent ln94202-56-p4s7 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:těch:det --> 12:odejdou:acl)
+[Line 23420 Sent ln94202-92-p4s2 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:několik:det --> 12:Petr:appos)
+[Line 26003 Sent ln94203-146-p6s4]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+
+The following 89 feature values are currently permitted in language [cs]:
+Abbr=Yes, AdpType=Comprep, AdpType=Prep, AdpType=Voc, Animacy=Anim, Animacy=Inan, Aspect=Imp, Aspect=Perf, Case=Acc, Case=Dat, Case=Gen, Case=Ins, Case=Loc, Case=Nom, Case=Voc, ConjType=Oper, Degree=Cmp, Degree=Pos, Degree=Sup, Emph=Yes, Foreign=Yes, Gender=Fem, Gender=Masc, Gender=Neut, Gender[psor]=Fem, Gender[psor]=Masc, Gender[psor]=Neut, Hyph=Yes, Mood=Cnd, Mood=Imp, Mood=Ind, NameType=Com, NameType=Geo, NameType=Giv, NameType=Nat, NameType=Oth, NameType=Pro, NameType=Sur, NumForm=Digit, NumForm=Roman, NumForm=Word, NumType=Card, NumType=Frac, NumType=Mult, NumType=Ord, NumType=Sets, Number=Dual, Number=Plur, Number=Sing, Number[psor]=Plur, Number[psor]=Sing, Person=1, Person=2, Person=3, Polarity=Neg, Polarity=Pos, Polite=Form, Poss=Yes, PrepCase=Npr, PrepCase=Pre, PronType=Dem, PronType=Emp, PronType=Ind, PronType=Int, PronType=Neg, PronType=Prs, PronType=Rel, PronType=Tot, Reflex=Yes, Style=Coll, Style=Expr, Style=Rare, Style=Slng, Style=Vrnc, Style=Vulg, Tense=Fut, Tense=Imp, Tense=Past, Tense=Pres, Typo=Yes, Variant=Long, Variant=Short, VerbForm=Conv, VerbForm=Fin, VerbForm=Inf, VerbForm=Part, VerbForm=Vnoun, Voice=Act, Voice=Pass
+If a language needs a feature that is not documented in the universal guidelines, the feature must
+have a language-specific documentation page in a prescribed format.
+See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
+All features including universal must be specifically turned on for each language in which they are used.
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_feature.pl for details.
+
+[Line 26015 Sent ln94203-146-p6s4]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 26158 Sent ln94203-146-p8s1]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+...suppressing further errors regarding Warning
+[Line 30275 Sent ln94204-140-p4s6]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 37683 Sent ln94205-28-p2s2]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 37694 Sent ln94205-28-p2s2]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 37723 Sent ln94205-28-p2s3]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 37730 Sent ln94205-28-p2s3]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 40907 Sent ln94206-10-p2s2]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+[Line 41210 Sent ln94206-10-p6s3]: [L4 Morpho feature-upos-not-permitted] Feature Abbr is not permitted with UPOS NUM in language [cs].
+...suppressing further errors regarding Morpho
+Morpho errors: 18
+Warnings: 67
+*** FAILED *** with 18 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -45,6 +105,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.948199435175765) = 0.291753672361774
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.793141067938874) * (availability=1) * (validity=1) = 0.793141067938874
-STARS = 4
-UD_Czech-PDT	0.793141067938874	4
+(TOTAL score=0.793141067938874) * (availability=1) * (validity=0.01) = 0.00793141067938874
+STARS = 0
+UD_Czech-PDT	0.00793141067938874	0
